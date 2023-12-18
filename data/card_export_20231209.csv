@@ -1,0 +1,287 @@
+set,number,name,title,unique,case,aspects,cost,traits,abilitytext,Leader Unit Ability Text,arena,power,hp,keyword_1,keyword_2,bonus_power,bonus_hp,bonus_keywords
+SOR,1,Director Krennic,Aspiring to Authority,TRUE,Leader,"Vigilance,Villainy",5,"Imperial,Official","{p}Each friendly damaged unit gets {powerplus:1}/{hp:0}.{/p}{p-epic-action}If you control 5 or more resources, deploy this leader.{/p}","{p}{restore:2} {em}(When this unit attacks, heal 2 damage from your base.){/em}{/p}{p}Each friendly damaged unit gets {power:1}/{power:0}.{/p}",0,2,7,restore_2,,,,
+SOR,2,Iden Versio,Inferno Squad Commander,TRUE,Leader,"Vigilance,Villainy",6,"Imperial,Trooper","{p}{b}Action [{T}]:{/b} If an enemy unit was defeated this phase, heal 1 damage from your base.{/p}
+
+{p-epic-action}If you control 6 or more resources, deploy this leader.{/p}","{p}{shielded} {i}(When you deploy this leader, give her a Shield token.){/i}{/p}
+
+{p}{b}When an enemy unit is defeated:{/b} Heal 1 damage from your base.{/p}",0,4,4,shielded,,,,
+SOR,3,Chewbacca,Walking Carpet,TRUE,Leader,"Vigilance,Heroism",7,"Underworld,Wookiee","{p}{b}Action {T}:{/b} Play a unit that costs 3 or less from your hand (paying its cost). It gains {sentinel} for this phase.{/p}
+
+{p-epic-action}If you control 7 or more resources, deploy this leader.{/p}","{p-keyword-border-shaded}{sentinel} {i}(Units in this arena can't attack your non-Sentinel units or your base.){/i}{/p}
+
+{p}{keyword}Grit{/keyword} {i}(This unit gets +1/+0 for each damage on it.){/i}{/p}",0,2,9,sentinel,grit,,,
+SOR,5,Luke Skywalker,Faithful Friend,TRUE,Leader,"Vigilance,Heroism",6,"Force,Rebel","{p}{strong}Action [{R1}, {T}]:{/strong} Give a Shield token to a {Heroism} unit you played this phase.{/p}{p-epic-action}If you control 6 or more resources, deploy this leader. {em}(Flip him, ready him, and move him to the ground arena.){/em}{/p}",{strong}On Attack:{/strong} You may give another unit a Shield token.,0,4,7,,,,,
+SOR,7,Grand Moff Tarkin,Oversector Governor,TRUE,Leader,"Command,Villainy",5,"Imperial,Official","{p}{b}Action [{R1}, {T}]:{/b} Give an Experience token to an {imperial} unit.{/p}
+
+{p-epic-action}If you control 5 or more resources, deploy this leader.{/p}",{p}{b}On Attack:{/b} You may give an Experience token to another {imperial} unit.,0,2,7,,,,,
+SOR,8,Hera Syndulla,Spectre Two,TRUE,Leader,"Command,Heroism",6,"Rebel,Twi'lek,Spectre","{p}Ignore the aspect penalty on {trait}spectre{/trait} cards you play.{/p}
+
+{p-epic-action}If you control 6 or more resources, deploy this leader.{/p}","{p}Ignore the aspect penalty on {trait}spectre{/trait} cards you play.{/p}
+
+{p}{b}On Attack:{/b} You may give an Experience token to another unique unit.{/p}",0,4,6,,,,,
+SOR,9,Leia Organa,Alliance General,TRUE,Leader,"Command,Heroism",5,"Rebel,Official","{p}{strong}Action [{T}]:{/strong} Attack with a {rebel} unit. Then, you may attack with another {rebel} unit.{/p}{p-epic-action}If you control 5 or more resources, deploy this leader.",{p}{raid:1} {em}(This unit gets +1/+0 while attacking.){/em}{/p}{p}{strong}When this unit completes an attack:{/strong} You may attack with another {rebel} unit.{/p},0,3,6,raid_1,,,,
+SOR,10,Darth Vader,Dark Lord of the Sith,TRUE,Leader,"Aggression,Villainy",7,"Force,Imperial,Sith","{p}{strong}Action [1{R}, {T}]:{/strong} If you played a {Villainy} card this phase, deal 1 damage to a unit and 1 damage to a base.{/p}
+
+{p-epic-action}If you control 7 or more resources, deploy this leader. {em}(Flip him, ready him, and move him to the ground arena.){/em}{/p}",{strong}On Attack:{/strong} You may deal 2 damage to a unit.,0,5,8,,,,,
+SOR,11,Grand Inquisitor,Hunting the Jedi,TRUE,Leader,"Aggression,Villainy",6,"Force,Imperial,Inquisitor","{p}{b}Action [{T}]:{/b} Deal 2 damage to a friendly unit with 3 or less power and ready it.{/p}
+
+{p-epic-action}If you control 6 or more resources, deploy this leader.{/p}",{p}{b}On Attack:{/b} You may deal 1 damage to another friendly unit with 3 or less power and ready it.,0,3,6,,,,,
+SOR,12,IG-88,Ruthless Bounty Hunter,TRUE,Leader,"Aggression,Villainy",5,"Underworld,Droid,Bounty Hunter","{p}{b}Action {T}:{/b} Attack with a unit. If you control more units than the defending player, the attacker gets {powerplus:1}/{hpplus:0} for this attack.{/p}
+
+{p-epic-action}If you control 5 or more resources, deploy this leader.{/p}",{p}Each other friendly unit gains {raid:1}. {i}(They get +1/+0 while attacking.){/i}{p},0,5,4,,,,,
+SOR,14,Sabine Wren,Galvanized Revolutionary,TRUE,Leader,"Aggression,Heroism",4,"Mandalorian,Rebel,Spectre",{p}{b}Action [{T}]:{/b} Deal 1 damage to each base.{/p},{p}{b}On Attack:{/b} Deal 1 damage to each enemy base.{/p},0,2,5,,,,,
+SOR,15,Boba Fett,Collecting the Bounty,TRUE,Leader,"Cunning,Villainy",5,"Underworld,Bounty Hunter","{p}{b}When an enemy unit leaves play:{/b} You may exhaust this leader. If you do, ready a resource.{/p}{p-epic-action}If you control 5 or more resources, deploy this leader.{/p}","{p}{b}When this unit completes an attack:{/b} If an enemy unit left play this phase, ready up to 2 resources.{/p}",0,4,7,,,,,
+SOR,16,Grand Admiral Thrawn,Patient and Insightful,TRUE,Leader,"Cunning,Villainy",6,"Imperial,Official","{p}{b}When the action phase starts:{/b} Look at the top card of each player's deck.{/p}
+
+{p}{b}Action [{R1}, {T}]:{/b} Reveal the top card of any player's deck. Exhaust a unit that costs the same as or less than the revealed card.{/p}
+
+{p-epic-action} If you control 6 or more resources, deploy this leader.{/p}","{p}{b}When the action phase starts:{/b} Look at the top card of each player's deck.{/p}
+
+{p}{b}On Attack:{/b} Reveal the top card of any player's deck. Exhaust a unit that costs the same as or less than the revealed card.{/p}",0,3,9,,,,,
+SOR,17,Han Solo,Audacious Smuggler,TRUE,Leader,"Cunning,Heroism",6,Underworld,"{p}{b}Action [{T}]:{/b} Put a card from your hand into play as a resource and ready it. At the start of the next action phase, defeat a resource you control.{/p}
+
+{p-epic-action}If you control 6 or more resources, deploy this leader.{/p}","{p}{b}On Attack:{/b} Put the top card of your deck into play as a resource and ready it. At the start of the next action phase, defeat a resource you control.{/p}",0,4,6,,,,,
+SOR,18,Jyn Erso,Resisting Oppression,TRUE,Leader,"Cunning,Heroism",6,Rebel,"{p}{b}Action {T}:{/b} Attack with a unit. The defender gets -1/-0 for this attack.{/p}
+
+{p-epic-action} If you control 6 or more resources, deploy this leader.{/p}","{p}When a friendly unit is attacking, the defender gets -1/-0.{/p}",0,4,7,,,,,
+SOR,19,Security Complex,,FALSE,Base,Vigilance,,Scarif,{p}{b}Epic Action:{/b} Give a Shield token to a non-leader unit.{/p},,,,25,,,,,
+SOR,21,Dagobah Swamp,,FALSE,Base,Vigilance,,Dagobah,,,,,30,,,,,
+SOR,22,Energy Conversion Lab,,FALSE,Base,Command,,Eadu,{p}{b}Epic Action:{/b} Play a unit that costs 6 or less from your hand. Give it {ambush} for this phase.,,,,25,,,,,
+SOR,23,Command Center,,FALSE,Base,Command,,Death Star,,,,,30,,,,,
+SOR,24,Echo Base,,FALSE,Base,Command,,Hoth,,,,,30,,,,,
+SOR,25,Tarkintown,,FALSE,Base,Aggression,,Lothal,{p}{b}Epic Action:{/b} Deal 3 damage to a damaged non-leader unit.{/p},,,,25,,,,,
+SOR,26,Catacombs of Cadera,,FALSE,Base,Aggression,,Jedha,,,,,30,,,,,
+SOR,28,Jedha City,,FALSE,Base,Cunning,,Jedha,{p}{b}Epic Action:{/b} Give a non-leader unit -4/-0 for this phase.{/p},,,,25,,,,,
+SOR,29,Administrator's Tower,,FALSE,Base,Cunning,,Cloud City,,,,,30,,,,,
+SOR,32,Scout Bike Pursuer,,FALSE,Unit,"Vigilance,Villainy",2,"Imperial,Trooper",{p}{grit} {i}(This unit gets +1/+0 for each damage on it.){/i}{/p},,0,1,4,grit,,,,
+SOR,33,Death Trooper,,FALSE,Unit,"Vigilance,Villainy",3,"Imperial,Trooper",{p}{b}When Played:{/b} Deal 2 damage to a friendly ground unit and 2 damage to an enemy ground unit.{/p},,0,3,3,damage_2,,,,
+SOR,35,Lieutenant Childsen,Death Star Prison Warden,TRUE,Unit,"Vigilance,Villainy",4,"Imperial,Official","{p-keyword-border-shaded}{sentinel} {i}(Units in this arena can't attack your non-Sentinel units or your base.){/i}{/p}
+
+{p}{b}When Played:{/b} Reveal up to 4 {Vigilance} cards from your hand. For each card revealed this way, give an Experience token to this unit.{/p}",,0,2,2,sentinel,,,,
+SOR,37,Academy Defense Walker,,FALSE,Unit,"Vigilance,Villainy",6,"Imperial,Vehicle,Walker","{p-keyword-border-shaded}{sentinel} {i}(Units in this arena can't attack your non-Sentinel units or your base.){/i}{/p}
+
+{p}{b}When Played:{/b} Give an Experience token to each friendly damaged unit.{/p}",,0,5,5,sentinel,,2,2,
+SOR,38,Count Dooku,Darth Tyranus,TRUE,Unit,"Vigilance,Villainy",7,"Force,Separatist,Sith","{p}{shielded} {i}(When you play this unit, give him a Shield token.){/i}{/p}
+
+{p}{b}When Played:{/b} You may defeat a unit with {hp:4} or less remaining HP.{/p}",,0,5,4,shielded,kill,,,
+SOR,40,Avenger,Hunting Star Destroyer,TRUE,Unit,"Vigilance,Villainy",9,"Imperial,Vehicle,Capital Ship",{p}{b}When Played/On Attack:{/b} An opponent chooses a non-leader unit they control. Defeat that unit.{/p},,1,8,8,,,,,
+SOR,42,Search Your Feelings,,FALSE,Event,"Vigilance,Villainy",4,Innate,"{p}Search your deck for a card and draw it. {i}(Then, shuffle your deck.){/i}{/p}",,,,,,,,,
+SOR,44,Restored ARC-170,,FALSE,Unit,"Vigilance,Heroism",2,"Rebel,Vehicle,Fighter","{restore:1} {em}(When this unit attacks, heal 1 damage from your base.){/em}",,1,2,3,restore_1,,,,
+SOR,45,Yoda,Old Master,TRUE,Unit,"Vigilance,Heroism",3,"Force,Jedi","{p}{restore:2} {em}(When this unit attacks, heal 2 damage from your base.){/em}{/p}{p}{strong}When Defeated:{/strong} Choose any number of players. They each draw a card.{/p}",,0,2,4,restore_2,,,,draw_1
+SOR,46,Consular Security Force,,FALSE,Unit,"Vigilance,Heroism",4,"Rebel,Trooper",,,0,3,7,,,,,
+SOR,47,Kanan Jarrus,Revealed Jedi,TRUE,Unit,"Vigilance,Heroism",4,"Force,Jedi,Rebel,Spectre",{p}{b}On Attack:{/b} You may discard 1 card from the defending player's deck for each friendly {trait}spectre{/trait} unit. Heal 1 damage from your base for each different aspect among the discarded cards.,,0,4,5,,,,,
+SOR,48,Vigilant Honor Guards,,FALSE,Unit,"Vigilance,Heroism",5,Rebel,"{p-keyword-border}While this unit is undamaged, it gains {sentinel}. {i}(Units in this arena can't attack your non-Sentinel units or your base.){/i}{/p}",,0,4,6,sentinel,,,,
+SOR,49,Obi-Wan Kenobi,Following Fate,TRUE,Unit,"Vigilance,Heroism",6,"Force,Jedi","{p-keyword-border-shaded}{sentinel} {i}(Units in this arena can't attack your non-Sentinel units or your base.){/i}{/p}
+
+{p}{b}When Defeated:{/b} Give 2 Experience tokens to another friendly unit. If it's a {trait}Force{/trait} unit, draw a card.{/p}",,0,4,6,sentinel,,2,2,
+SOR,51,Luke Skywalker,Jedi Knight,TRUE,Unit,"Vigilance,Heroism",7,"Force,Jedi,Rebel","{p}{keyword}Restore 3{/keyword}{/p}
+
+{p}{b}When Played:{/b} Give an enemy unit -3/-3 for this phase. If a friendly unit was defeated this phase, give that enemy unit -6/-6 for this phase instead.{/p}",,0,6,7,restore_3,damage_3,,,
+SOR,53,Luke's Lightsaber,,TRUE,Upgrade,"Vigilance,Heroism",2,"Item,Weapon,Lightsaber","{p}Attach to a non-{vehicle} unit.{/p}
+
+{p}{b}When Played:{/b} If attached unit is Luke Skywalker, heal all damage from him and give a Shield token to him.{/p}",,,3,1,,,,,
+SOR,54,Jedi Lightsaber,,FALSE,Upgrade,"Vigilance,Heroism",3,"Item,Weapon,Lightsaber","{p}Attach to a non-{vehicle} unit.{/p}
+
+{p}If attached unit is a {force} unit, it gains: ""{b}On Attack:{/b} Give the defender -2/-2 for this phase.""{/p}",,,3,3,,,,,
+SOR,58,Vigilance,,FALSE,Event,"Vigilance,Vigilance",4,Innate,"{p}Choose two, in any order:{/p}
+{p}- Discard 6 cards from an opponent's deck.{/p}
+{p}- Heal 5 damage from a base.{/p}
+{p}- Defeat a unit with 3 or less remaining HP.{/p}
+{p}- Give a Shield token to a unit.{/p}",,,,,,,,,
+SOR,59,2-1B Surgical Droid,,FALSE,Unit,Vigilance,1,Droid,{p}{b}On Attack:{/b}{/p} You may heal 2 damage from another unit.,,0,1,3,,,,,
+SOR,60,Distant Patroller,,FALSE,Unit,Vigilance,2,"Fringe,Vehicle,Fighter",{p}{b}When Defeated:{/b} You may give a Shield token to a {Vigilance} unit.{/p},,1,2,1,,,,,
+SOR,62,Regional Governor,,FALSE,Unit,Vigilance,2,"Imperial,Official","{p}{b}When Played:{/b} Name a card. While this unit is in play, opponents can't play the named card.{/p}",,0,1,4,,,,,
+SOR,63,Cloud City Wing Guard,,FALSE,Unit,Vigilance,3,"Fringe,Trooper",{p-keyword-border-shaded}{sentinel} {em}(Units in this arena can't attack your non-Sentinel units or your base.){/em}{/p},,0,2,4,sentinel,,,,
+SOR,64,Wilderness Fighter,,FALSE,Unit,Vigilance,3,Trooper,"{p}{shielded} {i}(When you play this unit, give a Shield token to it.){/i}{/p}",,0,2,4,shielded,,,,
+SOR,66,System Patrol Craft,,FALSE,Unit,Vigilance,4,"Vehicle,Fighter",{p-keyword-border-shaded}{sentinel} {i}(Units in this arena can't attack your non-Sentinel units or your base.){/i}{/p},,1,3,4,sentinel,,,,
+SOR,67,Rugged Survivors,,FALSE,Unit,Vigilance,5,Fringe,"{p}{keyword}Grit{/keyword} {i}(This unit gets {powerplus:1}/{hp:0} for each damage on it.){/i}{/p}
+
+{p}{b}On Attack:{/b} If you control a leader unit, you may draw a card.{/p}",,0,3,5,grit,,,,
+SOR,69,Resilient,,FALSE,Upgrade,Vigilance,1,Innate,,,,0,3,,,,,
+SOR,72,Entrenched,,FALSE,Upgrade,Vigilance,2,Condition,{p}Attached unit can't attack bases.{/p},,,3,3,,,,,
+SOR,74,Repair,,FALSE,Event,Vigilance,1,Supply,{p}Heal 3 damage from a unit or base.{/p},,,,,,,,,
+SOR,75,It Binds All Things,,FALSE,Event,Vigilance,2,Force,"{p}Heal up to 3 damage from a unit. If you control a {force} unit, you may deal that much damage to another unit.{/p}",,,,,,,,,
+SOR,77,Takedown,,FALSE,Event,Vigilance,4,Tactic,{p}Defeat a unit with {hp:5} or less remaining HP.{/p},,,,,,,,,
+SOR,78,Vanquish,,FALSE,Event,Vigilance,5,Tactic,{p}Defeat a non-leader unit.{/p},,,,,,,,,
+SOR,79,Admiral Piett,Captain of the Executor,TRUE,Unit,"Command,Villainy",2,"Imperial,Official","{p}Each friendly non-leader unit that costs 6 or more gains {ambush}. {i}(After you play that unit, it may ready and attack an enemy unit.){/i}{/p}",,0,1,4,,,,,
+SOR,80,General Tagge,Concerned Commander,TRUE,Unit,"Command,Villainy",2,"Imperial,Official",{p}{b}When Played:{/b} Give an Experience token to each of up to 3 {trait}Trooper{/trait} units.{/p},,0,2,2,,,3,3,
+SOR,81,Seasoned Shoretrooper,,FALSE,Unit,"Command,Villainy",2,"Imperial,Trooper","{p}While you control 6 or more resources, this unit gets {powerplus:2}/{hpplus:0}.{/p}",,0,2,3,,,2,,
+SOR,82,Emperor's Royal Guard,,FALSE,Unit,"Command,Villainy",3,Imperial,"{p-keyword-border}While you control an {official} unit, this unit gains {sentinel}.{/p}
+
+{p}While you control Emperor Palpatine {em}(as a leader or unit){/em}, this unit gets {power:0}/{hpplus:1}.",,0,3,4,,,,1,
+SOR,83,Superlaser Technician,,FALSE,Unit,"Command,Villainy",3,Imperial,{p}{strong}When Defeated:{/strong} You may put this unit into play as a resource and ready it.{/p},,0,2,1,,,,,
+SOR,84,Grand Moff Tarkin,Death Star Overseer,TRUE,Unit,"Command,Villainy",4,"Imperial,Official","{strong}When Played:{/strong} Search the top 5 cards of your deck for up to 2 {imperial} cards, reveal them, and draw them. {em}(Put the other cards on the bottom of your deck in a random order.){/em}",,0,2,3,draw_2,,,,
+SOR,86,Gladiator Star Destroyer,,FALSE,Unit,"Command,Villainy",6,"Imperial,Vehicle,Capital Ship",{p}{b}When Played:{/b} Give a unit {sentinel} for this phase. {i}Units in this arena can't attack your non-Sentinel units or your base.){/i}{/p},,1,5,6,sentinel,,,,
+SOR,88,Blizzard Assault AT-AT,,FALSE,Unit,"Command,Villainy",8,"Imperial,Vehicle,Walker",{p}{b}When this unit attacks and defeats a unit:{/b} You may deal the excess damage from this attack to an enemy ground unit.{/p},,0,9,9,,,,,
+SOR,89,Relentless,Konstantine's Folly,TRUE,Unit,"Command,Villainy",9,"Imperial,Vehicle,Capital Ship",{p}The first event played by each opponent each round loses all abilities.{/p},,1,8,8,,,,,
+SOR,90,Devastator,Inescapable,TRUE,Unit,"Command,Villainy",10,"Imperial,Vehicle,Capital Ship","{p-keyword-border-shaded}{sentinel}{/p}
+
+{p}{overwhelm}{/p}
+
+{p}{b}When Played:{/b} You may deal damage to a unit equal to the number of resources you control.{/p}",,1,10,10,sentinel,overwhelm,,,
+SOR,92,Overwhelming Barrage,,FALSE,Event,"Command,Villainy",5,Tactic,"{p}Give a friendly unit {powerplus:2}/{hpplus:2} for this phase. Then, it deals damage equal to its power divided as you choose among any number of other units.{/p}",,,,,,,,,
+SOR,95,Battlefield Marine,,FALSE,Unit,"Command,Heroism",2,"Rebel,Trooper",,,0,3,3,,,,,
+SOR,97,Admiral Ackbar,Brilliant Strategist,TRUE,Unit,"Command,Heroism",3,"Rebel,Official","{p}{restore:1} {i}(When this unit attacks, heal 1 damage from your base.){/i}{/p}
+
+{p}{b}When Played:{/b} You may deal damage to a unit equal to the number of units your control in its arena.{/p}",,0,1,4,restore_1,,,,
+SOR,99,Bright Hope,The Last Transport,TRUE,Unit,"Command,Heroism",4,"Rebel,Vehicle,Transport","{p-keyword-border-shaded}{sentinel} {i}(Units in this arena can't attack your non-Sentinel units or your base.){/i}{/p}
+
+{p}{b}When Played:{/b} You may return a friendly non-leader ground unit to its owner's hand. If you do, draw a card.{/p}",,1,2,6,sentinel,,,,
+SOR,100,Wedge Antilles,Star of the Rebellion,TRUE,Unit,"Command,Heroism",5,Rebel,"{p}Each friendly {vehicle} unit gets {powerplus:1}/{hpplus:1} and gains Ambush. {i}(After you play that unit, it may ready and attack an enemy unit.){/i}{/p}",,0,5,5,,,2,2,
+SOR,102,Home One,Alliance Flagship,TRUE,Unit,"Command,Heroism",8,"Rebel,Vehicle,Capital Ship","{p}{restore:2}{/p}
+
+{p}Each other friendly unit gains {restore:1}.{/p}
+
+{p}{b}When Played:{/b} Play a {Heroism} unit from your discard pile. It costs {R3} less.{/p}",,1,7,7,restore_2,,,,
+SOR,107,Command,,FALSE,Event,"Command,Command",4,Innate,"{p}Choose 2, in any order:{/p}
+{p}- Give 2 Experience tokens to a unit.{/p}
+{p}- A friendly unit deals damage equal to its power to a non-unique enemy unit.{/p}
+{p}- Put this event into play as a resource.{/p}
+{p}- Return a unit from your discard pile to your hand.{/p}",,,,,,,,,
+SOR,109,Colonel Yularen,ISB Director,TRUE,Unit,Command,2,"Imperial,Official",{p}{b}When you play a {Command} unit{/b} {i}(including this one){/i}{b}:{/b} Heal 1 damage from your base.{/p},,0,2,3,,,,,
+SOR,111,Patrolling V-Wing,,FALSE,Unit,Command,2,"Vehicle,Fighter",{p}{b}When Played:{/b} Draw a card.{/p},,1,1,1,draw_1,,,,
+SOR,112,Consortium StarViper,,FALSE,Unit,Command,3,"Fringe,Vehicle,Fighter","{p}While you have the initiative, this unit gains {restore:2}. {i}(When this unit attacks, heal 2 damage from your base.){/i}{/p}",,1,3,3,,,,,
+SOR,113,Homestead Militia,,FALSE,Unit,Command,3,"Fringe,Trooper","{p-keyword-border}While you control 6 or more resources, this unit gains {sentinel}. {i}(Units in this arena can't attack your non-Sentinel units or your base.){/i}{/p}",,0,3,4,,,,,
+SOR,115,Agent Kallus,Seeking the Rebels,TRUE,Unit,Command,5,"Imperial,Trooper","{p}{ambush} {i}(After you play this unit, he may ready and attack an enemy unit.){/i}{/p}
+
+{p}{b}When another unique unit is defeated:{/b} You may draw a card. Use this ability only once each round.{/p}",,0,4,4,ambush,,,,
+SOR,118,97th Legion,Keeping the Peace on Sullust,TRUE,Unit,Command,7,"Imperial,Trooper",{p}This unit gets {powerplus:1}/{hpplus:1} for each resource you control.{/p},,0,7,7,,,,,
+SOR,120,Academy Training,,FALSE,Upgrade,Command,2,Learned,,,,2,2,,,,,
+SOR,121,Hardpoint Heavy Blaster,,FALSE,Upgrade,Command,2,"Modification,Weapon","{p}Attach to a {vehicle} unit.{/p}
+
+{p}Attached unit gains: “{b}On Attack:{/b} If this unit isn't attacking a base, you may deal 2 damage to a unit in the defender's arena.”{/p}",,,2,2,,,,,
+SOR,123,Recruit,,FALSE,Event,Command,1,Supply,"{p}Search the top 5 cards of your deck for a unit, reveal it, and draw it. {i}(Put the other cards on the bottom of your deck in a random order.){/i}{/p}",,,,,,,,,
+SOR,124,Tactical Advantage,,FALSE,Event,Command,1,Tactic,Give a unit {powerplus:2}/{hpplus:2} for this phase.,,,,,,,,,
+SOR,125,Prepare for Takeoff,,FALSE,Event,Command,2,Plan,"{p}Search the top 8 cards of your deck for up to 2 {vehicle} units, reveal them, and draw them. {i}(Put the other cards on the bottom of your deck in a random order.){/i}{/p}",,,,,,,,,
+SOR,126,Resupply,,FALSE,Event,Command,3,Supply,{p}Put this event into play as a resource.{/p},,,,,,,,,
+SOR,128,Death Star Stormtrooper,,FALSE,Unit,"Aggression,Villainy",1,"Imperial,Trooper",,,0,3,1,,,,,
+SOR,129,Admiral Ozzel,Overconfident,TRUE,Unit,"Aggression,Villainy",2,"Imperial,Official",{p}{b}Action {T}:{/b} Play an {imperial} unit from your hand {i}(paying its cost){/i}. It enters play ready. Each opponent may ready a unit.,,0,2,3,,,,,
+SOR,130,First Legion Snowtrooper,,FALSE,Unit,"Aggression,Villainy",2,"Imperial,Trooper","{p}While attacking a damaged unit, this unit gets {powerplus:2}/{hp:0} and gains {overwhelm}. {em}(Deal excess damage to the opponent's base.){/em}{/p}",,0,2,3,,,,,
+SOR,131,Fifth Brother,Fear Hunter,TRUE,Unit,"Aggression,Villainy",3,"Force,Imperial,Inquisitor","{p}This unit gains {raid:1} for each damage on him. {i}(He gets +1/+0 while attacking for each damage on him.)){/i}{/p}
+
+{p}{b}On Attack:{/b} You may deal 1 damage to this unit and 1 damage to another ground unit.{/p}",,0,2,4,grit,,,,damage_1
+SOR,132,Imperial Interceptor,,FALSE,Unit,"Aggression,Villainy",4,"Imperial,Vehicle,Fighter",{p}{strong}When Played:{/strong} You may deal 3 damage to a space unit.{/p},,1,3,2,damage_3,,,,
+SOR,134,Ruthless Raider,,FALSE,Unit,"Aggression,Villainy",6,"Imperial,Vehicle,Capital Ship",{p}{b} When Played/When Defeated{/b}: Deal 2 damage to an enemy base and 2 damage to an enemy unit.{/p},,1,4,6,damage_2,,,,damage_2
+SOR,135,Emperor Palpatine,Master of the Dark Side,TRUE,Unit,"Aggression,Villainy",8,"Force,Imperial,Sith,Official","{p}{overwhelm} {i}(When attacking an enemy unit, deal excess damage to the opponent's base.){/i}{/p}
+
+{p}{b}When Played:{/b} Deal 6 damage divided as you choose among enemy units.{/p}",,0,6,6,overwhelm,damage_6,,,
+SOR,136,Vader's Lightsaber,,TRUE,Upgrade,"Aggression,Villainy",2,"Item,Weapon,Lightsaber","{p}Attach to a non-{vehicle} unit.{/p}{p}{strong}When Played:{/strong} If attached unit is Darth Vader, you may deal 4 damage to a ground unit.{/p}",,,3,1,,,,,
+SOR,137,Fallen Lightsaber,,FALSE,Upgrade,"Aggression,Villainy",3,"Item,Weapon,Lightsaber","{p}Attach to a non-{vehicle} unit.{/p}
+
+{p}If attached unit is a {force} unit, it gains: “{b}On Attack:{/b} Deal 1 damage to each ground unit the defending player controls.”{/p}",,,3,3,,,,,
+SOR,139,Force Choke,,FALSE,Event,"Aggression,Villainy",2,Force,"If you control a  {force} unit, this event costs {R:1} less to play.
+
+Deal 5 damage to a non-{vehicle} unit. That unit's controller draws a card.",,,,,,,,,
+SOR,140,SpecForce Soldier,,FALSE,Unit,"Aggression,Heroism",1,"Rebel,Trooper",{p}{b}When Played:{/b} A unit loses {sentinel} for this phase.{/p},,0,2,2,,,,,
+SOR,141,Green Squadron A-Wing,,FALSE,Unit,"Aggression,Heroism",2,"Rebel,Vehicle,Fighter",{p}{raid:2} {i}(This unit gets +2/+0 while attacking.){/i}{/p},,1,1,3,raid_2,,,,
+SOR,142,Sabine Wren,Explosives Artist,TRUE,Unit,"Aggression,Heroism",2,"Mandalorian,Rebel,Spectre","{p}While there are at least 3 aspects among other friendly units, this unit can't be attacked {i}(unless she gains Sentinel){/i}.{/p}
+
+{p}{b}On Attack:{/b} You may deal 1 damage to the defender or to a base.{/p}",,0,2,3,,,,,damage_1
+SOR,143,Fighters For Freedom,,FALSE,Unit,"Aggression,Heroism",3,"Rebel,Trooper","{p}{saboteur} {i}(When this unit attacks, ignore Sentinel and defeat the defender's Shields.){/i}{/p}
+
+{p}{b}When you play another {Aggression} card:{/b} You may deal 1 damage to a base.{/p}",,0,3,4,saboteur,,,,
+SOR,144,Red Three,Unstoppable,TRUE,Unit,"Aggression,Heroism",3,"Rebel,Vehicle,Fighter","{p}{raid:1}{/p}
+
+{p}Each other friendly {Heroism} unit gains {raid:1}.{/p}",,1,2,3,raid_1,,,,raid_2
+SOR,147,Black One,Scourge of Starkiller Base,TRUE,Unit,"Aggression,Heroism",6,"Resistance,Vehicle,Fighter","{p}{b}When Played/When Defeated:{/b} You may discard your hand. If you do, draw 3 cards.{/p}",,1,4,4,,,,,draw_3
+SOR,149,Mace Windu,Party Crasher,TRUE,Unit,"Aggression,Heroism",7,"Force,Jedi,Republic","{p}{ambush}{/p}
+
+{p}{b}When this unit attacks and defeats a unit:{/b} Ready him.{/p}",,0,5,7,ambush,,,,
+SOR,155,Aggression,,FALSE,Event,"Aggression,Aggression",4,Innate,"{p}Choose two, in any order:{/p}
+{p}- Draw a card.{/p}
+{p}- Defeat up to 2 upgrades.{/p}
+{p}- Ready a unit with {power:3} or less power.{/p}
+{p}- Deal 4 damage to a unit.{/p}",,,,,,,,,
+SOR,157,Cantina Braggart,,FALSE,Unit,Aggression,1,Underworld,{p}{raid:2} {i}(This unit gets +2/+0 while attacking.){/i}{/p},,0,0,3,raid_2,,,,
+SOR,159,Partisan Insurgent,,FALSE,Unit,Aggression,2,"Rebel,Trooper","{p}While you control another {Aggression} unit, this unit gains {raid:2} {i}(It gets +2/+0 while attacking.){/i}{/p}",,0,1,4,,,,,raid_2
+SOR,161,Ardent Sympathizer,,FALSE,Unit,Aggression,3,Trooper,"{p}While you have the initiative, this unit gets {powerplus:2}/{hpplus:0}.{/p}",,0,3,3,,,2,,
+SOR,162,Disabling Fang Fighter,,FALSE,Unit,Aggression,3,"Mandalorian,Vehicle,Fighter",{p}{b}When Played:{/b} You may defeat an upgrade.{/p},,1,3,2,,,,,
+SOR,163,Star Wing Scout,,FALSE,Unit,Aggression,3,"Vehicle,Fighter","{p}{b}When Defeated:{/b} If you have the initiative, draw 2 cards.{/p}",,1,4,1,,,,,draw_2
+SOR,164,Wampa,,FALSE,Unit,Aggression,4,Creature,"{p}{overwhelm} {i}(When attacking an enemy unit, deal excess damage to the opponent's base.){/i}{/p}",,0,4,5,overwhelm,,,,
+SOR,166,Infiltrator's Skill,,FALSE,Upgrade,Aggression,1,Learned,"{p}Attached unit gains {saboteur}. {i}(When this unit attacks, ignore Sentinel and defeat the defender's Shields.){/i}{/p}",,,1,1,,,,,
+SOR,168,Precision Fire,,FALSE,Event,Aggression,1,Tactic,"{p}Attack with a unit. It gains {saboteur} for this attack. If it's a {trait}Trooper{/trait}, it also gets {powerplus:2}/{hpplus:0} for this attack. {i}(Ignore Sentinel and defeat the defender's Shields.){/i}{/p}",,,,,,,,,
+SOR,171,Mission Briefing,,FALSE,Event,Aggression,3,Plan,{p}Choose a player. They draw 2 cards.{/p},,,,,,,,,
+SOR,172,Open Fire,,FALSE,Event,Aggression,3,Tactic,{p}Deal 4 damage to a unit.{/p},,,,,,,,,
+SOR,176,ISB Agent,,FALSE,Unit,"Cunning,Villainy",1,Imperial,"{p}{b}When Played:{/b} You may reveal an event from your hand. If you do, deal 1 damage to a unit.{/p}",,0,1,3,,,,,damage_1
+SOR,179,Boba Fett,Disintegrator,TRUE,Unit,"Cunning,Villainy",3,"Underworld,Bounty Hunter","{p}{b}On Attack:{/b} If this unit is attacking an exhausted unit that didn't enter play this round, deal 3 damage to the defender.{/p}",,0,3,5,,,,,damage_3
+SOR,180,Seventh Fleet Defender,,FALSE,Unit,"Cunning,Villainy",3,"Imperial,Vehicle,Fighter","{p}{shielded} {i}(When you play this unit, give a Shield token to it.){/i}{/p}",,1,3,2,shielded,,,,
+SOR,182,Bossk,Deadly Stalker,TRUE,Unit,"Cunning,Villainy",5,"Underworld,Bounty Hunter","{p}{ambush}{/p}
+
+{p}{b}When you play an event:{/b} You may deal 2 damage to a unit.{/p}",,0,4,5,ambush,,,,damage_2
+SOR,184,Fett's Firespray,Pursuing the Bounty,TRUE,Unit,"Cunning,Villainy",6,"Underworld,Vehicle,Transport","{p}{b}When Played:{/b} If you control Boba Fett or Jango Fett {i}(as a leader or unit){/i}, ready this unit.{/p}
+
+{p}{b}Action [{R2}]:{/b} Exhaust a non-unique unit.{/p}",,1,5,6,,,,,
+SOR,185,Chimaera,Flagship of the Seventh Fleet,TRUE,Unit,"Cunning,Villainy",8,"Imperial,Vehicle,Capital Ship","{p}{shielded} {i}(When you play this unit, give a Shield token to it.){/i}{/p}
+
+{p}{b}On Attack:{/b} Name a card. An opponent reveals their hand and discards a card with that name from it.{/p}",,1,8,7,shielded,,,,
+SOR,186,No Good to Me Dead,,FALSE,Event,"Cunning,Villainy",2,Plan,{p}Exhaust a unit. That unit can't ready this round {i}(including during the regroup phase){/i}.{/p},,,,,,,,,
+SOR,189,Leia Organa,Defiant Princess,TRUE,Unit,"Cunning,Heroism",2,"Rebel,Official",{p}{strong}When Played:{/strong} Either ready a resource or exhaust a unit.{/p},,0,2,2,,,,,
+SOR,190,Lothal Insurgent,,FALSE,Unit,"Cunning,Heroism",2,Rebel,"{p}{b}When Played:{/b} If you played another card this phase, each opponent draws a card then discards a random card from their hand.{/p}",,0,3,2,,,,,
+SOR,192,Ezra Bridger,Resourceful Troublemaker,TRUE,Unit,"Cunning,Heroism",3,"Force,Rebel,Spectre","{p}{b}When this unit completes an attack:{/b} Look at the top card of your deck. You may play it, discard it, or leave it on top of your deck.{/p}",,0,3,4,,,,,draw_1
+SOR,193,Millennium Falcon,Piece of Junk,TRUE,Unit,"Cunning,Heroism",3,"Underworld,Vehicle,Transport","{p}This unit enters play ready.{/p}
+
+{p}{b}When you ready cards during the regroup phase:{/b} Either pay {R1} or return this unit to her owner's hand.{/p}",,1,3,4,,,,,
+SOR,194,Rogue Operative,,FALSE,Unit,"Cunning,Heroism",3,"Rebel,Trooper","{p}{saboteur} {i}(When this unit attacks, ignore Sentinel and defeat the defender's Shields.){/i}{/p}
+
+{p}{raid:2} {i}(This unit gets +2/+0 while attacking.){/i}{/p}",,0,2,4,saboteur,raid_2,,,
+SOR,195,Auzituck Liberator Gunship,,FALSE,Unit,"Cunning,Heroism",4,"Vehicle,Fighter","{p}{ambush} {em}(After you play this unit, it may ready and attack an enemy unit.){/em}{/p}",,1,3,4,ambush,,,,
+SOR,196,Chewbacca,Loyal Companion,TRUE,Unit,"Cunning,Heroism",5,"Underworld,Wookiee","{p-keyword-border-shaded}{sentinel} {i}(Units in this arena can't attack your non-Sentinel units or your base.){/i}{/p}
+
+{p}{b}When this unit is attacked: {/b}Ready him.{/p}",,0,3,6,sentinel,,,,
+SOR,197,Lando Calrissian,Responsible Businessman,TRUE,Unit,"Cunning,Heroism",6,"Fringe,Official","{p}{saboteur} {i}(When this unit attacks, ignore Sentinel and defeat the defender’s Shields.){/i}{/p}
+
+{p}{b}When played:{/b} Return up to 2 friendly resources to their owners’ hands.{/p}",,0,6,5,saboteur,,,,
+SOR,198,Han Solo,Reluctant Hero,TRUE,Unit,"Cunning,Heroism",7,Underworld,"{p}{ambush} {i}(After you play this unit, he may ready and attack an enemy unit.){/i}{/p}
+
+{p}While attacking, this unit deals combat damage before the defender.{/p}",,0,6,6,ambush,,,,
+SOR,199,Bamboozle,,FALSE,Event,"Cunning,Heroism",2,Trick,"{p}You may discard a {Cunning} card from your hand instead of paying this event's cost.{/p}
+
+{p}Exhaust a unit and return each upgrade on it to its owner's hand.{/p}",,,,,,,,,
+SOR,200,Spark of Rebellion,,FALSE,Event,"Cunning,Heroism",2,Spectre,{p}Look at an opponent's hand and discard a card from it.{/p},,,,,,,,,
+SOR,202,Cantina Bouncer,,FALSE,Unit,"Cunning,Cunning",5,Fringe,{p}{b}When Played:{/b} You may return a non-leader unit to its owner's hand.{/p},,0,3,5,,,,,
+SOR,203,Cunning,,FALSE,Event,"Cunning,Cunning",4,Innate,"{p}Choose two, in any order:{/p}
+{p}- Return a non-leader unit with 4 or less power to its owner's hand.{/p}
+{p}- Give a unit +4/+0 for this phase.{/p}
+{p}- Exhaust up to 2 units.{/p}
+{p}- An opponent discards a random card from their hand.{/p}",,,,,,,,,
+SOR,204,Greedo,Slow on the Draw,TRUE,Unit,Cunning,1,"Underworld,Bounty Hunter","{p}{b}When Defeated:{/b} You may discard a card from your deck. If it's not a unit, deal 2 damage to a ground unit.{/p}",,0,3,1,,,,,damage_2
+SOR,206,Mining Guild TIE Fighter,,FALSE,Unit,Cunning,1,"Fringe,Vehicle,Fighter","{p}{b}On Attack:{/b}  You may pay {R2}. If you do, draw a card.{/p}",,1,1,2,,,,,draw_1
+SOR,208,Outer Rim Headhunter,,FALSE,Unit,Cunning,2,"Fringe,Vehicle,Fighter","{p}{raid:1}{/p}
+
+{p}{b}On Attack:{/b} If you control a leader unit, you may exhaust a non-leader unit.{/p}",,1,1,3,raid_1,,,,
+SOR,213,Syndicate Lackeys,,FALSE,Unit,Cunning,5,Underworld,"{p}{ambush} {i}(After you play this unit, it may ready and attack an enemy unit.){/i}{/p}",,0,5,4,ambush,,,,
+SOR,214,Smuggling Compartment,,FALSE,Upgrade,Cunning,1,Modification,"{p}Attach to a {vehicle} unit.{/p}
+
+{p}Attached unit gains: ""{b}On Attack:{/b} Ready a resource.""{/p}",,,1,1,,,,,
+SOR,215,Snapshot Reflexes,,FALSE,Upgrade,Cunning,1,Learned,{p}{b}When Played:{/b} You may attack with this unit.{/p},,,1,1,,,,,
+SOR,217,Shoot First,,FALSE,Event,Cunning,1,Trick,"{p}Attack with a unit. It gets {powerplus:1}/{hp:0} for this attack and deals its combat damage before the defender. {i}(If the defender is defeated, it deals no combat damage.){/i}{/p}",,,,,,,,,
+SOR,218,Asteroid Sanctuary,,FALSE,Event,Cunning,2,Trick,"{p}Exhaust an enemy unit.{/p}
+
+{p}Give a Shield token to a friendly unit that costs 3 or less.{/p}",,,,,,,,,
+SOR,220,Surprise Strike,,FALSE,Event,Cunning,2,Tactic,Attack with a unit. It gets {powerplus:3}/{hp:0} for this attack.,,,,,,,,,
+SOR,221,Outmaneuver,,FALSE,Event,Cunning,3,Tactic,{p}Choose an arena {i}(ground or space){/i}. Exhaust each unit in that arena.{/p},,,,,,,,,
+SOR,222,Waylay,,FALSE,Event,Cunning,3,Trick,{p}Return a non-leader unit to its owner's hand.{/p},,,,,,,,,
+SOR,224,Change of Heart,,FALSE,Event,Cunning,6,Gambit,"{p}Take control of a non-leader unit. At the start of the regroup phase, its owner takes control of it.{/p}",,,,,,,,,
+SOR,225,TIE/ln Fighter,,FALSE,Unit,Villainy,1,"Imperial,Vehicle,Fighter",,,1,2,1,,,,,
+SOR,226,Admiral Motti,Brazen and Scornful,TRUE,Unit,Villainy,2,"Imperial,Official",{p}{strong}When Defeated:{/strong} You may ready a {Villainy} unit.{/p},,0,1,1,,,,,
+SOR,227,Snowtrooper Lieutenant,,FALSE,Unit,Villainy,2,"Imperial,Trooper","{p}{strong}When Played:{/strong} You may attack with a unit. If it's an {imperial} unit, it gets {powerplus:2}/{hp:0} for this attack.{/p}",,0,2,2,,,,,
+SOR,228,Viper Probe Droid,,FALSE,Unit,Villainy,2,"Imperial,Droid",{p}{strong}When Played:{/strong} Look at an opponent's hand.{/p},,0,3,2,,,,,
+SOR,229,Cell Block Guard,,FALSE,Unit,Villainy,3,"Imperial,Trooper",{p-keyword-border-shaded}{sentinel} {em}(Units in this arena can't attack your non-Sentinel units or your base.){/em}{/p},,0,3,3,sentinel,,,,
+SOR,230,General Veers,Blizzard Force Commander,TRUE,Unit,Villainy,3,"Imperial,Official",{p}Other friendly {imperial} units get {powerplus:1}/{hpplus:1}.{/p},,0,3,3,,,2,2,
+SOR,231,TIE Advanced,,FALSE,Unit,Villainy,4,"Imperial,Fighter,Vehicle",{p}{b}When Played:{/b} Give 2 Experience tokens to another friendly {imperial} unit.{/p},,1,3,2,,,2,2,
+SOR,232,AT-ST,,FALSE,Unit,Villainy,6,"Imperial,Vehicle,Walker","{overwhelm} {i}(When attacking an enemy unit, deal excess damage to the opponent's base.){/i}",,0,6,7,overwhelm,,,,
+SOR,233,I Am Your Father,,FALSE,Event,Villainy,3,Gambit,"{p}Deal 7 damage to an enemy unit unless its controller says ""no."" If they do, draw 3 cards.{/p}",,,,,,,,,
+SOR,234,Maximum Firepower,,FALSE,Event,Villainy,4,"Imperial,Tactic","{p}A friendly {imperial} unit deals damage equal to its power to a unit.{/p}{p}Then, another friendly {imperial} unit deals damage equal to its power to the same unit.{/p}",,,,,,,,,
+SOR,235,Galactic Ambition,,FALSE,Event,Villainy,7,Innate,Play a non-{Heroism} unit from your hand for free. Deal damage to your base equal to its cost.,,,,,,,,,
+SOR,236,R2-D2,Ignoring Protocol,TRUE,Unit,Heroism,1,"Rebel,Droid","{p}{strong}When Played/On Attack:{/strong} Look at the top card of your deck. You may put it on the bottom of your deck. {em}(Otherwise, leave it on top of your deck.){/em}{/p}",,0,1,4,,,,,
+SOR,237,Alliance X-Wing,,FALSE,Unit,Heroism,2,"Rebel,Vehicle,Fighter",,,1,2,3,,,,,
+SOR,238,C-3PO,Protocol Droid,TRUE,Unit,Heroism,2,"Rebel,Droid","{p}{strong}When Played/On Attack:{/strong} Choose a number, then look at the top card of your deck. If its cost is the chosen number, you may reveal and draw it. {em}(Otherwise, leave it on top of your deck.){/em}{/p}",,0,1,4,,,,,draw_1
+SOR,239,Rebel Pathfinder,,FALSE,Unit,Heroism,2,"Rebel,Trooper","{p}{saboteur} {em}(When this unit attacks, ignore Sentinel and defeat the defender's Shields.){/em}{/p}",,0,2,3,saboteur,,,,
+SOR,240,Fleet Lieutenant,,FALSE,Unit,Heroism,3,"Rebel,Trooper","{p}{strong}When Played:{/strong} You may attack with a unit. If it's a {rebel} unit, it gets {powerplus:2}/{hp:0} for this attack.{/p}",,0,3,3,,,,,
+SOR,241,Wing Leader,,FALSE,Unit,Heroism,3,"Rebel,Vehicle,Fighter",{p}{strong}When Played:{/strong} Give 2 Experience tokens to another friendly {rebel} unit.,,1,2,1,,,2,2,
+SOR,242,General Dodonna,Massassi Group Commander,TRUE,Unit,Heroism,4,"Rebel,Official",{p}Other friendly {rebel} units get {powerplus:1}/{hpplus:1}.{/p},,0,4,4,,,2,2,
+SOR,244,Snowspeeder,,FALSE,Unit,Heroism,5,"Rebel,Vehicle,Speeder","{p}{ambush} {i}(After you play this unit, it may ready and attack an enemy unit.){/i}{/p}
+
+{p}{b}On Attack:{/b} Exhaust an enemy {vehicle} ground unit.{/p}",,0,3,6,ambush,,,,
+SOR,245,Medal Ceremony,,FALSE,Event,Heroism,0,Rebel,{p}Give an Experience token to each of up to 3 {rebel} units that attacked this phase.{/p},,,,,,,,,
+SOR,246,You're My Only Hope,,FALSE,Event,Heroism,3,Gambit,"Look at the top card of your deck. You may play it. It costs {R:5} less. If your base has 5 or less remaining hp, you may play it for free instead.",,,,,,,,,
