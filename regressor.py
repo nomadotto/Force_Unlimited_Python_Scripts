@@ -19,7 +19,7 @@ sqr_features = ['cost', 'sqr_cost']
 stat_features = ['power', 'hp', 'arena']
 
 
-def read_csv(path: str = './cards_export_20230913.csv') -> pd.DataFrame:
+def read_csv(path: str = 'data/cards_export_20230913.csv') -> pd.DataFrame:
     """
     read a csv of SWU cards and turn them into pandas
     :param path: path to a csv of cards
