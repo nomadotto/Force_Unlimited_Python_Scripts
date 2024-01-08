@@ -7,8 +7,8 @@ import statsmodels.api as sm
 ABILITIES = ['damage', 'sentinel', 'draw',
              'raid', ]  # 'grit', 'overwhelm','shielded', 'ambush', 'saboteur', 'restore'
 
-ASPECTS = ['Command', 'Heroism', 'Aggression', 'Villainy',
-           'Cunning', 'Vigilance']
+ASPECTS = ['Command',  'Aggression', 'Villainy',
+           'Cunning', 'Vigilance'] # using Heroism as a holdout
 
 base_features = ['adj_total_stats', 'arena', ]
 
@@ -17,6 +17,8 @@ sqrt_features = ['cost', 'sqrt_cost']
 sqr_features = ['cost', 'sqr_cost']
 
 stat_features = ['power', 'hp', 'arena']
+
+cost_features = ['cost']
 
 
 def read_csv(path: str = 'data/cards_export_20230913.csv') -> pd.DataFrame:
@@ -60,6 +62,17 @@ def make_ability_features(unit_df: pd.DataFrame) -> pd.DataFrame:
         unit_df[f"{ability}"] = final_col
     return unit_df
 
+
+def make_unique(unit_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    make the uniqueness feature
+    :param unit_df: a df of units
+    :return: the same df with an additional uniqueness feature
+    """
+
+    uniqueness = unit_df['unique'].astype(int)
+    unit_df.loc[:, 'uniqueness'] = uniqueness
+    return unit_df
 
 def make_sqrt_cost_feature(unit_df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -188,7 +201,7 @@ def make_qq(fit):
 df = read_csv('data/card_export_20231209.csv')
 unit_df = get_units(df)
 for operation in [make_total_stats, make_adj_total_stats, make_sqrt_cost_feature, make_sqr_cost_feature,
-                  make_ability_features, make_aspect_features, count_aspects]:
+                  make_ability_features, make_aspect_features, count_aspects, make_unique]:
     unit_df = operation(unit_df)
 
 
@@ -197,13 +210,13 @@ for operation in [make_total_stats, make_adj_total_stats, make_sqrt_cost_feature
 # X_cols = sqr_features
 # X_cols = base_features
 
-X_cols = sqr_features + ['arena']
+X_cols = sqr_features + ['arena'] + ['n_aspects']
 unit_df, results = make_fit(x_cols=X_cols, y_col='adj_total_stats', unit_df=unit_df, const=True)
 make_plot(unit_df, 'adj_total_stats', 'cost')
 unit_df = calc_errors(unit_df, y_col='adj_total_stats', asc=False)
 make_qq(results)
 
-X_cols = stat_features
+X_cols = stat_features + ['n_aspects']
 unit_df, results = make_fit(x_cols=X_cols, y_col='cost', unit_df=unit_df, const=False)
 make_plot(unit_df, 'cost', 'adj_total_stats')
 make_qq(results)
