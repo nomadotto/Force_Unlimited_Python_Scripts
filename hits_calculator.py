@@ -3,8 +3,8 @@ from scipy.stats import hypergeom
 import math
 import random
 
-STARTING_DECK_SIZE = 50
-MAX_HITS = 40
+STARTING_DECK_SIZE = 30
+MAX_HITS = 25
 N_TRIALS = 10000
 
 n_draws = {'Recruit / Mon Mothma': 5, 'Takeoff': 8, 'Vader for 3s': 10, 'Vader for 1s': 10, 'Tarkin': 5, 'Jabba': 8}
@@ -42,6 +42,7 @@ def make_plot(hyper_results):
         ax.set_ylim([0, 1])
         ax.set_xlabel("Number of 'Hits' in the deck")
         ax.set_ylabel("Prob of Maximal Value")
+        fig.suptitle(f'{STARTING_DECK_SIZE} Card Decks')
 
     for distro in hyper_results:
         x = range(0, MAX_HITS)
