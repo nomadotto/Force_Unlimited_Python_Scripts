@@ -8,7 +8,7 @@ ABILITIES = ['damage', 'sentinel', 'draw',
              'raid', ]  # 'grit', 'overwhelm','shielded', 'ambush', 'saboteur', 'restore'
 
 ASPECTS = ['Command',  'Aggression', 'Villainy',
-           'Cunning', 'Vigilance'] # using Heroism as a holdout
+           'Cunning', 'Vigilance']  # using Heroism as a holdout
 
 base_features = ['adj_total_stats', 'arena', ]
 
@@ -37,7 +37,7 @@ def get_units(raw_df: pd.DataFrame) -> pd.DataFrame:
     :param raw_df: a df of cards from SWUDB
     :return: a df of just units
     """
-    unit_only_df = raw_df[raw_df.case == "Unit"]
+    unit_only_df = raw_df[raw_df.case == "Unit"].copy()
     unit_only_df.reset_index(inplace=True, drop=True)
     return unit_only_df
 
@@ -59,7 +59,7 @@ def make_ability_features(unit_df: pd.DataFrame) -> pd.DataFrame:
             value_col = value_col[0].astype(int)
             output_col[col] = check_col*value_col
         final_col = output_col.sum(axis=1)
-        unit_df[f"{ability}"] = final_col
+        unit_df.loc[:, f"{ability}"] = final_col.copy()
     return unit_df
 
 
@@ -71,8 +71,9 @@ def make_unique(unit_df: pd.DataFrame) -> pd.DataFrame:
     """
 
     uniqueness = unit_df['unique'].astype(int)
-    unit_df.loc[:, 'uniqueness'] = uniqueness
+    unit_df.loc[:, 'uniqueness'] = uniqueness.copy()
     return unit_df
+
 
 def make_sqrt_cost_feature(unit_df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -81,7 +82,7 @@ def make_sqrt_cost_feature(unit_df: pd.DataFrame) -> pd.DataFrame:
     :return: a df with an additional sqrt_cost feature
     """
     sqrt_cost = unit_df['cost'].apply(math.sqrt)
-    unit_df.loc[:, 'sqrt_cost'] = sqrt_cost
+    unit_df.loc[sqrt_cost.index, 'sqrt_cost'] = sqrt_cost.copy()
     return unit_df
 
 
@@ -92,7 +93,7 @@ def make_sqr_cost_feature(unit_df: pd.DataFrame) -> pd.DataFrame:
     :return: a df with an additional sqr_cost feature
     """
     sqr_cost = unit_df['cost']**2
-    unit_df.loc[:, 'sqr_cost'] = sqr_cost
+    unit_df.loc[:, 'sqr_cost'] = sqr_cost.copy()
     return unit_df
 
 
@@ -112,7 +113,7 @@ def make_fit(x_cols: list, y_col: str, unit_df: pd.DataFrame, const: bool = True
     results = sm.OLS(y, X).fit()
     print(results.summary())
     pred = results.predict(X)
-    unit_df['predictions'] = pred
+    unit_df.loc[:, 'predictions'] = pred.copy()
     return unit_df, results
 
 
@@ -125,7 +126,7 @@ def make_aspect_features(unit_df: pd.DataFrame) -> pd.DataFrame:
     for aspect in ASPECTS:
         check_col = unit_df['aspects'].str.count(aspect)
         check_col = check_col.fillna(0)
-        unit_df[f"{aspect}"] = check_col.astype(int)
+        unit_df.loc[:, f"{aspect}"] = check_col.astype(int).copy()
     return unit_df
 
 
@@ -136,7 +137,7 @@ def make_total_stats(unit_df: pd.DataFrame) -> pd.DataFrame:
     :return:
     """
     total_col = unit_df['power'] + unit_df['hp']
-    unit_df['total_stats'] = total_col
+    unit_df.loc[total_col.index, 'total_stats'] = total_col.loc[:]
     return unit_df
 
 
@@ -147,7 +148,7 @@ def make_adj_total_stats(unit_df: pd.DataFrame) -> pd.DataFrame:
     :return:
     """
     adj_col = unit_df['power']*2 + unit_df['hp']
-    unit_df.loc[:, 'adj_total_stats'] = adj_col
+    unit_df.loc[adj_col.index, 'adj_total_stats'] = adj_col.copy()
     return unit_df
 
 
@@ -183,10 +184,10 @@ def make_plot(unit_df: pd.DataFrame, y_col: str, x_col: str) -> None:
 
 
 def calc_errors(unit_df: pd.DataFrame, y_col: str, asc=False) -> pd.DataFrame:
-    unit_df['error'] = unit_df[y_col] - unit_df['predictions']
+    unit_df.loc[unit_df.index, 'error'] = (unit_df[y_col] - unit_df['predictions']).copy()
     print(unit_df.sort_values('error', ascending=asc)[['name',  y_col, 'predictions', 'error']].head(5))
 
-    unit_df['percent_error'] = (unit_df[y_col] - unit_df['predictions'])/unit_df[y_col]
+    unit_df.loc[:, 'percent_error'] = ((unit_df[y_col] - unit_df['predictions'])/unit_df[y_col]).copy()
     print(unit_df.sort_values('percent_error', ascending=asc)[['name', y_col, 'predictions', 'percent_error']].head(5))
     return unit_df
 
@@ -196,27 +197,3 @@ def make_qq(fit):
         res = fit.resid  # residuals
         sm.qqplot(res)
         plt.show()
-
-
-df = read_csv('data/card_export_20231209.csv')
-unit_df = get_units(df)
-for operation in [make_total_stats, make_adj_total_stats, make_sqrt_cost_feature, make_sqr_cost_feature,
-                  make_ability_features, make_aspect_features, count_aspects, make_unique]:
-    unit_df = operation(unit_df)
-
-
-# X_cols = base_features +keywords
-# X_cols = base_features + ['n_aspects']
-# X_cols = sqr_features
-# X_cols = base_features
-
-X_cols = sqr_features + ['arena'] + ['n_aspects']
-unit_df, results = make_fit(x_cols=X_cols, y_col='adj_total_stats', unit_df=unit_df, const=True)
-make_plot(unit_df, 'adj_total_stats', 'cost')
-unit_df = calc_errors(unit_df, y_col='adj_total_stats', asc=False)
-make_qq(results)
-
-X_cols = stat_features + ['n_aspects']
-unit_df, results = make_fit(x_cols=X_cols, y_col='cost', unit_df=unit_df, const=False)
-make_plot(unit_df, 'cost', 'adj_total_stats')
-make_qq(results)
