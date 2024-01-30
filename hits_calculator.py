@@ -3,7 +3,7 @@ from scipy.stats import hypergeom
 import math
 import random
 
-STARTING_DECK_SIZE = 30
+STARTING_DECK_SIZE = 50
 MAX_HITS = 25
 N_TRIALS = 10000
 

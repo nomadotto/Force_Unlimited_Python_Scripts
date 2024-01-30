@@ -1,0 +1,51 @@
+Short notes about adjustments I (Ned) have made to unit stats -
+
+Grand Moff Tarkin - Valued at a Draw 2
+Wing Leader - Valued at +2 / +2
+Yoda- Valued at a full draw
+Emperor’s Guard- +1 HP
+Tie Advanced - Valued at +2 / +2
+Lt. Childsen - Valued at +2 / +2
+Obi Wan - Valued at +2 / +2
+Distant Patroller - Conditional Shield
+Gladiator - Conditional Sentinel
+Veers / Doona - Valued at +1 / +1
+Admiral Ackbar - Valued at 2 Damage
+Home One - Valued at Restore 2 (conditional)
+Piett - Conditional Ambush
+Death Trooper - 2 Damage
+Agent Kallus - Draw 1
+Kanan - Restore 1
+Sabine - Raid 1
+Ezra - Draw 1
+Falcon - Ambush
+Fighters for Freedom - Damage 1
+Lando - Draw 1
+Dooku - Damage 4
+Bossk - Damage 2
+Bright Hope - Draw 1
+Wedge - Valued at +1 / +1
+97th Legion - Valued at +7 / +7
+Tagee - Valued at +2 / +2
+Academy Defense Walker - Valued at +1/+1
+Devastator - 10 Damage
+Greedo -1 Damage
+ISB Agent - 1 Damage
+Black One - Draw 2
+Fifth Brother - Conditional Raid 2
+Partisan Insurgent - Conditional Raid 2
+Luke - 3 Damage
+Ruthless Raider - Damage 3
+Red Three - Conditional Raid 2
+Benthic "Two Tubes" - Conditional Raid 2
+Bhodi Rook - Draw 1
+Inferno Four - Draw 1
+Vanguard Ace - Valued at +1 / +1
+Rogue Squadron Skimisher - Draw 1
+Darth - Draw 1
+Seventh Sister - 3 Damage
+Vanguard Infantry - Valued at +1/+1
+Cargo Juggernaught - Restore 2
+Mon Mothma - Draw 1
+Bounty Hunter Crew - Draw 1
+Jabba - Draw 1

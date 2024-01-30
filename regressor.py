@@ -4,19 +4,22 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import statsmodels.api as sm
 
-ABILITIES = ['damage', 'sentinel', 'draw',
-             'raid', ]  # 'grit', 'overwhelm','shielded', 'ambush', 'saboteur', 'restore'
+ABILITIES = ['Sentinel', 'Raid', 'Overwhelm', 'Shielded', 'Ambush', 'Saboteur', 'Restore', 'Grit']
+
+# need to rework abilities code
 
 ASPECTS = ['Command',  'Aggression', 'Villainy',
            'Cunning', 'Vigilance']  # using Heroism as a holdout
 
 base_features = ['adj_total_stats', 'arena', ]
 
-sqrt_features = ['cost', 'sqrt_cost']
+sqrt_features = ['cost', 'sqrt_cost', 'arena']
 
-sqr_features = ['cost', 'sqr_cost']
+sqr_features = ['cost', 'sqr_cost', 'arena']
 
-stat_features = ['power', 'hp', 'arena']
+simple_stat_features = ['power', 'hp', 'arena']
+
+total_stat_features = ['total_power', 'total_hp', 'arena']
 
 cost_features = ['cost']
 
@@ -37,8 +40,9 @@ def get_units(raw_df: pd.DataFrame) -> pd.DataFrame:
     :param raw_df: a df of cards from SWUDB
     :return: a df of just units
     """
-    unit_only_df = raw_df[raw_df.case == "Unit"].copy()
+    unit_only_df = raw_df[raw_df['card type'] == "Unit"].copy()
     unit_only_df.reset_index(inplace=True, drop=True)
+    unit_only_df.fillna(0,inplace=True)
     return unit_only_df
 
 
@@ -51,7 +55,7 @@ def make_ability_features(unit_df: pd.DataFrame) -> pd.DataFrame:
     for ability in ABILITIES:
         output_col = pd.DataFrame()
         for col in ['keyword_1', 'keyword_2']:
-            check_col = unit_df[col].str.contains(ability)
+            check_col = unit_df[col].str.match(ability)
             check_col.fillna(0, inplace=True)
             check_col = check_col.astype(int)
             value_col = unit_df[col].str.extract('(\d+)')
@@ -136,8 +140,14 @@ def make_total_stats(unit_df: pd.DataFrame) -> pd.DataFrame:
     :param unit_df: a df of units
     :return:
     """
-    total_col = unit_df['power'] + unit_df['hp']
-    unit_df.loc[total_col.index, 'total_stats'] = total_col.loc[:]
+    total_power = unit_df['power'] + unit_df['invisiblepower']
+    total_hp = unit_df['hp'] + unit_df['invisiblehp']
+    total_base = unit_df['power'] + unit_df['hp']
+    combined_total = total_power + total_hp
+    d = {'total_power': total_power, 'total_hp':total_hp,
+                'total_base':total_base, 'combined_total':combined_total}
+    for col in d:
+        unit_df.loc[unit_df.index, col] = d[col].loc[:]
     return unit_df
 
 
@@ -148,6 +158,8 @@ def make_adj_total_stats(unit_df: pd.DataFrame) -> pd.DataFrame:
     :return:
     """
     adj_col = unit_df['power']*2 + unit_df['hp']
+    unit_df.loc[adj_col.index, 'adj_stats'] = adj_col.copy()
+    adj_col = unit_df['total_power']*2 + unit_df['total_hp']
     unit_df.loc[adj_col.index, 'adj_total_stats'] = adj_col.copy()
     return unit_df
 
@@ -177,6 +189,12 @@ def make_plot(unit_df: pd.DataFrame, y_col: str, x_col: str) -> None:
                  linestyle='None', label=f'Observed {y_col}')
         plt.plot(unit_df[x_col], unit_df.predictions, color='b', marker='o',
                  linestyle='None', label=f'Predicted {y_col}')
+        simple_line_y = []
+        simple_line_x = []
+        for i in range(1,11):
+            simple_line_x.append(i)
+            simple_line_y.append(.5 + 3*i)
+        plt.plot(simple_line_x, simple_line_y, 'k-', label='Simple Linear Fit')
         plt.xlabel(x_col)
         plt.ylabel(y_col)
         plt.legend()
