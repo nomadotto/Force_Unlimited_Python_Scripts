@@ -42,10 +42,14 @@ Bhodi Rook - Draw 1
 Inferno Four - Draw 1
 Vanguard Ace - Valued at +1 / +1
 Rogue Squadron Skimisher - Draw 1
-Darth - Draw 1
+Darth - Valued at +3 / +3
 Seventh Sister - 3 Damage
 Vanguard Infantry - Valued at +1/+1
 Cargo Juggernaught - Restore 2
 Mon Mothma - Draw 1
 Bounty Hunter Crew - Draw 1
 Jabba - Draw 1
+Reinforcement Walker - Draw 1
+General Krell - Draw 1
+Gideon Hask - Valued at +1/+1
+Guerilla Attack Pod - Conditional Ambush

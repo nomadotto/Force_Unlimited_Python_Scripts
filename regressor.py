@@ -24,7 +24,7 @@ total_stat_features = ['total_power', 'total_hp', 'arena']
 cost_features = ['cost']
 
 
-def read_csv(path: str = 'data/cards_export_20230913.csv') -> pd.DataFrame:
+def read_csv(path: str = 'data/card_data_sor_complete.csv') -> pd.DataFrame:
     """
     read a csv of SWU cards and turn them into pandas
     :param path: path to a csv of cards
