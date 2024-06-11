@@ -45,7 +45,7 @@ def mulligan(hand, threshold, card_counts) -> bool:
             #  we weight the cards by how many copies they have. For example, if we have 12 copies of one card,
             #  it counts for 1/4 as much as a card we have 3 copies of
     # if we don't have at least threshold of value combo pieces, we throw it away
-    return needed_cards < threshold*max_copies/min_copies  
+    return needed_cards < threshold*max_copies/min_copies
 
 
 def resource(hand, card_counts) -> list:

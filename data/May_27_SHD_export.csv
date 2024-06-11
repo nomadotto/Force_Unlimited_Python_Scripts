@@ -1,0 +1,696 @@
+﻿set,cardnumber,name,title,unique,card type,aspects,cost,traits,ability text,leader unit ability text,arena,power,hp,rarity,artist,previewdate,preview source,preview link,cardid,invisiblepower,invisiblehp,invisibledamage,invisibledraw,keyword_1,keyword_2,keyword_3
+SOR,1,Director Krennic,Aspiring to Authority,TRUE,Leader,"Vigilance,Villainy",5,"Imperial,Official","Each friendly damaged unit gets +1/+0.
+
+Epic Action: If you control 5 or more resources, deploy this leader.","Restore 2 (When this unit attacks, heal 2 damage from your base.)
+
+Each friendly damaged unit gets +1/+0.",0,2,7,1,Ario Murti,7/7/2023,FFG,https://twitter.com/UnlimitedFFG/status/1677331851038322690,,,,,,,,
+SOR,2,Iden Versio,Inferno Squad Commander,TRUE,Leader,"Vigilance,Villainy",6,"Imperial,Trooper","Action [{T}]: If an enemy unit was defeated this phase, heal 1 damage from your base.
+
+Epic Action: If you control 6 or more resources, deploy this leader.","Shielded
+
+When an enemy unit is defeated: Heal 1 damage from your base.",0,4,4,3,Amélie Hutt,12/8/2023,FFG,https://twitter.com/UnlimitedFFG/status/1733154603754029486,,,,,,,,
+SOR,3,Chewbacca,Walking Carpet,TRUE,Leader,"Vigilance,Heroism",7,"Underworld,Wookiee","Action {T}: Play a unit that costs 3 or less from your hand. It gains Sentinel for this phase.
+
+Epic Action: If you control 7 or more resources, deploy this leader.","Sentinel
+
+Grit",0,2,9,1,Eslam Aboshady,8/3/2023,FFG Stream,https://www.youtube.com/watch?v=HgjQ-bMGkj4,59,0,0,0,0,,,
+SOR,4,Chirrut Îmwe,One With The Force,TRUE,Leader,"Vigilance,Heroism",5,"Force,Rebel","Action [{T}]: Give a unit +0/+2 for this phase.
+
+Epic Action: If you control 5 or more resources, deploy this leader.","During the action phase, this unit isn't defeated by having no remaining HP.",0,3,5,3,Sandra Chlewińska,1/19/2024,FFG,https://www.instagram.com/p/C2SatU2MY12/,234,0,0,0,0,,,
+SOR,5,Luke Skywalker,Faithful Friend,TRUE,Leader,"Vigilance,Heroism",6,"Force,Rebel","Action [{R1}, {T}]: Give a Shield token to a {Heroism} unit you played this phase.
+
+Epic Action: If you control 6 or more resources, deploy this leader.",On Attack: You may give another unit a Shield token.,0,4,7,0,Borja Pindado,5/16/2023,FFG,https://starwarsunlimited.com/articles/star-wars-unlimited-first-look,10,0,0,0,0,,,
+SOR,6,Emperor Palpatine,Galactic Ruler,TRUE,Leader,"Command,Villainy",8,"Force,Imperial,Sith,Official","Action [{R1}, {T}, defeat a friendly unit]: Deal 1 damage to a unit and draw a card.
+
+Epic Action: If you control 8 or more resources, deploy this leader.","When Deployed: Take control of a damaged non-leader unit.
+
+On Attack: You may defeat another friendly unit. If you do, deal 1 damage to a unit and draw a card.",0,4,10,3,Borja Pindado,2/2/2024,FFG,https://www.instagram.com/p/C22d1aVM6zd/,247,0,0,0,0,,,
+SOR,7,Grand Moff Tarkin,Oversector Governor,TRUE,Leader,"Command,Villainy",5,"Imperial,Official","Action [{R1}, {T}]: Give an Experience token to an Imperial unit.
+
+Epic Action: If you control 5 or more resources, deploy this leader.",On Attack: You may give an Experience token to another Imperial unit.,0,2,7,1,Tomas Oleksak,9/1/2023,FFG,https://www.instagram.com/reel/Cwp0j43szL2/,,,,,,,,
+SOR,8,Hera Syndulla,Spectre Two,TRUE,Leader,"Command,Heroism",6,"Rebel,Twi'lek,Spectre",Ignore the aspect penalty on Spectre cards you play.,"Ignore the aspect penalty on Spectre cards you play.
+
+On Attack: You may give an Experience token to another unique unit.",0,4,6,3,Sandra Chlewińska,10/27/2023,FFG,https://www.instagram.com/p/Cy6BEEzM009/,135,0,0,0,0,,,
+SOR,9,Leia Organa,Alliance General,TRUE,Leader,"Command,Heroism",5,"Rebel,Official","Action [{T}]: Attack with a REBEL unit. Then, you may attack with another REBEL unit.
+
+Epic Action: If you control 5 or more resources, deploy this leader.","Raid 1
+
+When this unit completes an attack: You may attack with another REBEL unit.",0,3,6,1,Sandra Chlewińska,6/9/2023,FFG,https://twitter.com/UnlimitedFFG/status/1667184970727583744,,,,,,,,
+SOR,10,Darth Vader,Dark Lord of the Sith,TRUE,Leader,"Aggression,Villainy",7,"Force,Imperial,Sith","Action [1{R}, {T}]: If you played a {Villainy} card this phase, deal 1 damage to a unit and 1 damage to a base.
+
+Epic Action: If you control 7 or more resources, deploy this leader.",On Attack: You may deal 2 damage to a unit.,0,5,8,0,Borja Pindado,5/16/2023,FFG,https://starwarsunlimited.com/articles/star-wars-unlimited-first-look,12,0,0,0,0,,,
+SOR,11,Grand Inquisitor,Hunting the Jedi,TRUE,Leader,"Aggression,Villainy",6,"Force,Imperial,Inquisitor",Action [{T}]: Deal 2 damage to a friendly unit with 3 or less power and ready it.,On Attack: You may deal 1 damage to another friendly unit with 3 or less power and ready it.,0,3,6,3,Borja Pindado,9/29/2023,FFG,https://twitter.com/UnlimitedFFG/status/1707772416716419580,,,,,,,,
+SOR,12,IG-88,Ruthless Bounty Hunter,TRUE,Leader,"Aggression,Villainy",5,"Underworld,Droid,Bounty Hunter","Action [{T}]: Attack with a unit. If you control more units than the defending player, the attacker gets +1/+0 for this attack.",Each other friendly unit gains Raid 1.,0,5,4,1,Hoan Nguyen,1/5/2024,FFG,https://twitter.com/UnlimitedFFG/status/1743301422102229280,112,0,0,0,0,,,
+SOR,13,Cassian Andor,Dedicated to the Rebellion,TRUE,Leader,"Aggression,Heroism",6,Rebel,"Action [{R1}, {T}]: If you've dealt 3 or more damage to an enemy base this phase, draw a card.
+
+Epic Action: If you control 6 or more resources, deploy this leader.","Saboteur
+
+When you deal damage to an enemy base: You may draw a card. Use this ability only once each round.",0,4,6,3,Mickael Balloul,12/22/2023,FFG,https://www.instagram.com/p/C1KUe03MbJt/,,,,,,,,
+SOR,14,Sabine Wren,Galvanized Revolutionary,TRUE,Leader,"Aggression,Heroism",4,"Mandalorian,Rebel,Spectre",Action [{T}]: Deal 1 damage to each base.,On Attack: Deal 1 damage to each enemy base.,0,2,5,1,Eslam Aboshady,9/15/2023,FFG,https://www.instagram.com/p/CxN3s5_sJzH/,,,,,,,,
+SOR,15,Boba Fett,Collecting the Bounty,TRUE,Leader,"Cunning,Villainy",5,"Underworld,Bounty Hunter","When an enemy unit leaves play: You may exhaust this leader. If you do, ready a resource.
+
+Epic Action: If you control 5 or more resources, deploy this leader.","When this unit completes an attack: If an enemy unit left play this phase, ready up to 2 resources.",0,4,7,1,French Carlomagno,8/18/2023,FFG,https://www.instagram.com/p/CwFxcoOtMnm/,,,,,,,,
+SOR,16,Grand Admiral Thrawn,Patient and Insightful,TRUE,Leader,"Cunning,Villainy",6,"Imperial,Official","When the action phase starts: Look at the top card of each player's deck.
+
+Action [{R1}, {T}]: Reveal the top card of any player's deck. Exhaust a unit that costs the same as or less than the revealed card.
+
+Epic Action: If you control 6 or more resources, deploy this leader.","When the action phase starts: Look at the top card of each player's deck.
+
+On Attack: Reveal the top card of any player's deck. Exhaust a unit that costs the same as or less than the revealed card.",0,3,9,3,Ivan Dedov,11/10/2023,FFG,https://www.instagram.com/p/CzeLE_eMZz6/,150,0,0,0,0,,,
+SOR,17,Han Solo,Audacious Smuggler,TRUE,Leader,"Cunning,Heroism",6,Underworld,"Action [{T}]: Put a card from your hand into play as a resource and ready it. At the start of the next action phase, defeat a resource you control.","On Attack: Put the top card of your deck into play as a resource and ready it. At the start of the next action phase, defeat a resource you control.",0,4,6,3,David Nash,10/13/2023,FFG,https://twitter.com/UnlimitedFFG/status/1712848845753770367,,,,,,,,
+SOR,18,Jyn Erso,Resisting Oppression,TRUE,Leader,"Cunning,Heroism",6,Rebel,Action [{T}]: Attack with a unit. The defender gets -1/-0 for this attack.,"When a friendly unit is attacking, the defender gets -1/-0.",0,4,7,1,Amélie Hutt,11/24/2023,FFG,https://www.instagram.com/p/C0COM8hs2HS/,160,0,0,0,0,,,
+SOR,19,Security Complex,,FALSE,Base,Vigilance,,Scarif,Epic Action: Give a Shield token to a non-leader unit.,,,,25,3,Tyler Edlin,8/15/2023,FFG,https://www.instagram.com/p/Cv-DDcqtgAz/,,,,,,,,
+SOR,20,Capital City,,FALSE,Base,Vigilance,,Lothal,,,,,30,1,Sebastián Guidobono,1/4/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,,,,,,,,
+SOR,21,Dagobah Swamp,,FALSE,Base,Vigilance,,Dagobah,,,,,30,1,Tyler Edlin,6/27/2023,FFG Stream,https://www.youtube.com/watch?v=SunSj70YP8o,,,,,,,,
+SOR,22,Energy Conversion Lab,,FALSE,Base,Command,,Eadu,Epic Action: Play a unit that costs 6 or less from your hand. Give it Ambush for this phase.,,,,25,3,Adrien Girod,9/12/2023,FFG,https://www.instagram.com/reel/CxGJTR7Nhy1/,,,,,,,,
+SOR,23,Command Center,,FALSE,Base,Command,,Death Star,,,,,30,1,Stephen Zavala,6/27/2023,FFG Stream,https://www.youtube.com/watch?v=SunSj70YP8o,,,,,,,,
+SOR,24,Echo Base,,FALSE,Base,Command,,Hoth,,,,,30,1,Stephen Zavala,11/30/2023,FFG,,,,,,,,,
+SOR,25,Tarkintown,,FALSE,Base,Aggression,,Lothal,Epic Action: Deal 3 damage to a damaged non-leader unit.,,,,25,3,Adrien Girod,10/10/2023,FFG,https://twitter.com/UnlimitedFFG/status/1711766123614458305,,,,,,,,
+SOR,26,Catacombs of Cadera,,FALSE,Base,Aggression,,Jedha,,,,,30,1,Tyler Edlin,6/27/2023,FFG Stream,https://www.youtube.com/watch?v=SunSj70YP8o,,,,,,,,
+SOR,27,Kestro City,,FALSE,Base,Aggression,,Vardos,,,,,30,1,Stephen Zavala,1/4/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,,,,,,,,
+SOR,28,Jedha City,,FALSE,Base,Cunning,,Jedha,Epic Action: Give a non-leader unit -4/-0 for this phase.,,,,25,3,Rocío Espín,11/6/2023,FFG,https://www.instagram.com/p/CzT34ezMonH/,,,,,,,,
+SOR,29,Administrator's Tower,,FALSE,Base,Cunning,,Cloud City,,,,,30,1,Tyler Edlin,6/27/2023,FFG Stream,https://www.youtube.com/watch?v=SunSj70YP8o,,,,,,,,
+SOR,30,Chopper Base,,FALSE,Base,Cunning,,Atollon,,,,,30,1,Tyler Edlin,1/4/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,,,,,,,,
+SOR,31,Inferno Four,Unforgetting,TRUE,Unit,"Vigilance,Villainy",2,"Imperial,Vehicle,Fighter",When Played/When Defeated: Look at the top 2 cards of your deck. Put any number of them on the bottom of your deck and the rest on top in any order.,,1,2,3,2,Randall Mackey,12/19/2023,Garbage Rollers,https://garbagerollers.com/2023/12/19/interview-with-lead-designer-danny-schaefer-exclusive-card-reveals/,189,0,0,0,1,,,
+SOR,32,Scout Bike Pursuer,,FALSE,Unit,"Vigilance,Villainy",2,"Imperial,Trooper",Grit,,0,1,4,1,Mickael Balloul,12/7/2023,El Valle del Jedi,https://www.youtube.com/watch?v=IPHEMRW7h0Q,173,0,0,0,0,Grit,,
+SOR,33,Death Trooper,,FALSE,Unit,"Vigilance,Villainy",3,"Imperial,Trooper",When Played: Deal 2 damage to a friendly ground unit and 2 damage to an enemy ground unit.,,0,3,3,1,Borja Pindado,9/13/2023,Garbage Rollers,https://garbagerollers.com/2023/09/13/are-we-blind-deploy-the-spoilers/,98,0,0,2,0,,,
+SOR,34,Del Meeko,Providing Overwatch,TRUE,Unit,"Vigilance,Villainy",3,"Imperial,Trooper","Restore 1
+
+Each event an opponent plays costs {R1} more.",,0,3,3,3,Ario Murti,12/14/2023,Hunter & Friends - Brettspiele,https://www.youtube.com/shorts/awCKPmCwtUE,188,0,0,0,0,Restore 1,,
+SOR,35,Lieutenant Childsen,Death Star Prison Warden,TRUE,Unit,"Vigilance,Villainy",4,"Imperial,Official","Sentinel
+
+When Played: Reveal up to 4 {Vigilance} cards from your hand. For each card revealed this way, give an Experience token to this unit.",,0,2,2,2,Yvette Chua,8/9/2023,FFG Stream,https://www.youtube.com/watch?v=Ks1eLGb5UFg,67,2,2,0,0,Sentinel,,
+SOR,36,Gideon Hask,Ruthless Loyalist,TRUE,Unit,"Vigilance,Villainy",5,"Imperial,Trooper",When an enemy unit is defeated: Give an Experience token to a friendly unit.,,0,5,5,3,Amélie Hutt,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,262,1,1,0,0,,,
+SOR,37,Academy Defense Walker,,FALSE,Unit,"Vigilance,Villainy",6,"Imperial,Vehicle,Walker","Sentinel
+
+When Played: Give an Experience token to each friendly damaged unit.",,0,5,5,1,Ario Murti,10/25/2023,FFG Stream,https://www.youtube.com/watch?v=6_KuVhvdcX8,134,1,1,0,0,Sentinel,,
+SOR,38,Count Dooku,Darth Tyranus,TRUE,Unit,"Vigilance,Villainy",7,"Force,Separatist,Sith","Shielded
+
+When Played: You may defeat a unit with 4 or less remaining HP.",,0,5,4,3,Mona Finden,10/20/2023,FFG Stream,,125,0,0,4,0,Shielded,,
+SOR,39,AT-AT Suppressor,,FALSE,Unit,"Vigilance,Villainy",8,"Imperial,Vehicle,Walker",When Played: Exhaust all ground units.,,0,8,8,2,Christian Papazoglakis,1/3/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,213,0,0,0,0,,,
+SOR,40,Avenger,Hunting Star Destroyer,TRUE,Unit,"Vigilance,Villainy",9,"Imperial,Vehicle,Capital Ship",When Played/On Attack: An opponent chooses a non-leader unit they control. Defeat that unit.,,1,8,8,4,Francois Cannels,12/6/2023,FFG Stream,https://www.youtube.com/watch?v=FbA5ZtoUegE,,,,,,,,
+SOR,41,Power of the Dark Side,,FALSE,Event,"Vigilance,Villainy",3,Innate,An opponent chooses a unit they control. Defeat that unit.,,,,,2,Eslam Aboshady,1/13/2024,Wampa Radio,https://www.youtube.com/watch?v=pEplQWszQzY,225,0,0,0,0,,,
+SOR,42,Search Your Feelings,,FALSE,Event,"Vigilance,Villainy",4,Innate,Search your deck for a card and draw it.,,,,,3,David Nash,11/3/2023,Scrawl,https://www.youtube.com/watch?v=-u_TbUj2vac,,,,,,,,
+SOR,43,Superlaser Blast,,FALSE,Event,"Vigilance,Villainy",8,"Disaster,Tactic",Defeat all units.,,,,,4,Liana Anatolevich,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,264,0,0,0,0,,,
+SOR,44,Restored ARC-170,,FALSE,Unit,"Vigilance,Heroism",2,"Rebel,Vehicle,Fighter",Restore 1,,1,2,3,1,Arthur Mougne,7/3/2023,I Rebel,https://www.youtube.com/watch?v=Q_n9IbiXe6c,13,0,0,0,0,Restore 1,,
+SOR,45,Yoda,Old Master,TRUE,Unit,"Vigilance,Heroism",3,"Force,Jedi","Restore 2
+
+When Defeated: Choose any number of players. They each draw a card.",,0,2,4,2,Alexandria Huntington,6/27/2023,FFG Stream,https://www.youtube.com/watch?v=SunSj70YP8o,19,0,0,0,1,Restore 2,,
+SOR,46,Consular Security Force,,FALSE,Unit,"Vigilance,Heroism",4,"Rebel,Trooper",,,0,3,7,1,Rebecca Farrow,6/27/2023,Quickstart Rules,https://www.youtube.com/watch?v=SunSj70YP8o,,,,,,,,
+SOR,47,Kanan Jarrus,Revealed Jedi,TRUE,Unit,"Vigilance,Heroism",4,"Force,Jedi,Rebel,Spectre",On Attack: You may discard 1 card from the defending player's deck for each friendly Spectre unit. Heal 1 damage from your base for each different aspect among the discarded cards.,,0,4,5,2,Sandra Chlewińska,9/20/2023,FFG,https://www.youtube.com/watch?v=dCu_3gDUx2o,103,0,0,0,0,Restore 1,,
+SOR,48,Vigilant Honor Guards,,FALSE,Unit,"Vigilance,Heroism",5,Rebel,"While this unit is undamaged, it gains Sentinel.",,0,4,6,1,Amad Mir,7/28/2023,Strictly Casual,https://www.youtube.com/shorts/vnenhAMgyM4,54,0,0,0,0,Sentinel (Conditional),,
+SOR,49,Obi-Wan Kenobi,Following Fate,TRUE,Unit,"Vigilance,Heroism",6,"Force,Jedi","Sentinel
+
+When Defeated: Give 2 Experience tokens to another friendly unit. If it's a Force unit, draw a card.",,0,4,6,3,Amélie Hutt,8/9/2023,FFG Stream,https://www.youtube.com/watch?v=Ks1eLGb5UFg,66,2,2,0,0,Sentinel,,
+SOR,50,The Ghost,Spectre Home Base,TRUE,Unit,"Vigilance,Heroism",6,"Rebel,Vehicle,Transport,Spectre","Shielded
+
+When Played/On Attack: You may give a Shield token to another Spectre unit.",,1,5,5,2,Fernando Correa,2/6/2024,FFG,https://www.instagram.com/p/C3AxBgTstFs/,249,0,0,0,0,Shielded,Shielded (Conditional),
+SOR,51,Luke Skywalker,Jedi Knight,TRUE,Unit,"Vigilance,Heroism",7,"Force,Jedi,Rebel","Restore 3
+
+When Played: Give an enemy unit -3/-3 for this phase. If a friendly unit was defeated this phase, give that enemy unit -6/-6 for this phase instead.",,0,6,7,4,Eric Hibbeler,11/29/2023,FFG Stream,https://www.youtube.com/watch?v=bAs6Tvc4FLI,165,0,0,3,0,Restore 3,,
+SOR,52,Redemption,Medical Frigate,TRUE,Unit,"Vigilance,Heroism",8,"Rebel,Vehicle,Capital Ship","Sentinel
+
+When Played: Heal up to 8 total damage from any number of units and/or bases. Deal that much damage to this unit.",,1,6,9,3,Christian Papazoglakis,12/13/2023,FFG Stream,https://www.youtube.com/watch?v=mhuftCbqDvE,182,0,0,0,0,Sentinel,,
+SOR,53,Luke's Lightsaber,,TRUE,Upgrade,"Vigilance,Heroism",2,"Item,Weapon,Lightsaber","Attach to a non-Vehicle unit.
+
+When Played: If attached unit is Luke Skywalker, heal all damage from him and give a Shield token to him.",,,3,1,0,French Carlomagno,8/23/2023,FFG Stream,https://www.youtube.com/watch?v=MQWzu7tz7lg,,,,,,,,
+SOR,54,Jedi Lightsaber,,FALSE,Upgrade,"Vigilance,Heroism",3,"Item,Weapon,Lightsaber","Attach to a non-Vehicle unit.
+
+If attached unit is a Force unit, it gains: ""On Attack: Give the defender -2/-2 for this phase.""",,,3,3,3,Arthur Mougne,11/29/2023,FFG Stream,https://www.youtube.com/watch?v=bAs6Tvc4FLI,,,,,,,,
+SOR,55,The Force Is With Me,,FALSE,Event,"Vigilance,Heroism",4,Force,"Choose a friendly unit and give 2 Experience tokens to it. If you control a Force unit, also give a Shield token to the chosen unit.
+
+You may attack with the chosen unit.",,,,,2,Ann Maulina,1/24/2024,Nelson All Over Cards,https://www.youtube.com/watch?v=LQQndwDH05c,237,0,0,0,0,,,
+SOR,56,Bendu,The One In The Middle,TRUE,Unit,"Vigilance,Vigilance",6,"Force,Creature","Sentinel
+
+On Attack: The next non-{Heroism}, non-{Villainy} card you play this turn costs {R2} less.",,0,4,7,3,Luke Harrington,1/23/2024,FFG,https://twitter.com/UnlimitedFFG/status/1749824465234538756,235,0,0,0,0,Sentinel,,
+SOR,57,Protector,,FALSE,Upgrade,"Vigilance,Vigilance",1,Innate,Attached unit gains Sentinel.,,,1,1,2,Alex Accorsi,1/10/2024,FFG,https://twitter.com/UnlimitedFFG/status/1745113384712855999,221,0,0,0,0,,,
+SOR,58,Vigilance,,FALSE,Event,"Vigilance,Vigilance",4,Innate,"Choose two, in any order:
+- Discard 6 cards from an opponent's deck.
+- Heal 5 damage from a base.
+- Defeat a unit with 3 or less remaining HP.
+- Give a Shield token to a unit.",,,,,4,Christina Laviña,8/9/2023,FFG Stream,https://www.youtube.com/watch?v=Ks1eLGb5UFg,,,,,,,,
+SOR,59,2-1B Surgical Droid,,FALSE,Unit,Vigilance,1,Droid,On Attack: You may heal 2 damage from another unit.,,0,1,3,1,Hoan Nguyen,8/3/2023,FFG Stream,https://www.youtube.com/watch?v=HgjQ-bMGkj4,,,,,,,,
+SOR,60,Distant Patroller,,FALSE,Unit,Vigilance,2,"Fringe,Vehicle,Fighter",When Defeated: You may give a Shield token to a {Vigilance} unit.,,1,2,1,2,Francois Cannels,8/9/2023,Polygon,https://www.polygon.com/23826374/star-wars-unlimited-rules-preview-tcg-release-date-price,65,0,0,0,0,Shielded (Conditional),,
+SOR,61,Guardian of the Whills,,FALSE,Unit,Vigilance,2,"Force,Fringe",This first upgrade you play on this unit each round costs {R1} less.,,0,2,2,1,Alexandria Huntington,1/29/2024,Jade Throne Podcast,https://podcasts.apple.com/us/podcast/the-jade-throne-podcast/id1237838530,243,0,0,0,0,,,
+SOR,62,Regional Governor,,FALSE,Unit,Vigilance,2,"Imperial,Official","When Played: Name a card. While this unit is in play, opponents can't play the named card.",,0,1,4,3,Yvette Chua,11/14/2023,Maindeck,https://www.youtube.com/watch?v=dKpX3vm5Fns,,,,,,,,
+SOR,63,Cloud City Wing Guard,,FALSE,Unit,Vigilance,3,"Fringe,Trooper",Sentinel,,0,2,4,1,Tomas Oleksak,6/23/2023,Wossy Plays,https://www.youtube.com/watch?v=ZDKza3yNX9w,21,0,0,0,0,Sentinel,,
+SOR,64,Wilderness Fighter,,FALSE,Unit,Vigilance,3,Trooper,Shielded,,0,2,4,1,Ash Pierce,11/28/2023,TowerNumberNine,https://www.youtube.com/watch?v=ok7P-rP_E7Q,162,0,0,0,0,Shielded,,
+SOR,65,Baze Malbus,Temple Guardian,TRUE,Unit,Vigilance,4,Fringe,"Grit
+
+While you have the initiative, this unit gains Sentinel.",,0,2,5,2,Milos Slaykovic,1/26/2024,FFG,https://twitter.com/UnlimitedFFG/status/1750911579275563498/photo/1,240,0,0,0,0,Grit,Sentinel (Conditional),
+SOR,66,System Patrol Craft,,FALSE,Unit,Vigilance,4,"Vehicle,Fighter",Sentinel,,1,3,4,1,Christian Papazoglakis,8/3/2023,FFG Stream,https://www.youtube.com/watch?v=HgjQ-bMGkj4,61,0,0,0,0,Sentinel,,
+SOR,67,Rugged Survivors,,FALSE,Unit,Vigilance,5,Fringe,"Grit
+
+On Attack: If you control a leader unit, you may draw a card.",,0,3,5,1,Elena Skitalets,9/4/2023,FFG,https://www.instagram.com/reel/Cwxi8kopeyO,88,0,0,0,0,Grit,,
+SOR,68,Cargo Juggernaut,,FALSE,Unit,Vigilance,6,"Vehicle,Tank","Shielded
+
+When Played: If you control another {Vigilance} unit, heal 4 damage from your base.",,0,4,6,1,Thomas Wievegg,1/3/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,214,0,0,0,0,Shielded,Restore 2,
+SOR,69,Resilient,,FALSE,Upgrade,Vigilance,1,Innate,,,,0,3,1,Joshua Carson,9/8/2023,Cross World TCG,https://www.youtube.com/watch?v=3UzLC-tKExk,,,,,,,,
+SOR,70,Devotion,,FALSE,Upgrade,Vigilance,2,Innate,Attached unit gains Restore 2.,,,1,1,2,Liana Anatolevich,1/3/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,216,0,0,0,0,,,
+SOR,71,Electrostaff,,FALSE,Upgrade,Vigilance,2,"Item,Weapon","Attach to a non-VEHICLE unit. 
+
+While attached unit is defending, the attacker gets –1/–0.",,,2,2,3,Arthur Mougne,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,258,0,0,0,0,,,
+SOR,72,Entrenched,,FALSE,Upgrade,Vigilance,2,Condition,Attached unit can't attack bases.,,,3,3,2,Borja Pindado,8/21/2023,FFG,https://www.instagram.com/p/CwNfzmfsn6K/,,,,,,,,
+SOR,73,Moment of Peace,,FALSE,Event,Vigilance,1,Innate,Give a Shield token to a unit.,,,,,1,Joshua Carson,12/27/2023,Nerdly,https://www.nerdly.co.uk/2023/12/27/exclusive-sneak-peek-at-3-upcoming-star-wars-unlimited-trading-cards/,,,,,,,,
+SOR,74,Repair,,FALSE,Event,Vigilance,1,Supply,Heal 3 damage from a unit or base.,,,,,1,Joshua Carson,7/2/2023,Maindeck,https://www.youtube.com/watch?v=tIVvKt--lPc,,,,,,,,
+SOR,75,It Binds All Things,,FALSE,Event,Vigilance,2,Force,"Heal up to 3 damage from a unit. If you control a Force unit, you may deal that much damage to another unit.",,,,,3,Amélie Hutt,8/28/2023,FFG,https://www.instagram.com/reel/CwfhXlssI8J/,,,,,,,,
+SOR,76,Make an Opening,,FALSE,Event,Vigilance,3,Tactic,Give a unit -2/-2 for this phase. Heal 2 damage from your base.,,,,,1,Kevin Libranda,1/3/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,,,,,,,,
+SOR,77,Takedown,,FALSE,Event,Vigilance,4,Tactic,Defeat a unit with 5 or less remaining HP.,,,,,2,Eslam Aboshady,9/27/2023,FFG Stream,https://www.youtube.com/watch?v=OZGbAKs21W8,,,,,,,,
+SOR,78,Vanquish,,FALSE,Event,Vigilance,5,Tactic,Defeat a non-leader unit.,,,,,1,Eslam Aboshady,6/27/2023,FFG Stream,https://www.youtube.com/watch?v=SunSj70YP8o,,,,,,,,
+SOR,79,Admiral Piett,Captain of the Executor,TRUE,Unit,"Command,Villainy",2,"Imperial,Official",Each friendly non-leader unit that costs 6 or more gains Ambush.,,0,1,4,2,Denis Medri,9/8/2023,Cross World TCG,https://www.youtube.com/watch?v=3UzLC-tKExk,95,0,0,0,0,Ambush (Conditional),,
+SOR,80,General Tagge,Concerned Commander,TRUE,Unit,"Command,Villainy",2,"Imperial,Official",When Played: Give an Experience token to each of up to 3 Trooper units.,,0,2,2,2,Eric Hibbeler,10/24/2023,Max Tapera,https://www.youtube.com/watch?v=rSiEAriAigc,131,2,2,0,0,,,
+SOR,81,Seasoned Shoretrooper,,FALSE,Unit,"Command,Villainy",2,"Imperial,Trooper","While you control 6 or more resources, this unit gets +2/+0.",,0,2,3,1,Milos Slaykovic,10/24/2023,Max Tapera,https://www.youtube.com/watch?v=rSiEAriAigc,,,,,,,,
+SOR,82,Emperor's Royal Guard,,FALSE,Unit,"Command,Villainy",3,Imperial,"While you control an OFFICIAL unit, this unit gains Sentinel.
+
+While you control Emperor Palpatine (as a leader or unit), this unit gets +0/+1.",,0,3,4,3,French Carlomagno,7/12/2023,FFG Stream,https://www.youtube.com/watch?v=6cWmjXCAFKg,24,0,1,0,0,Sentinel (Conditional),,
+SOR,83,Superlaser Technician,,FALSE,Unit,"Command,Villainy",3,Imperial,When Defeated: You may put this unit into play as a resource and ready it.,,0,2,1,1,Denis Medri,7/22/2023,Wampa Radio,https://www.youtube.com/watch?v=v2anF9BpUsA,,,,,,,,
+SOR,84,Grand Moff Tarkin,Death Star Overseer,TRUE,Unit,"Command,Villainy",4,"Imperial,Official","When Played: Search the top 5 cards of your deck for up to 2 IMPERIAL cards, reveal them, and draw them.",,0,2,3,0,Steve Morris,5/16/2023,FFG,https://starwarsunlimited.com/articles/star-wars-unlimited-first-look,25,0,0,0,2,,,
+SOR,85,Rukh,Thrawn's Assassin,TRUE,Unit,"Command,Villainy",5,Imperial,"Shielded
+
+When this unit deals combat damage to a non-leader unit while attacking: Defeat that unit.",,0,3,6,3,Elena Skitalets,1/25/2024,Geekbecois,https://geekbecois.com/star-wars-unlimited-annonce/,238,0,0,0,0,Shielded,,
+SOR,86,Gladiator Star Destroyer,,FALSE,Unit,"Command,Villainy",6,"Imperial,Vehicle,Capital Ship",When Played: Give a unit Sentinel for this phase.,,1,5,6,1,Arthur Mougne,8/23/2023,FFG Stream,https://www.youtube.com/watch?v=MQWzu7tz7lg,78,0,0,0,0,Sentinel (Conditional),,
+SOR,87,Darth Vader,Commanding the First Legion,TRUE,Unit,"Command,Villainy",7,"Force,Imperial,Sith","Ambush
+
+When Played: Search the top 10 cards of your deck for any number of {Villainy} units with combined cost 3 or less and play each of them for free.",,0,5,7,4,Ivan Dedov,12/25/2023,FFG,https://www.instagram.com/p/C1SC47NJxSl/,196,3,3,0,0,Ambush,,
+SOR,88,Blizzard Assault AT-AT,,FALSE,Unit,"Command,Villainy",8,"Imperial,Vehicle,Walker",When this unit attacks and defeats a unit: You may deal the excess damage from this attack to an enemy ground unit.,,0,9,9,2,Arthur Mougne,8/22/2023,Rolling Dice and Taking Names,https://twitter.com/DiceAndNames/status/1694032378761560112,,,,,,,,
+SOR,89,Relentless,Konstantine's Folly,TRUE,Unit,"Command,Villainy",9,"Imperial,Vehicle,Capital Ship",The first event played by each opponent each round loses all abilities.,,1,8,8,3,Ross Taylor,8/9/2023,Polygon,https://www.polygon.com/23826374/star-wars-unlimited-rules-preview-tcg-release-date-price,,,,,,,,
+SOR,90,Devastator,Inescapable,TRUE,Unit,"Command,Villainy",10,"Imperial,Vehicle,Capital Ship","Sentinel
+
+Overwhelm
+
+When Played: You may deal damage to a unit equal to the number of resources you control.",,1,10,10,4,Ignacio Bazan Lazcano,11/2/2023,Brettballett,https://www.youtube.com/watch?v=pd4t3v3V3FI,137,0,0,10,0,Overwhelm,Sentinel,
+SOR,91,The Emperor's Legion,,FALSE,Event,"Command,Villainy",2,"Imperial,Supply",Return each unit in your discard pile that was defeated this phase to your hand.,,,,,3,Eslam Aboshady,2/1/2024,FFG,https://twitter.com/UnlimitedFFG/status/1753085917370212570,246,0,0,0,0,,,
+SOR,92,Overwhelming Barrage,,FALSE,Event,"Command,Villainy",5,Tactic,"Give a friendly unit +2/+2 for this phase. Then, it deals damage equal to its power divided as you choose among any number of other units.",,,,,2,Francois Cannels,8/23/2023,FFG Stream,https://www.youtube.com/watch?v=MQWzu7tz7lg,,,,,,,,
+SOR,93,Alliance Dispatcher,,FALSE,Unit,"Command,Heroism",1,Rebel,Action [{T}]: Play a unit from your hand. It costs {R1} less.,,0,1,2,1,Milos Slaykovic,1/18/2024,Papskubber.dk,,230,0,0,0,0,,,
+SOR,94,Bail Organa,Rebel Councilor,TRUE,Unit,"Command,Heroism",1,"Rebel,Official",,Action [{T}]: Give an Experience token to another friendly unit.,0,1,2,3,Milos Slaykovic,2/8/2024,FFG,https://twitter.com/UnlimitedFFG/status/1755622627765350488,250,0,0,0,0,,,
+SOR,95,Battlefield Marine,,FALSE,Unit,"Command,Heroism",2,"Rebel,Trooper",,,0,3,3,1,David Buisan,11/29/2023,FFG Stream,https://www.youtube.com/watch?v=bAs6Tvc4FLI,,,,,,,,
+SOR,96,Mon Mothma,Voice of the Rebellion,TRUE,Unit,"Command,Heroism",2,"Rebel,Official","When Played: Search the top 5 cards of your deck for a Rebel card, reveal it, and draw it.",,0,1,3,2,Eric Hibbeler,1/3/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,212,0,0,0,1,,,
+SOR,97,Admiral Ackbar,Brilliant Strategist,TRUE,Unit,"Command,Heroism",3,"Rebel,Official","Restore 1
+
+When Played: You may deal damage to a unit equal to the number of units your control in its arena.",,0,1,4,3,Luke Harrington,9/6/2023,FFG Stream,https://www.youtube.com/watch?v=DkykRONC6GE,90,0,0,2,0,Restore 1,,
+SOR,98,Echo Base Defender,,FALSE,Unit,"Command,Heroism",3,"Rebel,Trooper",,Sentinel,0,4,3,1,Thomas Wievegg,12/27/2023,Nerdly,https://www.nerdly.co.uk/2023/12/27/exclusive-sneak-peek-at-3-upcoming-star-wars-unlimited-trading-cards/,198,0,0,0,0,Sentinel,,
+SOR,99,Bright Hope,The Last Transport,TRUE,Unit,"Command,Heroism",4,"Rebel,Vehicle,Transport","Sentinel
+
+When Played: You may return a friendly non-leader ground unit to its owner's hand. If you do, draw a card.",,1,2,6,2,Randall Mackey,10/22/2023,FFG Stream,,129,0,0,0,1,Sentinel,,
+SOR,100,Wedge Antilles,Star of the Rebellion,TRUE,Unit,"Command,Heroism",5,Rebel,Each friendly Vehicle unit gets +1/+1 and gains Ambush.,,0,5,5,3,Amélie Hutt,10/22/2023,FFG Stream,,128,1,1,0,0,Ambush,,
+SOR,101,Rogue Squadron Skirmisher,,FALSE,Unit,"Command,Heroism",6,"Rebel,Vehicle,Speeder","Ambush
+
+When Played: Return a unit that costs 2 or less from your discard pile to your hand.",,0,4,6,2,Ross Taylor,12/22/2023,Jedi News,https://www.jedinews.com/featured/articles/exclusive-reveal-of-two-new-cards-for-star-wars-unlimited/,194,0,0,0,1,Ambush,,
+SOR,102,Home One,Alliance Flagship,TRUE,Unit,"Command,Heroism",8,"Rebel,Vehicle,Capital Ship","Restore 2
+
+Each other friendly unit gains Restore 1.
+
+When Played: Play a {Heroism} unit from your discard pile. It costs {R3} less.",,1,7,7,4,Amélie Hutt,9/6/2023,FFG Stream,https://www.youtube.com/watch?v=DkykRONC6GE,89,0,0,0,0,Restore 2,Restore 2 (Conditional),
+SOR,103,Rebel Assault,,FALSE,Event,"Command,Heroism",1,"Rebel,Tactic","Attack with a Rebel unit. It gets +1/+0 for this attack.
+
+Then, attack with another Rebel unit. It gets +1/+0 for this attack.",,,,,2,French Carlomagno,1/31/2024,FFG,https://www.youtube.com/watch?v=YyevyGEv1gg,244,0,0,0,0,,,
+SOR,104,U-Wing Reinforcement,,FALSE,Event,"Command,Heroism",7,Supply,Search the top 10 cards of your deck for up to 3 units with combined cost 7 or less and play each of them for free.,,,,,3,Amad Mir,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,253,0,0,0,0,,,
+SOR,105,General Krell,Heartless Tactician,TRUE,Unit,"Command,Command",5,"Force,Jedi,Republic","Each other friendly unit gains: ""When Defeated: You may draw a card.""",,0,5,4,3,Luke Harrington,1/29/2024,FFG,https://twitter.com/UnlimitedFFG/status/1751998786040188941,241,0,0,0,1,,,
+SOR,106,Attack Pattern Delta,,FALSE,Event,"Command,Command",3,Tactic,"Give a friendly unit +3/+3 for this phase.
+
+Give another friendly unit +2/+2 for this phase.
+
+Give a third friendly unit +1/+1 for this phase.",,,,,2,French Carlomagno,12/11/2023,FFG,https://twitter.com/UnlimitedFFG/status/1734241747914342509,,,,,,,,
+SOR,107,Command,,FALSE,Event,"Command,Command",4,Innate,"Choose 2, in any order:
+- Give 2 Experience tokens to a unit.
+- A friendly unit deals damage equal to its power to a non-unique enemy unit.
+- Put this event into play as a resource.
+- Return a unit from your discard pile to your hand.",,,,,4,Maxine Vee,9/6/2023,FFG Stream,https://www.youtube.com/watch?v=DkykRONC6GE,,,,,,,,
+SOR,108,Vanguard Infantry,,FALSE,Unit,Command,1,Trooper,When Defeated: You may give an Experience token to a unit.,,0,1,2,1,Amad Mir,1/2/2024,Tabletop Misfits,https://www.youtube.com/watch?v=S5RKnhahLWo,202,1,1,0,0,,,
+SOR,109,Colonel Yularen,ISB Director,TRUE,Unit,Command,2,"Imperial,Official",When you play a {Command} unit: Heal 1 damage from your base.,,0,2,3,2,David Buisan,9/11/2023,What A Piece Of Junk!,https://www.youtube.com/watch?v=9jOKd4qzld4,,,,,,,,
+SOR,110,Frontline Shuttle,,FALSE,Unit,Command,2,"Vehicle,Transport","Action [defeat this unit]: Attack with a unit, even if it's exhausted. It can't attack bases for this attack.",,1,1,3,3,French Carlomagno,1/11/2024,The Nerd Shelves,https://www.youtube.com/watch?v=_C5P1-HBhKw,223,0,0,0,0,,,
+SOR,111,Patrolling V-Wing,,FALSE,Unit,Command,2,"Vehicle,Fighter",When Played: Draw a card.,,1,1,1,1,Amad Mir,11/17/2023,Deantramp,https://www.youtube.com/watch?v=JXNc74urnh4,156,0,0,0,1,,,
+SOR,112,Consortium StarViper,,FALSE,Unit,Command,3,"Fringe,Vehicle,Fighter","While you have the initiative, this unit gains Restore 2.",,1,3,3,1,Christian Papazoglakis,9/25/2023,FFG,https://www.instagram.com/p/CxnnohUtk2w/,106,0,0,0,0,Restore 2 (Conditional),,
+SOR,113,Homestead Militia,,FALSE,Unit,Command,3,"Fringe,Trooper","While you control 6 or more resources, this unit gains Sentinel.",,0,3,4,1,Joshua Carson,10/13/2023,holocron.card.hub,https://www.instagram.com/reel/CyVwMuctwNJ/?igshid=MzRlODBiNWFlZA,121,0,0,0,0,Sentinel (Conditional),,
+SOR,114,Escort Skiff,,FALSE,Unit,Command,4,"Underworld,Vehicle,Speeder","While you control another {Command} unit, this unit gains Ambush.",,0,4,4,1,Mickael Balloul,1/24/2024,Nelson All Over Cards,https://www.youtube.com/watch?v=LQQndwDH05c,236,0,0,0,0,Ambush (Conditional),,
+SOR,115,Agent Kallus,Seeking the Rebels,TRUE,Unit,Command,5,"Imperial,Trooper","Ambush
+
+When another unique unit is defeated: You may draw a card. Use this ability only once each round.",,0,4,4,3,Omercan Cirit,9/14/2023,Holocron Gaming,https://www.youtube.com/watch?v=xHGQvcV88QY,99,0,0,0,1,Ambush,,
+SOR,116,Steadfast Battalion,,FALSE,Unit,Command,5,Trooper,"Overwhelm
+
+On Attack: If you control a leader unit, give a friendly unit +2/+2 for this phase.",,0,5,5,1,Kevin Libranda,1/3/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,206,0,0,0,0,Overwhelm,,
+SOR,117,Mercenary Company,,FALSE,Unit,Command,6,"Underworld,Trooper","Ambush
+
+Overwhelm",,0,5,5,1,Elena Skitalets,1/3/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,210,0,0,0,0,Ambush,Overwhelm,
+SOR,118,97th Legion,Keeping the Peace on Sullust,TRUE,Unit,Command,7,"Imperial,Trooper",This unit gets +1/+1 for each resource you control.,,0,7,7,2,Eslam Aboshady,10/22/2023,FFG Stream,,127,7,7,0,0,,,
+SOR,119,Reinforcement Walker,,FALSE,Unit,Command,8,"Vehicle,Walker",When Played/On Attack: Look at the top card of your deck. Either draw that card or discard it and heal 3 damage from your base.,,0,6,9,2,Stephen Zavala,1/19/2024,Tom and Taha,,233,0,0,0,1,,,
+SOR,120,Academy Training,,FALSE,Upgrade,Command,2,Learned,,,,2,2,1,David Buisan,12/6/2023,L8 Night Gaming,https://youtube.com/watch?si=2OtnXSNxF2Olskga&v=3LeS8k4YWRE&feature=youtu.be,,,,,,,,
+SOR,121,Hardpoint Heavy Blaster,,FALSE,Upgrade,Command,2,"Modification,Weapon","Attach to a vehicle unit.
+
+Attached unit gains: “On Attack: If this unit isn't attacking a base, you may deal 2 damage to a unit in the defender's arena.”",,,2,2,2,Arthur Mougne,9/18/2023,FFG,https://www.instagram.com/p/CxVmD9Hsta1/,,,,,,,,
+SOR,122,Traitorous,,FALSE,Upgrade,Command,5,Innate,"When this upgrade becomes attached to a non-leader unit that costs 3 or less: Take control of that unit.
+
+When this upgrade becomes unattached from a unit: That unit's owner takes control of it.",,,0,0,3,Gretel Lusky,1/3/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,,,,,,,,
+SOR,123,Recruit,,FALSE,Event,Command,1,Supply,"Search the top 5 cards of your deck for a unit, reveal it, and draw it.",,,,,1,Borja Pindado,9/8/2023,Cross World TCG,https://www.youtube.com/watch?v=3UzLC-tKExk,,,,,,,,
+SOR,124,Tactical Advantage,,FALSE,Event,Command,1,Tactic,Give a unit +2/+2 for this phase.,,,,,1,Eslam Aboshady,10/2/2023,FFG,https://www.instagram.com/p/Cx5pMaJNKAb/,,,,,,,,
+SOR,125,Prepare for Takeoff,,FALSE,Event,Command,2,Plan,"Search the top 8 cards of your deck for up to 2 Vehicle units, reveal them, and draw them.",,,,,2,Ario Murti,9/6/2023,FFG Stream,https://www.youtube.com/watch?v=DkykRONC6GE,,,,,,,,
+SOR,126,Resupply,,FALSE,Event,Command,3,Supply,Put this event into play as a resource.,,,,,1,Robynn Frauhn,8/22/2023,Rolling Dice and Taking Names,https://twitter.com/DiceAndNames/status/1694032378761560112,,,,,,,,
+SOR,127,Strike True,,FALSE,Event,Command,3,Tactic,A friendly unit deals damage equal to its power to an enemy unit.,,,,,1,Audrey Hotte,1/3/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,,,,,,,,
+SOR,128,Death Star Stormtrooper,,FALSE,Unit,"Aggression,Villainy",1,"Imperial,Trooper",,,0,3,1,1,Ario Murti,6/27/2023,Quickstart Rules,https://www.youtube.com/watch?v=SunSj70YP8o,,,,,,,,
+SOR,129,Admiral Ozzel,Overconfident,TRUE,Unit,"Aggression,Villainy",2,"Imperial,Official",Action [{T}]: Play an Imperial unit from your hand. It enters play ready. Each opponent may ready a unit.,,0,2,3,2,Yvette Chua,8/23/2023,FFG Stream,https://www.youtube.com/watch?v=MQWzu7tz7lg,79,0,0,0,0,,,
+SOR,130,First Legion Snowtrooper,,FALSE,Unit,"Aggression,Villainy",2,"Imperial,Trooper","While attacking a damaged unit, this unit gets +2/+0 and gains Overwhelm.",,0,2,3,1,Milos Slaykovic,7/26/2023,FFG,https://starwarsunlimited.com/articles/a-taste-of-unlimited-possibilities,52,0,0,0,0,,,
+SOR,131,Fifth Brother,Fear Hunter,TRUE,Unit,"Aggression,Villainy",3,"Force,Imperial,Inquisitor","This unit gains Raid 1 for each damage on him.
+
+On Attack: You may deal 1 damage to this unit and 1 damage to another ground unit.",,0,2,4,2,Eslam Aboshady,11/17/2023,Deantramp,https://www.youtube.com/watch?v=JXNc74urnh4,155,0,0,0,0,Raid 2 (Conditional),,
+SOR,132,Imperial Interceptor,,FALSE,Unit,"Aggression,Villainy",4,"Imperial,Vehicle,Fighter",When Played: You may deal 3 damage to a space unit.,,1,3,2,1,Francois Cannels,6/27/2023,SAGA: Space Arena Ground Arena,https://www.youtube.com/watch?v=OLrH6RkqNp4,27,0,0,3,0,,,
+SOR,133,Seventh Sister,Implacable Inquisitor,TRUE,Unit,"Aggression,Villainy",5,"Force,Imperial,Inquisitor","Saboteur
+
+When this unit deals combat damage to an opponent's base: You may deal 3 damage to a ground unit that opponent controls.",,0,3,6,3,Lenka Šimečková,12/27/2023,Nerdly,https://www.nerdly.co.uk/2023/12/27/exclusive-sneak-peek-at-3-upcoming-star-wars-unlimited-trading-cards/,199,0,0,3,0,Saboteur,,
+SOR,134,Ruthless Raider,,FALSE,Unit,"Aggression,Villainy",6,"Imperial,Vehicle,Capital Ship",When Played/When Defeated: Deal 2 damage to an enemy base and 2 damage to an enemy unit.,,1,4,6,2,Christian Papazoglakis,12/6/2023,L8 Night Gaming,https://m.youtube.com/watch?si=2OtnXSNxF2Olskga&v=3LeS8k4YWRE&feature=youtu.be,172,0,0,3,0,,,
+SOR,135,Emperor Palpatine,Master of the Dark Side,TRUE,Unit,"Aggression,Villainy",8,"Force,Imperial,Sith,Official","Overwhelm
+
+When Played: Deal 6 damage divided as you choose among enemy units.",,0,6,6,3,Didier Nguyen,8/7/2023,FFG,https://twitter.com/UnlimitedFFG/status/1688565795205304320/,63,0,0,6,0,Overwhelm,,
+SOR,136,Vader's Lightsaber,,TRUE,Upgrade,"Aggression,Villainy",2,"Item,Weapon,Lightsaber","Attach to a non-VEHICLE unit.
+
+When Played: If attached unit is Darth Vader, you may deal 4 damage to a ground unit.",,,3,1,0,Arthur Mougne,6/27/2023,Quickstart Rules,https://www.youtube.com/watch?v=SunSj70YP8o,,,,,,,,
+SOR,137,Fallen Lightsaber,,FALSE,Upgrade,"Aggression,Villainy",3,"Item,Weapon,Lightsaber","Attach to a non-Vehicle unit.
+
+If attached unit is a Force unit, it gains: “On Attack: Deal 1 damage to each ground unit the defending player controls.”",,,3,3,3,Milos Slaykovic,10/5/2023,IGN,https://www.ign.com/articles/exclusive-star-wars-unlimited-release-date,,,,,,,,
+SOR,138,Force Lightning,,FALSE,Event,"Aggression,Villainy",1,Force,"Choose a unit. It loses all abilities for this phase. Then, if you control a FORCE unit, pay any number of resources and deal 2 damage to the chosen unit for each resource paid this way.",,,,,4,Eslam Aboshady,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,263,0,0,0,0,,,
+SOR,139,Force Choke,,FALSE,Event,"Aggression,Villainy",2,Force,"If you control a Force unit, this event costs {R:1} less to play.
+
+Deal 5 damage to a non-Vehicle unit. That unit's controller draws a card.",,,,,2,Stefano Landini,7/26/2023,FFG Stream,https://www.youtube.com/watch?v=Msezhwc2WE4,51,0,0,0,0,,,
+SOR,140,SpecForce Soldier,,FALSE,Unit,"Aggression,Heroism",1,"Rebel,Trooper",When Played: A unit loses Sentinel for this phase.,,0,2,2,1,Didier Nguyen,12/9/2023,Jenders Gaming,https://www.youtube.com/watch?v=ZeTe_eUeq_4,,,,,,,,
+SOR,141,Green Squadron A-Wing,,FALSE,Unit,"Aggression,Heroism",2,"Rebel,Vehicle,Fighter",Raid 2,,1,1,3,1,Francois Cannels,10/25/2023,FFG Stream,https://www.youtube.com/watch?v=6_KuVhvdcX8,133,0,0,0,0,Raid 2,,
+SOR,142,Sabine Wren,Explosives Artist,TRUE,Unit,"Aggression,Heroism",2,"Mandalorian,Rebel,Spectre","While there are at least 3 aspects among other friendly units, this unit can't be attacked.
+
+On Attack: You may deal 1 damage to the defender or to a base.",,0,2,3,2,Rebecca Farrow,9/21/2023,TCGPlayer,https://infinite.tcgplayer.com/article/Our-Star-Wars-Unlimited-Exclusive-Preview-Card-A-Rebellious-Artist/1e391d27-4595-4050-a627-7a462aaf984b,104,0,0,0,0,Raid 1,,
+SOR,143,Fighters For Freedom,,FALSE,Unit,"Aggression,Heroism",3,"Rebel,Trooper","Saboteur
+
+When you play another {Aggression} card: You may deal 1 damage to a base.",,0,3,4,2,Yvette Chua,10/11/2023,FFG Stream,https://www.youtube.com/watch?v=DzXk-TsR_YI,118,0,0,1,0,Saboteur,,
+SOR,144,Red Three,Unstoppable,TRUE,Unit,"Aggression,Heroism",3,"Rebel,Vehicle,Fighter","Raid 1
+
+Each other friendly {Heroism} unit gains Raid 1.",,1,2,3,3,Fernando Correa,12/6/2023,FFG Stream,https://www.youtube.com/watch?v=FbA5ZtoUegE,170,0,0,0,0,Raid 1,Raid 2 (Conditional),
+SOR,145,K-2SO,Cassian's Counterpart,TRUE,Unit,"Aggression,Heroism",4,"Rebel,Droid","Overwhelm
+
+When Defeated: For each opponent, choose one: either deal 3 damage to that player's base, or that player discards a card from their hand.",,0,4,4,3,Ross Taylor,12/12/2023,Nerds Strike Back,https://www.youtube.com/watch?v=ePJDbqVirTQ,180,0,0,0,0,Overwhelm,,
+SOR,146,Zeb Orrelios,Headstrong Warrior,TRUE,Unit,"Aggression,Heroism",5,"Rebel,Spectre","When this unit completes an attack: If the defender was defeated, you may deal 4 damage to a ground unit.",,0,5,5,2,Aitor Prieto,12/22/2023,Jedi News,https://www.jedinews.com/featured/articles/exclusive-reveal-of-two-new-cards-for-star-wars-unlimited/,,,,,,,,
+SOR,147,Black One,Scourge of Starkiller Base,TRUE,Unit,"Aggression,Heroism",6,"Resistance,Vehicle,Fighter","When Played/When Defeated: You may discard your hand. If you do, draw 3 cards.",,1,4,4,4,Amad Mir,11/14/2023,Discord?,,154,0,0,0,2,,,
+SOR,148,Guerilla Attack Pod,,FALSE,Unit,"Aggression,Heroism",6,"Rebel,Vehicle,Walker","Grit
+
+When Played: If a base has 15 or more damage on it, ready this unit.",,0,4,6,1,French Carlomagno,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,254,0,0,0,0,Grit,Ambush (Conditional),
+SOR,149,Mace Windu,Party Crasher,TRUE,Unit,"Aggression,Heroism",7,"Force,Jedi,Republic","Ambush
+
+When this unit attacks and defeats a unit: Ready him.",,0,5,7,4,Sandra Chlewińska,10/5/2023,IGN,https://www.ign.com/articles/exclusive-star-wars-unlimited-release-date,110,0,0,0,0,Ambush,,
+SOR,150,Heroic Sacrifice,,FALSE,Event,"Aggression,Heroism",1,Tactic,"Draw a card, then attack with a unit. For this attack, it gets +2/+0 and gains: ""When this unit deals combat damage: Defeat it.""",,,,,3,Ario Murti,1/2/2024,Tabletop Misfits,https://www.youtube.com/watch?v=S5RKnhahLWo,,,,,,,,
+SOR,151,Karabast,,FALSE,Event,"Aggression,Heroism",2,Spectre,A friendly unit deals damage to an enemy unit equal to the amount of damage on the friendly unit plus 1.,,,,,2,French Carlomagno,1/17/2024,FFG,https://starwarsunlimited.com/cards?cid=6515891401,228,0,0,0,0,,,
+SOR,152,For A Cause I Believe In,,FALSE,Event,"Aggression,Heroism",3,Innate,"Reveal the top 4 cards of your deck. For each {Heroism} card revealed this way, deal 1 damage to an enemy base. You may discard any of the revealed cards and put the rest on top of your deck in any order.",,,,,3,Eric Hibbeler,12/13/2023,FFG Stream,https://www.youtube.com/watch?v=mhuftCbqDvE,,,,,,,,
+SOR,153,Saw Gerrera,Extremist,TRUE,Unit,"Aggression,Aggression",4,Rebel,"As an additional cost for each opponent to play an event, they must deal 2 damage to their base.",,0,5,4,3,David Buisan,2/5/2024,FFG,https://www.instagram.com/p/C2-MOiEMWAL/,248,0,0,0,0,,,
+SOR,154,Rallying Cry,,FALSE,Event,"Aggression,Aggression",3,Tactic,Each friendly unit gains Raid 2 this phase.,,,,,2,Eslam Aboshady,1/15/2024,FFG,https://www.instagram.com/p/C2IHhxZND8y/,226,0,0,0,0,,,
+SOR,155,Aggression,,FALSE,Event,"Aggression,Aggression",4,Innate,"Choose two, in any order:
+- Draw a card.
+- Defeat up to 2 upgrades.
+- Ready a unit with 3 or less power.
+- Deal 4 damage to a unit.",,,,,4,Sandra Chlewińska,10/11/2023,FFG Stream,https://www.youtube.com/watch?v=DzXk-TsR_YI,,,,,,,,
+SOR,156,"Benthic ""Two Tubes""",Partisan Lieutenant,TRUE,Unit,Aggression,1,"Rebel,Trooper",On Attack: Another friendly {Aggression} unit gains Raid 2 for this phase.,,0,2,2,2,Omercan Cirit,12/12/2023,Nerds Strike Back,https://www.youtube.com/watch?v=ePJDbqVirTQ,179,0,0,0,0,Raid 2 (Conditional),,
+SOR,157,Cantina Braggart,,FALSE,Unit,Aggression,1,Underworld,Raid 2,,0,0,3,1,Ario Murti,10/16/2023,FFG,https://www.instagram.com/p/CydsUk-MYXj/,122,0,0,0,0,Raid 2,,
+SOR,158,Jedha Agitator,,FALSE,Unit,Aggression,2,Rebel,"Saboteur
+
+On Attack: If you control a leader unit, deal 2 damage to a ground unit or base.",,0,2,1,1,Hoan Nguyen,1/3/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,205,0,0,0,0,Saboteur,,
+SOR,159,Partisan Insurgent,,FALSE,Unit,Aggression,2,"Rebel,Trooper","While you control another {Aggression} unit, this unit gains Raid 2.",,0,1,4,1,Joshua Carson,11/28/2023,TowerNumberNine,https://www.youtube.com/watch?v=ok7P-rP_E7Q,163,0,0,0,0,Raid 2 (Conditional),,
+SOR,160,Wolffe,Suspicious Veteran,TRUE,Unit,Aggression,2,"Fringe,Clone","Saboteur
+
+When Played/On Attack: Bases can't be healed for this phase.",,0,3,2,3,Elena Skitalets,1/11/2024,The Nerd Shelves,https://www.youtube.com/watch?v=_C5P1-HBhKw,222,0,0,0,0,Saboteur,,
+SOR,161,Ardent Sympathizer,,FALSE,Unit,Aggression,3,Trooper,"While you have the initiative, this unit gets +2/+0.",,0,3,3,1,Luke Harrington,11/2/2023,Brettballett,https://www.youtube.com/watch?v=pd4t3v3V3FI,,,,,,,,
+SOR,162,Disabling Fang Fighter,,FALSE,Unit,Aggression,3,"Mandalorian,Vehicle,Fighter",When Played: You may defeat an upgrade.,,1,3,2,1,Christian Papazoglakis,10/11/2023,FFG Stream,https://www.youtube.com/watch?v=DzXk-TsR_YI,,,,,,,,
+SOR,163,Star Wing Scout,,FALSE,Unit,Aggression,3,"Vehicle,Fighter","When Defeated: If you have the initiative, draw 2 cards.",,1,4,1,2,Fernando Correa,8/17/2023,Echo Base Gaming,https://twitter.com/EchoBase_Gaming/status/1692238934162743345,,,,,,,,
+SOR,164,Wampa,,FALSE,Unit,Aggression,4,Creature,Overwhelm,,0,4,5,1,Luke Harrington,10/11/2023,FFG Stream,https://www.youtube.com/watch?v=DzXk-TsR_YI,117,0,0,0,0,Overwhelm,,
+SOR,165,Occupier Siege Tank,,FALSE,Unit,Aggression,5,"Imperial,Vehicle,Tank",Grit,,0,5,4,1,Christian Papazoglakis,1/16/2024,FFG,https://starwarsunlimited.com/cards?cid=8098293047,227,0,0,0,0,Grit,,
+SOR,166,Infiltrator's Skill,,FALSE,Upgrade,Aggression,1,Learned,Attached unit gains Saboteur.,,,1,1,1,Sandra Chlewińska,10/30/2023,FFG,https://www.instagram.com/p/CzBvdajsVgp/,,,,,,,,
+SOR,167,Force Throw,,FALSE,Event,Aggression,1,Force,"Choose a player. That player discards a card from their hand. Then, if you control a Force unit, you may deal damage to a unit equal to the cost of the discarded card.",,,,,2,Elena Skitalets,12/29/2023,TCG Cast,https://www.youtube.com/watch?v=qbsVEcPcZJY,,,,,,,,
+SOR,168,Precision Fire,,FALSE,Event,Aggression,1,Tactic,"Attack with a unit. It gains Saboteur for this attack. If it's a Trooper, it also gets +2/+0 for this attack.",,,,,1,Ash Pierce,12/9/2023,Jenders Gaming,https://www.youtube.com/watch?v=ZeTe_eUeq_4,176,0,0,0,0,,,
+SOR,169,Keep Fighting,,FALSE,Event,Aggression,2,Tactic,Ready a unit with 3 or less power.,,,,,1,Eslam Aboshady,12/13/2023,Hunter & Friends - Brettspiele,https://www.youtube.com/shorts/qpgdmGagTe4,,,,,,,,
+SOR,170,Power Failure,,FALSE,Event,Aggression,2,Tactic,Defeat any number of upgrades on a unit.,,,,,2,Marc Escachx,1/3/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,,,,,,,,
+SOR,171,Mission Briefing,,FALSE,Event,Aggression,3,Plan,Choose a player. They draw 2 cards.,,,,,1,Kyle Petchock,10/23/2023,FFG,https://twitter.com/UnlimitedFFG/status/1716484925224898610,,,,,,,,
+SOR,172,Open Fire,,FALSE,Event,Aggression,3,Tactic,Deal 4 damage to a unit.,,,,,1,Fernando Correa,7/11/2023,Golden Dice,https://www.youtube.com/watch?v=IcqTW-7nAh8,,,,,,,,
+SOR,173,Bombing Run,,FALSE,Event,Aggression,5,Tactic,Choose an arena. Deal 3 damage to each unit in that arena.,,,,,3,Kyle Petchock,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,267,0,0,0,0,,,
+SOR,174,Smoke and Cinders,,FALSE,Event,Aggression,5,Disaster,Each player discards all but 2 cards from their hand.,,,,,3,Stefano Landini,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,259,0,0,0,0,,,
+SOR,175,Forced Surrender,,FALSE,Event,Aggression,6,Plan,Draw 2 cards. Each opponent whose base you’ve damaged this phase discards 2 cards from their hand.,,,,,2,Ario Murti,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,260,0,0,0,0,,,
+SOR,176,ISB Agent,,FALSE,Unit,"Cunning,Villainy",1,Imperial,"When Played: You may reveal an event from your hand. If you do, deal 1 damage to a unit.",,0,1,3,1,Yvette Chua,11/9/2023,Artificery,https://www.youtube.com/watch?v=nA9TUumJ68A,148,0,0,1,0,,,
+SOR,177,Bib Fortuna,Jabba's Majordomo,TRUE,Unit,"Cunning,Villainy",2,"Underworld,Twi'lek","Shielded
+
+Action [{T}]: Play an event from your hand. It costs {R1} less.",,0,1,3,2,Steve Morris,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,266,0,0,0,0,Shielded,,
+SOR,178,Cartel Spacer,,FALSE,Unit,"Cunning,Villainy",2,"Underworld,Vehicle,Fighter","When Played: If you control another {Cunning} unit, exhaust an enemy unit that costs {R4} or less.",,1,2,3,2,Arthur Mougne,12/13/2023,FFG Stream,https://www.youtube.com/watch?v=mhuftCbqDvE,,,,,,,,
+SOR,179,Boba Fett,Disintegrator,TRUE,Unit,"Cunning,Villainy",3,"Underworld,Bounty Hunter","On Attack: If this unit is attacking an exhausted unit that didn't enter play this round, deal 3 damage to the defender.",,0,3,5,4,French Carlomagno,8/30/2023,Hobbies + Happiness,https://www.youtube.com/watch?v=d9hcXjHQxbQ,,,,,,,,
+SOR,180,Seventh Fleet Defender,,FALSE,Unit,"Cunning,Villainy",3,"Imperial,Vehicle,Fighter",Shielded,,1,3,2,1,Francois Cannels,11/9/2023,Artificery,https://www.youtube.com/watch?v=nA9TUumJ68A,149,0,0,0,0,Shielded,,
+SOR,181,Jabba the Hutt,Cunning Daimyo,TRUE,Unit,"Cunning,Villainy",4,"Underworld,Hutt","Each Trick event you play costs {R1} less.
+
+When Played: Search the top 8 cards of your deck for a Trick event, reveal it, and draw it.",,0,2,8,3,David Nash,1/8/2024,FFG Stream,https://www.instagram.com/p/C12F-P7s2w-/,220,0,0,0,1,,,
+SOR,182,Bossk,Deadly Stalker,TRUE,Unit,"Cunning,Villainy",5,"Underworld,Bounty Hunter","Ambush
+
+When you play an event: You may deal 2 damage to a unit.",,0,4,5,2,Stefano Landini,10/21/2023,FFG Stream,,126,0,0,2,0,Ambush,,
+SOR,183,Bounty Hunter Crew,,FALSE,Unit,"Cunning,Villainy",6,"Underworld,Bounty Hunter","Ambush
+
+When Played: You may return an event card from a discard pile to its owner's hand.",,0,4,4,1,Luke Harrington,1/3/2024,FFG Stream,https://www.youtube.com/watch?v=F0E7swqf6Wk,209,0,0,0,1,Ambush,,
+SOR,184,Fett's Firespray,Pursuing the Bounty,TRUE,Unit,"Cunning,Villainy",6,"Underworld,Vehicle,Transport","When Played: If you control Boba Fett or Jango Fett, ready this unit.
+
+Action [{R:2}]: Exhaust a non-unique unit.",,1,5,6,3,Andre Mealha,8/31/2023,Hobbies + Happiness,https://www.youtube.com/watch?v=TozOTpmoOoU,86,0,0,0,0,,,
+SOR,185,Chimaera,Flagship of the Seventh Fleet,TRUE,Unit,"Cunning,Villainy",8,"Imperial,Vehicle,Capital Ship","Shielded
+
+On Attack: Name a card. An opponent reveals their hand and discards a card with that name from it.",,1,8,7,3,Francois Cannels,11/14/2023,Maindeck,https://www.youtube.com/watch?v=dKpX3vm5Fns,153,0,0,0,0,Shielded,,
+SOR,186,No Good to Me Dead,,FALSE,Event,"Cunning,Villainy",2,Plan,Exhaust a unit. That unit can't ready this round.,,,,,2,Denis Medri,11/8/2023,FFG Stream,https://www.youtube.com/watch?v=_xZaeJ9oq_4,,,,,,,,
+SOR,187,I Had No Choice,,FALSE,Event,"Cunning,Villainy",7,Trick,Choose up to 2 non-leader units. An opponent chooses 1 of those units. Return that unit to its owner's hand and put the other on the bottom of its owner's deck.,,,,,3,Ario Murti,1/31/2024,FFG,https://www.youtube.com/watch?v=YyevyGEv1gg,245,0,0,0,0,,,
+SOR,188,Chopper,Metal Menace,TRUE,Unit,"Cunning,Heroism",1,"Rebel,Droid,Spectre","While you control another Spectre unit, this unit gains Raid 1.
+
+On Attack: Discard a card from the defending player's deck. If it's an event, exhaust a resource that player controls.",,0,1,3,3,Arthur Mougne,1/13/2024,Wampa Radio,https://www.youtube.com/watch?v=pEplQWszQzY,224,0,0,0,0,Raid 1 (Conditional),,
+SOR,189,Leia Organa,Defiant Princess,TRUE,Unit,"Cunning,Heroism",2,"Rebel,Official",When Played: Either ready a resource or exhaust a unit.,,0,2,2,0,Robynn Frauhn,5/16/2023,FFG,https://www.youtube.com/watch?v=0mscZBVRiX0,,,,,,,,
+SOR,190,Lothal Insurgent,,FALSE,Unit,"Cunning,Heroism",2,Rebel,"When Played: If you played another card this phase, each opponent draws a card then discards a random card from their hand.",,0,3,2,1,Kevin Libranda,11/5/2023,Spice Squadron,https://youtube.com/watch?si=FhCP4nGrwmaEFZme&v=dxad6CLcs4Y,,,,,,,,
+SOR,191,Vanguard Ace,,FALSE,Unit,"Cunning,Heroism",2,"New Republic,Vehicle,Fighter","When Played: For each other card you played this phase, give an Experience token to this unit.",,1,1,1,2,Andre Mealha,12/20/2023,Board Game Theory,https://theboardgametheory.de/2023/12/20/bgt119-star-wars-unlimited/,191,1,1,0,0,,,
+SOR,192,Ezra Bridger,Resourceful Troublemaker,TRUE,Unit,"Cunning,Heroism",3,"Force,Rebel,Spectre","When this unit completes an attack: Look at the top card of your deck. You may play it, discard it, or leave it on top of your deck.",,0,3,4,2,Joshua Carson,9/22/2023,RybackStun,https://www.youtube.com/watch?v=6i8N-yn6eeM,105,0,0,0,1,,,
+SOR,193,Millennium Falcon,Piece of Junk,TRUE,Unit,"Cunning,Heroism",3,"Underworld,Vehicle,Transport","This unit enters play ready.
+
+When you ready cards during the regroup phase: Either pay {R1} or return this unit to her owner's hand.",,1,3,4,4,Francois Cannels,10/10/2023,Wargamer.com,https://www.wargamer.com/star-wars-unlimited/millennium-falcon,114,0,0,0,0,Ambush,,
+SOR,194,Rogue Operative,,FALSE,Unit,"Cunning,Heroism",3,"Rebel,Trooper","Saboteur
+
+Raid 2",,0,2,4,1,Steve Morris,8/23/2023,FFG Stream,https://www.youtube.com/watch?v=MQWzu7tz7lg,75,0,0,0,0,Saboteur,Raid 2,
+SOR,195,Auzituck Liberator Gunship,,FALSE,Unit,"Cunning,Heroism",4,"Vehicle,Fighter",Ambush,,1,3,4,1,Mark Zhang,7/13/2023,Jodo Cast,https://www.youtube.com/watch?v=TO7ae1EX5hg,31,0,0,0,0,Ambush,,
+SOR,196,Chewbacca,Loyal Companion,TRUE,Unit,"Cunning,Heroism",5,"Underworld,Wookiee","Sentinel
+
+When this unit is attacked: Ready him.",,0,3,6,2,Luke Harrington,8/2/2023,FFG Stream,https://www.youtube.com/watch?v=bUFS3Zd61MA,57,0,0,0,0,Sentinel,,
+SOR,197,Lando Calrissian,Responsible Businessman,TRUE,Unit,"Cunning,Heroism",6,"Fringe,Official","Saboteur
+
+When played: Return up to 2 friendly resources to their owners’ hands.",,0,6,5,3,Audrey Hotte,10/18/2023,Unplayable,https://www.youtube.com/watch?v=3nrKM7-HB64,123,0,0,0,1,Saboteur,,
+SOR,198,Han Solo,Reluctant Hero,TRUE,Unit,"Cunning,Heroism",7,Underworld,"Ambush
+
+While attacking, this unit deals combat damage before teh defender.",,0,6,6,3,Borja Pindado,8/4/2023,GamesRadar,https://www.gamesradar.com/exclusive-look-at-han-solos-card-in-star-wars-unlimited/,62,0,0,0,0,Ambush,,
+SOR,199,Bamboozle,,FALSE,Event,"Cunning,Heroism",2,Trick,"You may discard a {Cunning} card from your hand instead of paying this event's cost.
+
+Exhaust a unit and return each upgrade on it to its owner's hand.",,,,,2,Ario Murti,11/21/2023,Golden Dice,https://www.youtube.com/watch?v=BIoLN08ZsU4,,,,,,,,
+SOR,200,Spark of Rebellion,,FALSE,Event,"Cunning,Heroism",2,Spectre,Look at an opponent's hand and discard a card from it.,,,,,3,Kevin Libranda,11/8/2023,FFG Stream,https://www.youtube.com/watch?v=_xZaeJ9oq_4,,,,,,,,
+SOR,201,Bodhi Rook,Imperial Defector,TRUE,Unit,"Cunning,Cunning",3,"Imperial,Rebel",When Played: Look at an opponent's hand and discard a non-unit card from it.,,0,3,3,3,Ario Murti,12/13/2023,FFG Stream,https://www.youtube.com/watch?v=mhuftCbqDvE,184,0,0,0,1,,,
+SOR,202,Cantina Bouncer,,FALSE,Unit,"Cunning,Cunning",5,Fringe,When Played: You may return a non-leader unit to its owner's hand.,,0,3,5,2,James Daly,12/5/2023,FFG,https://www.instagram.com/p/C0ei70jMyzb/,,,,,,,,
+SOR,203,Cunning,,FALSE,Event,"Cunning,Cunning",4,Innate,"Choose two, in any order:
+- Return a non-leader unit with 4 or less power to its owner's hand.
+- Give a unit +4/+0 for this phase.
+- Exhaust up to 2 units.
+- An opponent discards a random card from their hand.",,,,,4,Sandra Chlewińska,11/8/2023,FFG Stream,https://www.youtube.com/watch?v=_xZaeJ9oq_4,,,,,,,,
+SOR,204,Greedo,Slow on the Draw,TRUE,Unit,Cunning,1,"Underworld,Bounty Hunter","When Defeated: You may discard a card from your deck. If it's not a unit, deal 2 damage to a ground unit.",,0,3,1,2,Aitor Prieto,11/8/2023,FFG Stream,https://www.youtube.com/watch?v=_xZaeJ9oq_4,143,0,0,1,0,,,
+SOR,205,Jawa Scavenger,,FALSE,Unit,Cunning,1,"Fringe,Jawa",Saboteur,,0,2,1,1,Christina Laviña,12/19/2023,Garbage Rollers,https://garbagerollers.com/2023/12/19/interview-with-lead-designer-danny-schaefer-exclusive-card-reveals/,190,0,0,0,0,Saboteur,,
+SOR,206,Mining Guild TIE Fighter,,FALSE,Unit,Cunning,1,"Fringe,Vehicle,Fighter","On Attack: You may pay {R2}. If you do, draw a card.",,1,1,2,1,Andre Mealha,11/3/2023,Scrawl,https://www.youtube.com/watch?v=-u_TbUj2vac,,,,,,,,
+SOR,207,Crafty Smuggler,,FALSE,Unit,Cunning,2,Underworld,Shielded,,0,2,2,1,Amad Mir,12/13/2023,FFG Stream,https://www.youtube.com/watch?v=mhuftCbqDvE,186,0,0,0,0,Shielded,,
+SOR,208,Outer Rim Headhunter,,FALSE,Unit,Cunning,2,"Fringe,Vehicle,Fighter","Raid 1
+
+On Attack: If you control a leader unit, you may exhaust a non-leader unit.",,1,1,3,1,Christian Papazoglakis,11/13/2023,FFG,https://www.instagram.com/p/Czl5dMTtRoR/,151,0,0,0,0,Raid 1,,
+SOR,209,Pirated Starfighter,,FALSE,Unit,Cunning,2,"Underworld,Vehicle,Fighter","Raid 1
+
+When Played: Return a friendly non-leader unit to its owner's hand.",,1,2,4,2,Fernando Correa,12/29/2023,TCG Cast,https://www.youtube.com/watch?v=qbsVEcPcZJY,200,0,0,0,0,Raid 1,,
+SOR,210,Swoop Racer,,FALSE,Unit,Cunning,3,Fringe,,,0,4,3,1,Andre Mealha,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,251,0,0,0,0,,,
+SOR,211,Gamorrean Guards,,FALSE,Unit,Cunning,4,Underworld,"While you control another {Cunning} unit, this unit gains Sentinel.",,0,4,4,1,Mickael Balloul,1/25/2024,Geekbecois,https://geekbecois.com/star-wars-unlimited-annonce/,239,0,0,0,0,Sentinel (Conditional),,
+SOR,212,Strafing Gunship,,FALSE,Unit,Cunning,4,"Underworld,Vehicle,Fighter","This unit can attack units in the ground arena.
+
+While this unit is attacking a ground unit, the defender gets -2/-0.",,1,3,4,3,Amad Mir,1/29/2024,Jade Throne Podcast,https://thejadethronepodcast.libsyn.com/,242,0,0,0,0,,,
+SOR,213,Syndicate Lackeys,,FALSE,Unit,Cunning,5,Underworld,Ambush,,0,5,4,1,Aitor Prieto,11/8/2023,FFG Stream,https://www.youtube.com/watch?v=_xZaeJ9oq_4,144,0,0,0,0,Ambush,,
+SOR,214,Smuggling Compartment,,FALSE,Upgrade,Cunning,1,Modification,"Attach to a Vehicle unit.
+
+Attached unit gains: ""On Attack: Ready a resource.""",,,1,1,2,Amad Mir,10/10/2023,Wargamer.com,https://www.wargamer.com/star-wars-unlimited/millennium-falcon,,,,,,,,
+SOR,215,Snapshot Reflexes,,FALSE,Upgrade,Cunning,1,Learned,,,,1,1,1,Amélie Hutt,11/20/2023,FFG,https://www.instagram.com/p/Cz37Br0sXQp/,,,,,,,,
+SOR,216,Disarm,,FALSE,Event,Cunning,1,Tactic,Give an enemy unit –4/–0 for this phase.,,,,,1,Ario Murti,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,257,0,0,0,0,,,
+SOR,217,Shoot First,,FALSE,Event,Cunning,1,Trick,Attack with a unit. It gets +1/+0 for this attack and deals its combat damage before the defender.,,,,,2,Ario Murti,8/23/2023,FFG Stream,https://www.youtube.com/watch?v=MQWzu7tz7lg,,,,,,,,
+SOR,218,Asteroid Sanctuary,,FALSE,Event,Cunning,2,Trick,"Exhaust an enemy unit.
+
+Give a Shield token to a friendly unit that costs 3 or less.",,,,,1,Rebecca Farrow,8/23/2023,FFG Stream,https://www.youtube.com/watch?v=MQWzu7tz7lg,,,,,,,,
+SOR,219,Sneak Attack,,FALSE,Event,Cunning,2,Trick,"Play a unit from your hand. It costs {R3} less and enters play ready. At the start of the regroup phase, defeat it.",,,,,3,French Carlomagno,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,265,0,0,0,0,,,
+SOR,220,Surprise Strike,,FALSE,Event,Cunning,2,Tactic,Attack with a unit. It gets +3/+0 for this attack.,,,,,1,Ario Murti,7/5/2023,Unplayable,https://www.youtube.com/watch?v=LiF62cBi_pk,,,,,,,,
+SOR,221,Outmaneuver,,FALSE,Event,Cunning,3,Tactic,Choose an arena. Exhaust each unit in that arena.,,,,,2,Leonardo Giammichele,11/27/2023,FFG,https://www.instagram.com/p/C0J8ljfs7Uh/,,,,,,,,
+SOR,222,Waylay,,FALSE,Event,Cunning,3,Trick,Return a non-leader unit to its owner's hand.,,,,,1,Amélie Hutt,7/26/2023,FFG,https://starwarsunlimited.com/articles/a-taste-of-unlimited-possibilities,53,0,0,0,0,,,
+SOR,223,Don't Get Cocky,,FALSE,Event,Cunning,4,Gambit,"Choose a unit. One at a time, reveal cards from your deck until you choose to stop or have revealed 7 cards. If the combined cost of the revealed cards is 7 or less, deal that much damage to the chosen unit. Put the revealed cards on the bottom of your deck in a random order.",,,,,3,Borja Pindado,1/19/2024,Tom and Taha,,232,0,0,0,0,,,
+SOR,224,Change of Heart,,FALSE,Event,Cunning,6,Gambit,"Take control of a non-leader unit. At the start of the regroup phase, its owner takes control of it.",,,,,4,Kevin Libranda,10/18/2023,Unplayable,https://www.youtube.com/watch?v=3nrKM7-HB64,,,,,,,,
+SOR,225,TIE/ln Fighter,,FALSE,Unit,Villainy,1,"Imperial,Vehicle,Fighter",,,1,2,1,1,French Carlomagno,6/27/2023,FFG Stream,https://www.youtube.com/watch?v=SunSj70YP8o,,,,,,,,
+SOR,226,Admiral Motti,Brazen and Scornful,TRUE,Unit,Villainy,2,"Imperial,Official",When Defeated: You may ready a {Villainy} unit.,,0,1,1,0,Tomas Oleksak,7/26/2023,FFG Stream,https://www.youtube.com/watch?v=Msezhwc2WE4,48,0,0,0,0,,,
+SOR,227,Snowtrooper Lieutenant,,FALSE,Unit,Villainy,2,"Imperial,Trooper","When Played: You may attack with a unit. If it's an Imperial unit, it gets +2/+0 for this attack.",,0,2,2,1,Erik Ly,7/25/2023,Roll On Gaming,https://www.youtube.com/watch?v=SW65sZFFjC8,,,,,,,,
+SOR,228,Viper Probe Droid,,FALSE,Unit,Villainy,2,"Imperial,Droid",When Played: Look at an opponent's hand.,,0,3,2,1,Amad Mir,6/22/2023,Wossy Plays,https://www.youtube.com/watch?v=ZDKza3yNX9w,,,,,,,,
+SOR,229,Cell Block Guard,,FALSE,Unit,Villainy,3,"Imperial,Trooper",Sentinel,,0,3,3,1,French Carlomagno,6/27/2023,Quickstart Rules,https://www.youtube.com/watch?v=SunSj70YP8o,35,0,0,0,0,Sentinel,,
+SOR,230,General Veers,Blizzard Force Commander,TRUE,Unit,Villainy,3,"Imperial,Official",Other friendly Imperial units get +1/+1.,,0,3,3,2,Steve Morris,8/23/2023,FFG Stream,https://www.youtube.com/watch?v=MQWzu7tz7lg,82,2,2,0,0,,,
+SOR,231,TIE Advanced,,FALSE,Unit,Villainy,4,"Imperial,Fighter,Vehicle",When Played: Give 2 Experience tokens to another friendly Imperial unit.,,1,3,2,2,Eslam Aboshady,8/3/2023,FFG Stream,https://www.youtube.com/watch?v=HgjQ-bMGkj4,60,2,2,0,0,,,
+SOR,232,AT-ST,,FALSE,Unit,Villainy,6,"Imperial,Vehicle,Walker",Overwhelm,,0,6,7,1,Stephen Zavala,8/2/2023,FFG Stream,https://www.youtube.com/watch?v=bUFS3Zd61MA,56,0,0,0,0,Overwhelm,,
+SOR,233,I Am Your Father,,FALSE,Event,Villainy,3,Gambit,"Deal 7 damage to an enemy unit unless its controller says ""no."" If they do, draw 3 cards.",,,,,0,Stefano Landini,6/18/2023,FFG,https://twitter.com/UnlimitedFFG/status/1670446401581350920,,,,,,,,
+SOR,234,Maximum Firepower,,FALSE,Event,Villainy,4,"Imperial,Tactic","A friendly IMPERIAL unit deals damage equal to its power to a unit.
+
+Then, another friendly IMPERIAL unit deals damage equal to its power to the same unit.",,,,,1,Stephen Zavala,5/16/2023,FFG,https://www.youtube.com/watch?v=0mscZBVRiX0,,,,,,,,
+SOR,235,Galactic Ambition,,FALSE,Event,Villainy,7,Innate,Play a non-{Heroism} unit from your hand for free. Deal damage to your base equal to its cost.,,,,,3,Andre Mealha,7/26/2023,FFG,https://starwarsunlimited.com/articles/heroism-and-villainy,,,,,,,,
+SOR,236,R2-D2,Ignoring Protocol,TRUE,Unit,Heroism,1,"Rebel,Droid",When Played/On Attack: Look at the top card of your deck. You may put it on the bottom of your deck.,,0,1,4,0,Aitor Prieto,7/26/2023,FFG Stream,https://www.youtube.com/watch?v=Msezhwc2WE4,,,,,,,,
+SOR,237,Alliance X-Wing,,FALSE,Unit,Heroism,2,"Rebel,Vehicle,Fighter",,,1,2,3,1,Francois Cannels,6/27/2023,Quickstart Rules,https://www.youtube.com/watch?v=SunSj70YP8o,,,,,,,,
+SOR,238,C-3PO,Protocol Droid,TRUE,Unit,Heroism,2,"Rebel,Droid","When Played/On Attack: Choose a number, then look at the top card of your deck. If its cost is the chosen number, you may reveal and draw it.",,0,1,4,0,Ash Pierce,7/26/2023,FFG Stream,https://www.youtube.com/watch?v=Msezhwc2WE4,,,,,,,,
+SOR,239,Rebel Pathfinder,,FALSE,Unit,Heroism,2,"Rebel,Trooper",Saboteur,,0,2,3,1,Joshua Carson,7/19/2023,Wreck N' Rule,https://wrecknrule.com/2023/07/19/star-wars-unlimited-card-reveal-rebel-pathfinder/,43,0,0,0,0,Saboteur,,
+SOR,240,Fleet Lieutenant,,FALSE,Unit,Heroism,3,"Rebel,Trooper","When Played: You may attack with a unit. If it's a Rebel unit, it gets +2/+0 for this attack.",,0,3,3,1,Hoan Nguyen,7/26/2023,FFG,https://starwarsunlimited.com/articles/heroism-and-villainy,,,,,,,,
+SOR,241,Wing Leader,,FALSE,Unit,Heroism,3,"Rebel,Vehicle,Fighter",When Played: Give 2 Experience tokens to another friendly REBEL unit.,,1,2,1,2,French Carlomagno,5/16/2023,FFG,https://starwarsunlimited.com/articles/star-wars-unlimited-first-look,39,2,2,0,0,,,
+SOR,242,General Dodonna,Massassi Group Commander,TRUE,Unit,Heroism,4,"Rebel,Official",Other friendly Rebel units get +1/+1.,,0,4,4,2,Steve Morris,8/23/2023,FFG Stream,https://www.youtube.com/watch?v=MQWzu7tz7lg,81,2,2,0,0,,,
+SOR,243,Regional Sympathizers,,FALSE,Unit,Heroism,4,Rebel,Restore 2,,0,3,4,1,Liana Anatolevich,1/18/2024,Papskubber.dk,,229,0,0,0,0,Restore 2,,
+SOR,244,Snowspeeder,,FALSE,Unit,Heroism,5,"Rebel,Vehicle,Speeder","Ambush
+
+On Attack: Exhaust an enemy Vehicle ground unit.",,0,3,6,1,Fernando Correa,8/2/2023,FFG Stream,https://www.youtube.com/watch?v=bUFS3Zd61MA,55,0,0,0,0,Ambush,,
+SOR,245,Medal Ceremony,,FALSE,Event,Heroism,0,Rebel,Give an Experience token to each of up to 3 Rebel units that attacked this phase.,,,,,1,Ario Murti,11/21/2023,Golden Dice,https://www.youtube.com/watch?v=BIoLN08ZsU4,,,,,,,,
+SOR,246,You're My Only Hope,,FALSE,Event,Heroism,3,Gambit,"Look at the top card of your deck. You may play it. It costs {R:5} less. If your base has 5 or less remaining hp, you may play it for free instead.",,,,,3,Gretel Lusky,5/16/2023,FFG,https://starwarsunlimited.com/articles/star-wars-unlimited-first-look,,,,,,,,
+SOR,247,Underworld Thug,,FALSE,Unit,,2,Underworld,,,0,2,3,1,Felipe Goncalves,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,255,0,0,0,0,,,
+SOR,248,Volunteer Soldier,,FALSE,Unit,,3,Trooper,"Raid 1
+
+If you control a Trooper unit, this unit costs {R1} less to play.",,0,2,3,1,Steve Morris,12/13/2023,FFG Stream,https://www.youtube.com/watch?v=mhuftCbqDvE,181,0,0,0,0,Raid 1,,
+SOR,249,Frontier AT-RT,,FALSE,Unit,,4,"Vehicle,Walker","While you control another VEHICLE unit, this unit gains Ambush.",,0,3,5,1,Thomas Wievegg,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,261,0,0,0,0,Ambush (Conditional),,
+SOR,250,Corellian Freighter,,FALSE,Unit,,5,"Vehicle,Transport",Sentinel,,1,4,4,1,Francois Cannels,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,252,0,0,0,0,Sentinel,,
+SOR,251,Confiscate,,FALSE,Event,,1,Law,Defeat an upgrade.,,,,,1,French Carlomagno,1/19/2024,Tom and Taha,,231,0,0,0,0,,,
+SOR,252,Restock,,FALSE,Event,,1,Supply,Choose up to 4 cards in a discard pile. Put them on the bottom of their owner’s deck in a random order.,,,,,1,Joshua Carson,2/10/2024,FFG,https://www.youtube.com/watch?v=Ww-_N1Uswvc,256,0,0,0,0,,,
+SHD,4,Rey,More Than A Scavenger,TRUE,Leader,"Vigilance,Heroism",6,"Force,Fringe","Action [{R1}, {T}]: Give an Experience token to a unit with 2 or less power.","Restore 3
+
+On Attack: You may give an Experience token to a unit with 2 or less power.",0,2,6,1,David Buisan,5/23/2024,FFG,https://www.instagram.com/reel/C7ULPYbP0CP/,385,0,0,0,0,Restore 3,,
+SHD,5,Hondo Ohnaka,That's Good Business,TRUE,Leader,"Command,Villainy",6,Underworld,"When you play a card using Smuggle: You may exhaust this leader. If you do, give an Experience token to a unit.","Raid 1
+
+When you play a card using Smuggle: You may give an Experience token to a unit.",0,3,7,1,Aitor Prieto,5/16/2024,FFG,https://www.instagram.com/reel/C7CJslUqkm0/,367,0,0,0,0,Raid 1,,
+SHD,7,Moff Gideon,Formidable Commander,TRUE,Leader,"Command,Villainy",5,"Imperial,Official","Action [{T}]: Attack with a unit that costs 3 or less. If it's attacking a unit, it gets +1/+0 for this attack.
+
+Epic Action: If you control 5 or more resources, deploy this leader.","Overwhelm
+
+Each friendly unit that costs 3 or less gets +1/+0 and gains Overwhelm while attacking an enemy unit.",0,3,6,0,Eric Hibbeler,4/3/2024,FFG,https://starwarsunlimited.com/articles/shadows-of-the-galaxy,275,0,0,0,0,Overwhelm,,
+SHD,8,Boba Fett,Daimyo,TRUE,Leader,"Command,Heroism",6,Underworld,"When you play a unit that has 1 or more Keywords: You may exhaust this leader. If you do, give a friendly unit +1/+0 for this phase.",Each other friendly unit that as 1 or more Keywords gets +1/+0.,0,4,7,1,Guillaume Ospital,5/9/2024,FFG,https://www.instagram.com/reel/C6wIHysppAn/,327,0,0,0,0,,,
+SHD,9,Hunter,Outcast Sergeant,TRUE,Leader,"Command,Heroism",7,"Fringe,Clone","Action [{R1}, {T}]: Reveal a resource you control. If it shares a name with a friendly unique unit, return the resource to its owner's hand and put the top card of your deck into play as a resource.","Overwhelm
+
+On Attack: You may reveal a resource you control. If it shares a name with a friendly unique unit, return the resource to its owner's hand and put the top card of your deck into play as a resource.",0,5,8,3,Mickael Balloul,5/2/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C6eGoN0MNIn/,310,0,0,0,0,,,
+SHD,10,Bossk,Hunting His Prey,TRUE,Leader,"Aggression,Villainy",5,"Underworld,Bounty Hunter",Action [{T}]: Deal 1 damage to a unit with a Bounty. You may give it +1/+0 for this phase.,When you collect a Bounty: You may collect that Bounty again. Use this ability only once each round.,0,4,6,1,Amélie Hutt,5/7/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C6q-gndBLG8/,317,0,0,0,0,,,
+SHD,11,Kylo Ren,Rash and Deadly,TRUE,Leader,"Aggression,Villainy",4,"Force,First Order","Action [{T}, discard a card from your hand]: Give a unit +2/+0 for this phase.",This unit gets -1/-0 for each card in your hand.,0,5,4,3,Guillaume Ospital,5/21/2024,FFG,https://www.instagram.com/reel/C7PBwDwNtdq/,376,0,0,0,0,,,
+SHD,12,Bo-Katan Kryze,Princess In Exile,TRUE,Leader,"Aggression,Heroism",6,Mandalorian,"Action [{T}]: If you attacked with a Mandalorian unit this phase, deal 1 damage to a unit.","On Attack: You may deal 1 damage to a unit. If you attacked with another Mandalorian unit this phase, you may deal 1 damage to a unit.",0,4,7,3,David Buisan,4/30/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C6Y9BC3J3Pr/,293,0,0,0,0,,,
+SHD,17,Lando Calrissian,With Impeccable Taste,TRUE,Leader,"Cunning,Heroism",4,Underworld,Action [{T}]: Play a card using Smuggle. It costs {R2} less. Defeat a resource you own and control.,Action: Play a card using Smuggle. It costs {R2} less. Defeat a resource you own and control. Use this ability only once each round.,0,2,5,3,Eric Hibbeler,5/14/2024,FFG,https://www.instagram.com/reel/C69AF8nIbP1/,341,0,0,0,0,,,
+SHD,18,The Mandalorian,Sworn to the Creed,TRUE,Leader,"Cunning,Heroism",6,"Mandalorian,Bounty Hunter","When you play an upgrade: You may exhaust this leader. If you do, exhaust an enemy unit with 4 or less remaining HP.
+
+Epic Action: If you control 6 or more resources, deploy this leader.",When you play an upgrade: You may exhaust an enemy unit with 6 or less remaining HP.,0,4,7,0,Eric Hibbeler,4/3/2024,FFG,https://starwarsunlimited.com/articles/shadows-of-the-galaxy,276,0,0,0,0,,,
+SHD,27,Hylobon Enforcer,,FALSE,Unit,"Vigilance,Villainy",1,Underworld,"Grit
+
+Bounty - Draw a card.",,0,1,4,1,Joshua Carson,5/9/2024,El Valle del Jedi,https://www.youtube.com/watch?v=gNynJJcflbo,331,0,0,0,0,Grit,,
+SHD,28,Doctor Pershing,Experimenting With Life,TRUE,Unit,"Vigilance,Villainy",2,Imperial,"Action [{T}, deal 1 damage to a friendly unit]: Draw a card.",,0,0,5,3,David Buisan,5/13/2024,Garbage Rollers,https://garbagerollers.com/2024/05/13/experimental-card-reveals/,339,0,0,0,0,,,
+SHD,29,Pyke Sentinel,,FALSE,Unit,"Vigilance,Villainy",2,Underworld,Sentinel,,0,2,3,1,Omercan Cirit,4/24/2024,FFG Stream,https://www.youtube.com/watch?v=vn_n0kniW7A,288,0,0,0,0,Sentinel,,
+SHD,31,The Client,Dictated By Discretion,TRUE,Unit,"Vigilance,Villainy",3,"Imperial,Official","Shielded
+
+Action [{T}]: Choose a unit. For this phase, it gains: ""Bounty - Heal 5 damage from a base.""",,0,2,5,2,Ash Pierce,5/15/2024,FFG,https://www.instagram.com/p/C6-zCk6OXyn/,345,0,0,0,0,Shielded,,
+SHD,36,First Light,Headquarters of the Crimson Dawn,TRUE,Unit,"Vigilance,Villainy",7,"Underworld,Vehicle,Transport","Grit
+
+Each other friendly non-leader unit gains Grit.
+
+Smuggle [{R7}{Vigilance}{Villainy}], deal 4 damage to a unit]",,1,4,7,3,Mickael Balloul,5/1/2024,FFG Stream,https://www.youtube.com/watch?v=xM6uvCuFY1Q,294,0,0,0,0,Grit,,
+SHD,39,Calculated Lethality,,FALSE,Event,"Vigilance,Villainy",4,Tactic,"Defeat a non-leader unit that costs 3 or less. For each upgrade that was on that unit, give an Experience token to a friendly unit.",,,,,0,Amad Mir,4/3/2024,FFG,https://starwarsunlimited.com/articles/shadows-of-the-galaxy,268,0,0,0,0,,,
+SHD,40,Clan Wren Rescuer,,FALSE,Unit,"Vigilance,Heroism",2,"Mandalorian,Trooper",When Played: Give an Experience token to a unit.,,0,1,2,1,Erik Ly,5/15/2024,FFG,https://starwarsunlimited.com/,359,0,0,0,0,,,
+SHD,41,Kuil,I Have Spoken,TRUE,Unit,"Vigilance,Heroism",2,Fringe,"Restore 1
+
+On Attack: Discard a card from your deck. If it shares an aspect with your base, return it to your hand.",,0,2,3,2,Luke Harrington,5/15/2024,FFG,https://www.instagram.com/p/C6-4L7Vi2VG/,344,0,0,0,0,Restore 1,,
+SHD,42,Concord Dawn Interceptors,,FALSE,Unit,"Vigilance,Heroism",3,"Mandalorian,Vehicle,Fighter","Sentinel
+
+This unit gets +2/+0 while defending.",,1,1,4,2,Andre Mealha,5/22/2024,FFG,https://starwarsunlimited.com/articles/shadowy-insights-jeremy-zwirn,379,0,0,0,0,Sentinel,,
+SHD,43,Village Protectors,,FALSE,Unit,"Vigilance,Heroism",3,Fringe,"Sentinel
+
+Shielded",,0,2,2,1,Ario Murti,5/13/2024,FFG,https://www.instagram.com/p/C66iJPTMD6a/,340,0,0,0,0,Sentinel,Shielded,
+SHD,44,Razor Crest,Reliable Gunship,TRUE,Unit,"Vigilance,Heroism",4,"Mandalorian,Vehicle,Transport","Restore 2
+
+When Played: You may return an upgrade from your discard pile to your hand.",,1,3,4,0,Amélie Hutt,4/3/2024,FFG,https://starwarsunlimited.com/articles/shadows-of-the-galaxy,269,0,0,0,0,Restore 2,,
+SHD,45,Rose Tico,Dedicated to the Cause,TRUE,Unit,"Vigilance,Heroism",4,Resistance,"Shielded
+
+On Attack: You may defeat a Shield token on a friendly unit. If you do, give 2 Experience tokens to that unit.",,0,2,6,2,Denis Medri,5/8/2024,FFG,https://starwarsunlimited.com/articles/shadowy-insights-danny-schaefer,319,0,0,0,0,Shielded,,
+SHD,47,The Armorer,Survival Is Strength,TRUE,Unit,"Vigilance,Heroism",5,Mandalorian,When Played: Give a Shield token to each of up to 3 Mandalorian units.,,0,3,5,2,Hoan Nguyen,5/8/2024,FFG,https://www.instagram.com/p/C6uMdBOvGjL/,326,0,0,0,0,,,
+SHD,48,Gentle Giant,,FALSE,Unit,"Vigilance,Heroism",6,Wookiee,"Grit
+
+On Attack: You may heal damage from another unit equal to the damage on this unit.",,0,2,8,1,Leonardo Giammichele,5/1/2024,FFG Stream,https://www.youtube.com/watch?v=xM6uvCuFY1Q,295,0,0,0,0,Grit,,
+SHD,49,The Mandalorian,"Where I Go, He Goes",TRUE,Unit,"Vigilance,Heroism",6,"Mandalorian,Bounty Hunter","Sentinel
+
+When Played: You may heal all damage from a unit that costs 2 or less and give 2 Shield tokens to it.",,0,5,6,4,Mickael Balloul,4/3/2024,Dicebreaker,https://www.dicebreaker.com/games/star-wars-unlimited/news/star-wars-unlimited-shadows-of-the-galaxy-expansion-first-details-baby-yoda-mandalorian,277,0,0,0,0,Sentinel,,
+SHD,55,Moisture Farmer,,FALSE,Unit,Vigilance,1,Fringe,Restore 2,,0,0,4,1,Roxana Karpatvogyi,5/8/2024,FFG,https://starwarsunlimited.com/articles/shadowy-insights-danny-schaefer,321,0,0,0,0,Restore 2,,
+SHD,56,Follower of The Way,,FALSE,Unit,Vigilance,2,Mandalorian,"While this unit is upgraded, it gets +1/+1.",,0,1,3,1,Eslam Aboshady,4/25/2024,FFG,https://twitter.com/UnlimitedFFG/status/1783511470543716705,290,0,0,0,0,,,
+SHD,57,Rickety Quadjumper,,FALSE,Unit,Vigilance,2,"Fringe,Vehicle,Transport","On Attack: You may reveal the top card of your deck. If it's not a unit, give an Experience token to another unit.",,1,1,3,1,Fernando Correa,5/21/2024,L8 Night Gaming,https://www.youtube.com/watch?v=l8x-64NO-0g,378,0,0,0,0,,,
+SHD,60,HWK-290 Freighter,,FALSE,Unit,Vigilance,3,"Vehicle,Transport",,,1,2,5,1,Fernando Correa,5/15/2024,FFG,https://starwarsunlimited.com/,363,0,0,0,0,,,
+SHD,62,Niima Outpost Constables,,FALSE,Unit,Vigilance,4,Fringe,Sentinel,,0,2,6,1,Marc Escachx,5/22/2024,Spice Squadron,https://www.youtube.com/watch?v=diPwWdfR4cY,384,0,0,0,0,Sentinel,,
+SHD,64,Survivors' Gauntlet,,FALSE,Unit,Vigilance,5,"Mandalorian,Vehicle,Transport",When Played/On Attack: You may attach an upgrade on a unit to another eligible unit controlled by the same player.,,1,4,6,3,Fernando Correa,5/15/2024,FFG,https://starwarsunlimited.com/,358,0,0,0,0,,,
+SHD,65,Vigilant Pursuit Craft,,FALSE,Unit,Vigilance,5,"Vehicle,Transport","Sentinel
+
+Smuggle [{R7} {Vigilance}]",,1,3,5,1,Fernando Correa,4/17/2024,,,281,0,0,0,0,,,
+SHD,68,Public Enemy,,FALSE,Upgrade,Vigilance,0,"Bounty,Condition","Attached unit gains: “Bounty — Give a Shield token to a unit.” (When this unit is defeated or captured, its opponent collects its bounty.)",,,0,0,1,Denis Medri,5/15/2024,FFG,https://starwarsunlimited.com/,364,0,0,0,0,,,
+SHD,69,Foundling,,FALSE,Upgrade,Vigilance,1,Mandalorian,Attached unit gains the Mandalorian trait.,,,1,1,1,Kevin Libranda,5/15/2024,FFG,https://starwarsunlimited.com/,360,0,0,0,0,,,
+SHD,71,Top Target,,FALSE,Upgrade,Vigilance,1,"Bounty,Condition","Attached unit gains: “Bounty — Heal 4 damage from a unit or base. If this unit is unique, heal 6 damage instead.”",,,,,2,Amélie Hutt,5/8/2024,FFG,https://starwarsunlimited.com/articles/shadowy-insights-danny-schaefer,322,0,0,0,0,,,
+SHD,73,Mandalorian Armor,,FALSE,Upgrade,Vigilance,2,"Item,Armor","Attach to a non-Vehicle unit.
+
+When Played: If attached unit is a Mandalorian, give a Shield token to it.",,,1,3,3,Christian Papazoglakis,5/15/2024,FFG,https://starwarsunlimited.com/,361,0,0,0,0,,,
+SHD,74,Vambrace Grappleshot,,FALSE,Upgrade,Vigilance,2,"Item,Armor,Weapon","Attach to a non-Vehicle unit.
+
+Attached unit gains: “On Attack: Exhaust the defender.”",,,2,2,1,Arthur Mougne,5/15/2024,FFG,https://starwarsunlimited.com/,347,0,0,0,0,,,
+SHD,76,Unexpected Escape,,FALSE,Event,Vigilance,1,Trick,Exhaust a unit. You may rescue a captured card guarded by that unit.,,,,,2,Alex Chen,4/17/2024,FFG Stream,https://www.youtube.com/watch?v=GsnbrOspTJE,280,0,0,0,0,,,
+SHD,78,Fell the Dragon,,FALSE,Event,Vigilance,4,Tactic,Defeat a non-leader unit with 5 or more power.,,,,,2,Ario Murti,5/15/2024,FFG,https://starwarsunlimited.com/,365,0,0,0,0,,,
+SHD,82,Outland TIE Vanguard,,FALSE,Unit,"Command,Villainy",2,"Imperial,Vehicle,Fighter",When Played: You may give an experience token to another unit that costs 3 or less.,,1,2,1,1,Francois Cannels,5/15/2024,FFG,https://starwarsunlimited.com/,348,0,0,0,0,,,
+SHD,84,Phase-III Dark Trooper,,FALSE,Unit,"Command,Villainy",3,"Imperial,Droid,Trooper","Sentinel
+
+When combat damage is dealt to this unit: Give an experience token to this unit.",,0,3,3,0,Marc Escachx,4/3/2024,FFG,https://starwarsunlimited.com/articles/shadows-of-the-galaxy,270,0,0,0,0,Sentinel,,
+SHD,86,Warbird Stowaway,,FALSE,Unit,"Command,Villainy",2,Underworld,"While you have the initiative, this unit get +2/+0.
+
+Smuggle [{R4}{Command}{Villainy}]",,0,2,3,1,Omercan Cirit,5/17/2024,Rolling Dice & Taking Names,https://www.youtube.com/watch?v=Wuih8e4BqD0,372,0,0,0,0,,,
+SHD,87,Crosshair,Following Orders,TRUE,Unit,"Command,Villainy",4,"Imperial,Clone,Trooper","Action [{R2}]: This unit gets +1/+0 for this phase.
+
+Action [{T}]: This unit deals damage equal to his power to an enemy ground unit.",,0,2,6,2,Mickael Balloul,4/17/2024,FFG,https://twitter.com/UnlimitedFFG/status/1780634891710771616,278,0,0,0,0,,,
+SHD,89,Pirate Battle Tank,,FALSE,Unit,"Command,Villainy",6,"Underworld,Vehicle,Tank","Sentinel
+
+Smuggle [{R7}{Command}{Villainy}]",,0,4,6,1,Jake Parker,5/1/2024,FFG Stream,https://www.youtube.com/watch?v=xM6uvCuFY1Q,303,0,0,0,0,Sentinel,,
+SHD,92,Finalizer,Might of the First Order,TRUE,Unit,"Command,Villainy",11,"First Order,Vehicle,Capital Ship","Overwhelm
+
+When Played: Choose any number of friendly units. Each of those units captures an enemy non-leader unit in the same arena.",,1,11,11,4,Francois Cannels,5/20/2024,FFG,https://www.instagram.com/p/C7Mc1pgIBg-/,373,0,0,0,0,Overwhelm,,
+SHD,93,Remnant Reserves,,FALSE,Event,"Command,Villainy",4,Supply,"Search the top 5 cards of your deck for up to 3 units, reveal them, and draw them.",,,,,2,James Daly,5/15/2024,FFG,https://starwarsunlimited.com/,349,0,0,0,0,,,
+SHD,94,Palpatine's Return,,FALSE,Event,"Command,Villainy",6,"Force,Plan","Play a unit from your discard pile. It costs {R6} less. If it's a Force unit, it costs {R8} less instead.",,,,,3,Lenka Šimečková,5/20/2024,RybackStun,https://www.youtube.com/watch?v=Q24elp4d5BE,375,0,0,0,0,,,
+SHD,95,Clone Deserter,,FALSE,Unit,"Command,Heroism",1,"Fringe,Clone","Restore 1
+
+Bounty - Draw a card.",,0,2,3,1,Markus Lenz,5/1/2024,FFG Stream,https://www.youtube.com/watch?v=xM6uvCuFY1Q,298,0,0,0,0,Restore 1,,
+SHD,97,Freetown Backup,,FALSE,Unit,"Command,Heroism",2,Fringe,"On Attack: Give another friendly unit +2/+2 for this phase.
+
+Smuggle [{R4}{Command}{Heroism}]",,0,1,4,2,Kevin Libranda,5/9/2024,El Valle del Jedi,https://www.youtube.com/watch?v=gNynJJcflbo,332,0,0,0,0,,,
+SHD,98,Sundari Peacekeeper,,FALSE,Unit,"Command,Heroism",3,"Mandalorian,Trooper","Raid 2
+
+Restore 2",,0,1,5,2,Erik Ly,5/8/2024,FFG,https://starwarsunlimited.com/articles/shadowy-insights-danny-schaefer,320,0,0,0,0,Raid 2,Restore 2,
+SHD,99,Echo,Restored,TRUE,Unit,"Command,Heroism",4,"Fringe,Clone","Restore 2
+
+When Played: You may discard a card from your hand. Give 2 Experience tokens to a unit in play with the same name as the discarded card.",,0,4,4,2,Amad Mir,5/2/2024,Roll On Gaming,https://www.youtube.com/watch?v=RE99vCG0AJY,312,0,0,0,0,Restore 2,,
+SHD,100,Modded Cohort,,FALSE,Unit,"Command,Heroism",4,Underworld,"Ambush
+
+Raid 2",,0,2,4,1,Mickael Balloul,5/10/2024,Hannonz,https://www.youtube.com/watch?v=PXl3_qUmHw0,334,0,0,0,0,Ambush,Raid 2,
+SHD,101,Adelphi Patrol Wing,,FALSE,Unit,"Command,Heroism",5,"New Republic,Vehicle,Fighter","When Played: You may attack with a unit. If you have the initiative, it gains +2/+0 for this attack.",,1,4,6,1,Francois Cannels,5/23/2024,Golden Dice Podcast,https://www.youtube.com/watch?v=0t3WAmM4644,386,0,0,0,0,,,
+SHD,110,Warzone Lieutenant,,FALSE,Unit,Command,1,Trooper,,,0,2,2,1,Amad Mir,5/15/2024,FFG,https://starwarsunlimited.com/,350,0,0,0,0,,,
+SHD,113,Privateer Crew,,FALSE,Unit,Command,2,Underworld,"Smuggle [{R6} {Command}]
+
+When played using Smuggle: Give 3 Experience tokens to this unit.",,0,2,2,2,Denis Medri,4/17/2024,FFG Stream,https://www.youtube.com/watch?v=GsnbrOspTJE,282,0,0,0,0,,,
+SHD,114,Scanning Officer,,FALSE,Unit,Command,2,"Imperial,Official","When Played: Reveal 3 enemy resources. Defeat each resource with the Smuggle keyword revealed this way. For each resource defeated this way, its controller puts the top card of their deck into play as a resource.",,0,2,3,2,David Buisan,5/16/2024,TowerNumberNine,https://www.youtube.com/watch?v=8N9Wglzlgyg,368,0,0,0,0,,,
+SHD,117,Reputable Hunter,,FALSE,Unit,Command,3,Bounty Hunter,"If an enemy unit has a Bounty, this unit costs {R1} less to play.",,0,3,4,1,Ash Pierce,5/1/2024,FFG Stream,https://www.youtube.com/watch?v=xM6uvCuFY1Q,300,0,0,0,0,,,
+SHD,118,Kihraxz Heavy Fighter,,FALSE,Unit,Command,4,"Vehicle,Fighter","Overwhelm
+
+On Attack: You may exhaust another friendly unit. If you do, this unit gets +3/+0 for this attack.",,1,3,3,2,Fernando Correa,5/15/2024,FFG,https://starwarsunlimited.com/,351,0,0,0,0,Overwhelm,,
+SHD,120,Discerning Veteran,,FALSE,Unit,Command,5,Bounty Hunter,When Played: This unit captures an enemy non-leader ground unit.,,0,3,4,1,Leonardo Giammichele,5/15/2024,FFG,https://starwarsunlimited.com/,352,0,0,0,0,,,
+SHD,124,Legal Authority,,FALSE,Upgrade,Command,2,Law,"Attach to a friendly unit.
+
+When Played: Attached unit captures an enemy non-leader unit with less power than it.",,,0,2,3,Christian Papazoglakis,5/15/2024,FFG,https://starwarsunlimited.com/,353,0,0,0,0,,,
+SHD,125,Price on Your Head,,FALSE,Upgrade,Command,2,"Bounty,Condition","Attached unit gains: ""Bounty - Put the top card of your deck into play as a resource.""",,,0,0,1,Ario Murti,5/8/2024,FFG Stream,https://www.youtube.com/watch?v=2VY7Mr6itNk,325,0,0,0,0,,,
+SHD,128,Outflank,,FALSE,Event,Command,1,Tactic,Attack with 2 units.,,,,,1,Kyle Petchock,5/15/2024,FFG,https://starwarsunlimited.com/,354,0,0,0,0,,,
+SHD,129,Timely Intervention,,FALSE,Event,Command,1,Tactic,"Play a unit from your hand. Give it Ambush for this phase.
+
+Smuggle [{R2} {Command}]",,,,,1,Denis Medri,4/17/2024,FFG Stream,https://www.youtube.com/watch?v=GsnbrOspTJE,283,0,0,0,0,,,
+SHD,130,Moment of Glory,,FALSE,Event,Command,3,Tactic,Give a unit +4/+4 for this phase.,,,4,4,1,Jake Parker,5/15/2024,FFG,https://starwarsunlimited.com/,355,0,0,0,0,,,
+SHD,131,Take Captive,,FALSE,Event,Command,3,Tactic,A friendly unit captures an enemy non-leader unit in the same arena.,,,,,1,Guillaume Ospital,5/1/2024,FFG Stream,https://www.youtube.com/watch?v=xM6uvCuFY1Q,301,0,0,0,0,,,
+SHD,133,Dengar,The Demolisher,TRUE,Unit,"Aggression,Villainy",1,"Underworld,Bounty Hunter",When you play an upgrade on a unit: You may deal 1 damage to that unit.,,0,2,2,2,Stefano Landini,5/8/2024,Jodo Cast,https://www.youtube.com/watch?v=qqwJZUeC08o,324,0,0,0,0,,,
+SHD,135,Kylo's TIE Silencer,Ruthlessly Efficient,TRUE,Unit,"Aggression,Villainy",2,"First Order,Vehicle,Fighter","Action: If this unit was discarded from your hand or deck this phase, play it from your discard pile.",,1,3,2,4,Francois Cannels,5/21/2024,L8 Night Gaming,https://www.youtube.com/watch?v=l8x-64NO-0g,377,0,0,0,0,,,
+SHD,136,Death Watch Loyalist,,FALSE,Unit,"Aggression,Villainy",3,"Mandalorian,Trooper","Grit
+
+Overwhelm",,0,3,3,1,Amad Mir,5/2/2024,Roll On Gaming,https://www.youtube.com/watch?v=RE99vCG0AJY,311,0,0,0,0,Grit,Overwhelm,
+SHD,137,Punishing One,Dengar's Jumpmaster,TRUE,Unit,"Aggression,Villainy",3,"Underworld,Vehicle,Transport",When an upgraded enemy unit is defeated: You may ready this unit. Use this ability only once each round.,,1,3,4,2,Fernando Correa,5/8/2024,Jodo Cast,https://www.youtube.com/watch?v=qqwJZUeC08o,323,0,0,0,0,,,
+SHD,138,Jango Fett,Renowned Bounty Hunter,TRUE,Unit,"Aggression,Villainy",4,"Underworld,Bounty Hunter","While attacking a unit with a Bounty, this unit gets +3/+0 and gains Overwhelm.
+
+When this unit attacks and defeats a unit: Draw a card.",,0,3,6,3,Alex Chen,5/10/2024,FFG,https://www.instagram.com/reel/C6ys8SMi4xo/,333,0,0,0,0,,,
+SHD,139,Krrsantan,Muscle For Hire,TRUE,Unit,"Aggression,Villainy",5,"Underworld,Wookiee,Bounty Hunter","When Played: If an enemy unit has a Bounty, you may ready this unit.
+
+On Attack: Choose a ground unit. You may deal 1 damage to it for each damage on this unit.",,0,3,7,2,Marc Escachx,5/9/2024,SAGA: Space Arena Ground Arena,https://www.youtube.com/watch?v=PnzMDtbxdF4,330,0,0,0,0,,,
+SHD,143,Ruthlessness,,FALSE,Upgrade,"Aggression,Villainy",1,Innate,"Attached unit gains: ""When this unit attacks and defeats a unit: Deal 2 damage to the defending player's base.""",,,2,0,3,James Daly,5/2/2024,Rebel Resource,https://www.youtube.com/watch?v=wO2FKunE_nk,314,0,0,0,0,,,
+SHD,144,Give In to Your Anger,,FALSE,Event,"Aggression,Villainy",1,Innate,"Deal 1 damage to an enemy unit. Its controller's next action this phase must be an attack with that unit, if able. It must attack a unit, if able.",,,,,3,Christina Laviña,5/22/2024,Spice Squadron,https://www.youtube.com/watch?v=diPwWdfR4cY,383,0,0,0,0,,,
+SHD,147,Ketsu Onyo,Old Friend,TRUE,Unit,"Aggression,Heroism",2,"Mandalorian,Underworld,Bounty Hunter","Saboteur
+
+When this unit deals combat damage to a base: You may defeat an upgrade that costs 2 or less.",,0,3,2,2,Amélie Hutt,5/1/2024,FFG Stream,https://www.youtube.com/watch?v=xM6uvCuFY1Q,297,0,0,0,0,Saboteur,,
+SHD,149,Nite Owl Skirmisher,,FALSE,Unit,"Aggression,Heroism",3,"Mandalorian,Trooper",Smuggle [{R5}{Aggression}{Heroism}],,0,4,3,1,French Carlomagno,5/1/2024,Maindeck,https://www.youtube.com/watch?v=FLHR9ayu3ns,307,0,0,0,0,,,
+SHD,150,Koska Reeves,Loyal Nite Owl,TRUE,Unit,"Aggression,Heroism",4,"Mandalorian,Trooper","On Attack: If this unit is upgraded, you may deal 2 damage to a ground unit.",,0,4,5,3,Kevin Libranda,5/2/2024,Rebel Resource,https://www.youtube.com/watch?v=wO2FKunE_nk,313,0,0,0,0,,,
+SHD,153,Poe Dameron,Quick to Improvise,TRUE,Unit,"Aggression,Heroism",5,Resistance,"On Attack: Discard up to 3 cards from your hand. For each card discarded this way, choose a different option:
+- Deal 2 damage to a unit or base.
+- Defeat an upgrade.
+- An opponent discards a card from their hand.",,0,6,6,4,Amélie Hutt,5/23/2024,Golden Dice Podcast,https://www.youtube.com/watch?v=0t3WAmM4644,387,0,0,0,0,,,
+SHD,154,Wrecker,BOOM!,TRUE,Unit,"Aggression,Heroism",6,"Fringe,Clone","Overwhelm
+
+When Played: You may defeat a friendly resource. If you do, deal 5 damage to a ground unit.",,0,7,6,3,Stefano Landini,5/3/2024,FFG,https://www.instagram.com/reel/C6grXMIsWZi/,315,0,0,0,0,Overwhelm,,
+SHD,156,Cripple Authority,,FALSE,Event,"Aggression,Heroism",2,Trick,Draw a card. Each opponent who controls more resources than you discards a card from their hand.,,,,,2,Denis Medri,5/2/2024,I Rebel Gaming,https://www.youtube.com/watch?v=8_0VFTaSX4s,308,0,0,0,0,,,
+SHD,160,Reckless Gunslinger,,FALSE,Unit,Aggression,1,Underworld,"When Played: Deal 1 damage to each base.
+
+Smuggle [{R3}{Aggression}]",,0,2,1,1,Eslam Aboshady,5/16/2024,TowerNumberNine,https://www.youtube.com/watch?v=8N9Wglzlgyg,369,0,0,0,0,,,
+SHD,163,Migs Mayfeld,Triggerman,TRUE,Unit,Aggression,2,Underworld,When a player discards a card from their hand: You may deal 2 damage to a unit or base. Use this ability only once each round.,,0,2,2,3,Denis Medri,5/24/2024,SWU Harvest,https://www.swuharvest.com/2024/05/swu-harvest-has-exclusive-card-reveals-for-the-new-set/,390,0,0,0,0,,,
+SHD,164,Rhokai Gunship,,FALSE,Unit,Aggression,2,"Underworld,Vehicle,Fighter",When Defeated: Deal 1 damage to a unit or base.,,1,2,1,1,Christian Papazoglakis,5/27/2024,Holocron Card Hub,https://www.youtube.com/watch?v=nsuMClEso4Y,391,0,0,0,0,,,
+SHD,169,Clan Challengers,,FALSE,Unit,Aggression,5,"Mandalorian,Trooper","Raid 3
+
+While this unit is upgraded, it gains Overwhelm.",,0,3,6,1,Kevin Libranda,5/1/2024,FFG Stream,https://www.youtube.com/watch?v=xM6uvCuFY1Q,296,0,0,0,0,Overwhelm (Conditional),Raid 3,
+SHD,170,IG-11,I Cannot Be Captured,TRUE,Unit,Aggression,5,"Droid,Bounty Hunter","If this unit would be captured, defeat him and deal 3 damage to each enemy ground unit instead.
+
+On Attack: You may deal 3 damage to a damaged ground unit.",,0,6,5,2,James Daly,4/26/2024,FFG,https://www.instagram.com/p/C6OpytwO02D/,291,0,0,0,0,,,
+SHD,171,Covetous Rivals,,FALSE,Unit,Aggression,6,Bounty Hunter,"Grit
+
+When Played/On Attack: You may deal 2 damage to a unit with a Bounty.",,0,5,5,1,Amad Mir,5/1/2024,FFG Stream,https://www.youtube.com/watch?v=xM6uvCuFY1Q,299,0,0,0,0,Grit,,
+SHD,173,Guild Target,,FALSE,Upgrade,Aggression,0,"Bounty,Condition","Attached unit gains: ""Bounty - Deal 2 damage to a base. If this unit is unique, deal 3 damage instead.""",,,0,0,2,Omercan Cirit,5/9/2024,SAGA: Space Arena Ground Arena,https://www.youtube.com/watch?v=PnzMDtbxdF4,328,0,0,0,0,,,
+SHD,174,Hotshot DL-44 Blaster,,FALSE,Upgrade,Aggression,1,"Item,Weapon","Attach to a non-Vehicle unit.
+
+Smuggle [{R3} {Cunning}]
+
+When played using Smuggle: Attack with attached unit.",,,2,0,1,Eslam Aboshady,4/17/2024,FFG Stream,https://www.youtube.com/watch?v=GsnbrOspTJE,284,0,0,0,0,,,
+SHD,175,Armed to the Teeth,,FALSE,Upgrade,Aggression,2,"Supply,Weapon","Attached unit gains: ""On Attack: Give another friendly unit +2/+0 for this phase.""
+
+Smuggle [{R4}{Aggression}]",,,2,0,2,Eslam Aboshady,5/17/2024,Rolling Dice & Taking Names,https://www.youtube.com/watch?v=Wuih8e4BqD0,371,0,0,0,0,,,
+SHD,184,Bazine Netal,Spy for the First Order,TRUE,Unit,"Cunning,Villainy",2,Underworld,"When Played: Look at an opponent's hand. You may discard 1 of those cards. If you do, that player draws a card.
+
+Smuggle [{R4}{Cunning}{Heroism}]",,0,1,3,3,Lenka Šimečková,5/24/2024,FFG,https://www.instagram.com/reel/C7WwEZiCXl3/,388,0,0,0,0,,,
+SHD,185,Doctor Evazan,Wanted On Twelve Systems,TRUE,Unit,"Cunning,Villainy",2,Underworld,"Shielded
+
+Bounty - Ready up to 12 resources.",,0,3,3,3,David Nash,4/24/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C6JgNtevkZC/,286,0,0,0,0,Shielded,,
+SHD,189,Slaver's Freighter,,FALSE,Unit,"Cunning,Villainy",5,"Underworld,Vehicle,Transport",When Played: You may ready another unit with power equal to or less than the number of upgrades on enemy units.,,1,4,5,1,Fernando Correa,5/22/2024,FFG Stream,https://www.youtube.com/watch?v=Nf_-Ce8DALs,382,0,0,0,0,,,
+SHD,192,Dryden Vos,Offering No Escape,TRUE,Unit,"Cunning,Villainy",7,Underworld,"Shielded
+
+When Played: Choose a captured card guarded by a unit you control. You may play it for free under your control.",,0,5,7,4,Ario Anindito & Annalisa Leoni,5/27/2024,FFG,https://www.instagram.com/reel/C7eeioYv_21/,393,0,0,0,0,Shielded,,
+SHD,194,Triple Dark Raid,,FALSE,Event,"Cunning,Villainy",3,Tactic,Search the top 7 cards of your deck for a Vehicle and play it. It costs {R5} less and enters play ready. Return it to its owner's hand at the end of the phase.,,,,,3,Amad Mir,5/27/2024,Holocron Card Cub,https://www.youtube.com/watch?v=nsuMClEso4Y,392,0,0,0,0,,,
+SHD,195,Cartel Turncoat,,FALSE,Unit,"Cunning,Heroism",1,"Underworld,Vehicle,Fighter",Bounty - Draw a card.,,1,2,3,1,Sebastián Guidobono,4/17/2024,FFG Stream,https://www.youtube.com/watch?v=GsnbrOspTJE,279,0,0,0,0,,,
+SHD,196,Grogu,Irresistable,TRUE,Unit,"Cunning,Heroism",2,Force,Action [{T}]: Exhaust an enemy unit.,,0,0,5,0,Milos Slaykovic,4/3/2024,FFG,https://starwarsunlimited.com/articles/shadows-of-the-galaxy,271,0,0,0,0,,,
+SHD,197,L3-37,Droid Revolutionary,TRUE,Unit,"Cunning,Heroism",2,"Underworld,Droid","When Played: You may rescue a captured card. If you don't, give a Shield token to this unit.
+
+Smuggle [{R4}{Cunning}{Heroism}]",,0,2,2,2,Amad Mir,5/1/2024,FFG Stream,https://www.youtube.com/watch?v=xM6uvCuFY1Q,304,0,0,0,0,,,
+SHD,198,Omega,Part of the Squad,TRUE,Unit,"Cunning,Heroism",2,"Fringe,Clone","Ignore the aspect penalty on the first Clone unit you play each round.
+
+When Played: Search the top 5 cards of your deck for a Clone card, reveal it, and draw it.",,0,2,2,3,Eric Hibbeler,5/2/2024,I Rebel Gaming,https://www.youtube.com/watch?v=8_0VFTaSX4s,309,0,0,0,0,,,
+SHD,199,Coruscant Dissident,,FALSE,Unit,"Cunning,Heroism",3,"Underworld,Twi'lek",On Attack: You may ready a resource.,,0,3,4,2,Omercan Cirit,5/24/2024,SWU Harvest,https://www.swuharvest.com/2024/05/swu-harvest-has-exclusive-card-reveals-for-the-new-set/,389,0,0,0,0,,,
+SHD,202,Qi'ra,Playing Her Part,TRUE,Unit,"Cunning,Heroism",4,Underworld,"When Played: Look at an opponent's hand, then name a card. While this unit is in play, each card with that name costs {R3} more for your opponents to play.",,0,3,5,3,Amélie Hutt,5/22/2024,FFG Stream,https://www.youtube.com/watch?v=Nf_-Ce8DALs,381,0,0,0,0,,,
+SHD,203,Zorii Bliss,Valiant Smuggler,TRUE,Unit,"Cunning,Heroism",5,Underworld,"On Attack: Draw a card. At the start of the regroup phase, discard a card from your hand.
+
+Smuggle [{R6}{Cunning}{Heroism}]",,0,4,7,3,Guillaume Ospital,5/17/2024,FFG,https://www.instagram.com/reel/C7Euhbkvwlx/,370,0,0,0,0,,,
+SHD,204,Millennium Falcon,Lando's Pride,TRUE,Unit,"Cunning,Heroism",6,"Underworld,Vehicle,Transport","If you play this unit from your hand, it gains Ambush.
+
+Smuggle [{R6}{Cunning}{Heroism}]",,1,5,5,2,Ignacio Bazan Lazcano,5/14/2024,Kawa,https://www.youtube.com/watch?v=JTiNTrQ_V2A,342,0,0,0,0,,,
+SHD,206,Spare the Target,,FALSE,Event,"Cunning,Heroism",3,Tactic,Return an enemy non-leader unit to its owner's hand. Collect that unit's Bounties.,,,,,2,Omercan Cirit,4/29/2024,FFG,https://www.instagram.com/p/C6WYKKFJj8C/,292,0,0,0,0,,,
+SHD,207,A New Adventure,,FALSE,Event,"Cunning,Cunning",2,Gambit,"Return a non-leader unit that costs 6 or less to its owner’s hand. Then, its owner may play it for free.",,,,,2,French Carlomagno,5/22/2024,FFG,https://starwarsunlimited.com/articles/shadowy-insights-jeremy-zwirn,380,0,0,0,0,,,
+SHD,209,Criminal Muscle,,FALSE,Unit,Cunning,1,Underworld,When Played: You may return a non-unique upgrade to its owner's hand.,,0,2,1,1,Aitor Prieto,5/13/2024,FFG,https://www.instagram.com/p/C66bSOLsxD8/,337,0,0,0,0,,,
+SHD,214,Frontier Trader,,FALSE,Unit,Cunning,3,"Fringe,Jawa","When Played: You may return a resource you control to its owner's hand. If you do, you may put the top card of your deck into play as a resource.",,0,2,2,1,Aitor Prieto,5/13/2024,Garbage Rollers,https://garbagerollers.com/2024/05/13/experimental-card-reveals/,338,0,0,0,0,,,
+SHD,216,Chain Code Collector,,FALSE,Unit,Cunning,4,"Underworld,Bounty Hunter","Ambush
+
+On Attack: If the defender has a Bounty, it gets -4/-0 for this attack.",,0,4,2,1,Omercan Cirit,5/7/2024,FFG,https://www.instagram.com/asmodee_germany/p/C6rFE72NS3G/,318,0,0,0,0,Ambush,,
+SHD,220,Fennec Shand,Loyal Sharpshooter,TRUE,Unit,Cunning,7,Underworld,"Ambush
+
+On Attack: Deal 1 damage to the defender for each different cost among cards in your discard pile.",,0,4,6,2,French Carlomagno,5/6/2024,4,6,316,0,0,0,0,,,
+SHD,221,Wanted,,FALSE,Upgrade,Cunning,0,"Bounty,Condition","Attached unit gains: ""Bounty - Ready 2 friendly resources.""",,,0,0,1,Ario Murti,4/3/2024,FFG,https://starwarsunlimited.com/articles/shadows-of-the-galaxy,272,0,0,0,0,,,
+SHD,224,Boba Fett's Armor,,TRUE,Upgrade,Cunning,2,"Item,Armor","Attach to a non-Vehicle unit.
+
+If attached unit is Boba Fett and damage would be dealt to him, prevent 2 of that damage.",,,2,2,3,Eslam Aboshady,5/10/2024,Hannonz,https://www.youtube.com/watch?v=PXl3_qUmHw0,335,0,0,0,0,,,
+SHD,229,Ma Klounkee,,FALSE,Event,Cunning,1,"Underworld,Trick","Return a friendly non-leader Underworld unit to its owner's hand. If you do, deal 3 damage to a unit.",,,,,1,Milos Slaykovic,5/1/2024,FFG Stream,https://www.youtube.com/watch?v=xM6uvCuFY1Q,305,0,0,0,0,,,
+SHD,232,Relentless Pursuit,,FALSE,Event,Cunning,3,Tactic,"Choose a friendly unit. It captures an enemy non-leader unit that costs the same as or less than it. If the friendly unit is a Bounty Hunter, give a Shield token to it.",,,,,1,Aitor Prieto,5/1/2024,FFG Stream,https://www.youtube.com/watch?v=xM6uvCuFY1Q,302,0,0,0,0,,,
+SHD,234,Incinerator Trooper,,FALSE,Unit,Villainy,2,"Imperial,Trooper","While attacking, this unit deals combat damage before the defender.",,0,2,2,0,Amad Mir,5/15/2024,FFG,https://starwarsunlimited.com/,356,0,0,0,0,,,
+SHD,242,Gideon's Light Cruiser,Dark Troopers' Station,TRUE,Unit,Villainy,8,"Imperial,Vehicle,Capital Ship","Overwhelm
+
+When Played: If you control Moff Gideon, play a {Villainy} unit that costs 3 or less from your hand or discard pile for free.",,1,7,8,0,Fernando Correa,4/3/2024,FFG,https://starwarsunlimited.com/articles/shadows-of-the-galaxy,273,0,0,0,0,Overwhelm,,
+SHD,245,Greef Karga,Affable Commissioner,TRUE,Unit,Heroism,2,"Fringe,Official","When Played: Search the top 5 cards of your deck for an upgrade, reveal it, and draw it.",,0,2,2,0,Marc Escachx,5/13/2024,FFG,https://www.instagram.com/p/C65_z5KJ7XA/,336,0,0,0,0,,,
+SHD,246,Grey Squadron Y-Wing,,FALSE,Unit,Heroism,2,"Rebel,Vehicle,Fighter",On Attack: An opponent chooses a unit or base they control. You may deal 2 damage to it.,,1,1,3,1,Fernando Correa,5/20/2024,RybackStun,https://www.youtube.com/watch?v=Q24elp4d5BE,374,0,0,0,0,,,
+SHD,247,Protector of the Throne,,FALSE,Unit,Heroism,3,Mandalorian,"While this unit is upgraded, it gains Sentinel.",,0,3,4,1,French Carlomagno,5/15/2024,FFG,https://starwarsunlimited.com/,357,0,0,0,0,Sentinel (Conditional),,
+SHD,248,Tech,Source of Insight,TRUE,Unit,Heroism,3,"Fringe,Clone","Each friendly resource gains Smuggle. The gained Smuggle cost is that card's cost plus {R2} and its aspect icons.
+
+Smuggle [{R4}{Heroism}]",,0,2,5,3,Kyle Petchock,5/1/2024,Maindeck,https://www.youtube.com/watch?v=FLHR9ayu3ns,306,0,0,0,0,,,
+SHD,251,The Mandalorian's Rifle,,TRUE,Upgrade,Heroism,3,"Item,Weapon","Attach to a friendly non-Vehicle unit.
+
+When Played: If attached unit is the Mandalorian, he captures an exhausted enemy non-leader unit.",,,3,0,0,Joshua Carson,4/3/2024,FFG,https://starwarsunlimited.com/articles/shadows-of-the-galaxy,274,0,0,0,0,,,
+SHD,252,Smuggler's Aid,,FALSE,Event,Heroism,1,Supply,"Heal 3 damage from your base.
+
+Smuggle [{R3}{Heroism}]",,,,,1,Eric Hibbeler,5/14/2024,Kawa,https://www.youtube.com/watch?v=JTiNTrQ_V2A,343,0,0,0,0,,,
+SHD,253,This Is The Way,,FALSE,Event,Heroism,2,Mandalorian,"Search the top 8 cards of your deck for up to 2 Mandalorian and/or upgrade cards, reveal them, and draw them.",,,,,2,Kyle Petchock,4/19/2024,FFG,https://www.instagram.com/p/C58oNlHvzXy/,285,0,0,0,0,,,
+SHD,258,Mandalorian Warrior,,FALSE,Unit,,3,Mandalorian,When Played: You may give an Experience token to another Mandalorian unit.,,0,3,3,1,Ash Pierce,5/15/2024,FFG,https://starwarsunlimited.com/,362,0,0,0,0,,,
+SHD,261,Rich Reward,,FALSE,Upgrade,,1,"Bounty,Condition",Attached unit gains: “Bounty — Give an Experience token to each of up to 2 units.”,,,0,0,1,Rebecca Farrow,5/15/2024,FFG,https://starwarsunlimited.com/,366,0,0,0,0,,,

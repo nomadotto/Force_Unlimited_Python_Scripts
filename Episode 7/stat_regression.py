@@ -1,4 +1,4 @@
-from regressor import *
+from Reused.regressor import *
 
 df = read_csv('../data/cards_export_20241017b.csv')
 unit_df = get_units(df)

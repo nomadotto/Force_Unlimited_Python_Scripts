@@ -1,6 +1,6 @@
-from regressor import *
+from Reused.regressor import *
 
-df = read_csv('../data/card_data_sor_complete.csv')
+df = read_csv('../data/May_27_SHD_export.csv')
 unit_df = get_units(df)
 for operation in [make_total_stats, make_adj_total_stats, make_sqrt_cost_feature, make_sqr_cost_feature,
                   make_ability_features, make_aspect_features, count_aspects, make_unique]:
