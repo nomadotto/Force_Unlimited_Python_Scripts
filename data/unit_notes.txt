@@ -1,5 +1,6 @@
 Short notes about adjustments I (Ned) have made to unit stats -
 
+SOR
 Grand Moff Tarkin - Valued at a Draw 2
 Wing Leader - Valued at +2 / +2
 Yoda- Valued at a full draw
@@ -42,7 +43,7 @@ Bhodi Rook - Draw 1
 Inferno Four - Draw 1
 Vanguard Ace - Valued at +1 / +1
 Rogue Squadron Skimisher - Draw 1
-Darth - Valued at +3 / +3
+Darth - Valued at +3 / +3 Draw 1
 Seventh Sister - 3 Damage
 Vanguard Infantry - Valued at +1/+1
 Cargo Juggernaught - Restore 2
@@ -53,3 +54,34 @@ Reinforcement Walker - Draw 1
 General Krell - Draw 1
 Gideon Hask - Valued at +1/+1
 Guerilla Attack Pod - Conditional Ambush
+
+SHD
+Doctor Pershing - Draw 2
+Clan Saxon Gauntlet - +1/+1
+Supreme Leader Snoke - 4 Damage
+Clan Wren Rescuer - +1/+1
+Concord Dawn Interceptors - +1/+0
+Razor Crest- Draw 1
+Chewbacca, Pykesbane - 5 Damage
+Follower of The Way - +1/+1
+Val- +1/+1
+Salacious Crumb - 1 Damage
+Outland TIE Vanguard - +1/+1
+Jabba's Rancor - 3 Damage
+Maz Kanata - +1/+1
+General Rieekan - +1/+1
+Privateer Crew - +1/+1
+Cobb Vanth - Draw 1
+Kylo Ren - +2/+0
+Poe Dameron - 2 Damage
+Wrecker - 5 Damage
+Bo-Katan Kryze - Draw 1
+Wild Rancor - 2 Damage
+Krayt Dragon - 5 Damage
+Fennec Shand - 3 Damage
+Gideon's Light Cruiser - +3 / +3 Draw 1
+Greef Karga - Draw 1
+Tech - Draw 1
+Bounty Guild Initiate - 1 Damage
+Mandalorian Warrior - +1 / +1
+Street Gang Recruiter - Draw 1

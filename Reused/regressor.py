@@ -7,6 +7,7 @@ import statsmodels.stats.weightstats as ws
 
 ABILITIES = ['Sentinel', 'Raid', 'Overwhelm', 'Shielded', 'Ambush', 'Saboteur', 'Restore', 'Grit', 'Smuggle', 'Bounty']
 
+SOLID_ABILITIES = ['Bounty', 'Grit', 'Restore', 'Ambush', 'Shielded', 'Raid']
 # need to rework abilities code
 
 ASPECTS = ['Command',  'Aggression', 'Villainy',
@@ -18,9 +19,13 @@ sqrt_features = ['cost', 'sqrt_cost', 'arena']
 
 sqr_features = ['cost', 'sqr_cost', 'arena']
 
+rarity_features = [f"rarity_{i}_dummy" for i in range(1,5)]
+
 simple_stat_features = ['power', 'hp', 'arena']
 
 total_stat_features = ['total_power', 'total_hp', 'arena']
+
+invis_features = ['invisibledamage', 'invisibledraw']
 
 cost_features = ['cost']
 
@@ -71,6 +76,18 @@ def make_set_features(unit_df: pd.DataFrame) -> pd.DataFrame:
     """
     for set in SETS:
         unit_df.loc[:, f'set_{set}'] = (unit_df.loc[:, 'set'] == set).astype(int)
+    return unit_df
+
+
+def make_rarity_feature(unit_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    make a feature to account for card rarity
+    :param unit_df: a df of units
+    :return: df with one-hot rarity features
+    """
+    dummies = pd.get_dummies(unit_df['rarity'],drop_first=True)
+    for col in dummies.columns:
+        unit_df[f"rarity_{col}_dummy"] = dummies[col].astype(int)
     return unit_df
 
 
@@ -331,4 +348,14 @@ def make_qq(fit):
     with plt.xkcd():
         res = fit.resid  # residuals
         sm.qqplot(res)
+        plt.show()
+
+
+def make_error_histo(fit):
+    with plt.xkcd():
+        res = fit.resid
+        plt.hist(res, bins=[-6+.5*i for i in range(24)])
+        plt.title("Error Histogram")
+        plt.ylabel("Number of Occurances")
+        plt.xlabel("Error")
         plt.show()
