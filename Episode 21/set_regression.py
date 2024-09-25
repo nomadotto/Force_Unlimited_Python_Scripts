@@ -13,7 +13,7 @@ for operation in [make_total_stats, make_adj_total_stats, make_sqrt_cost_feature
 # total_base (power + HP) instead to see the difference
 
 y = 'adj_total_stats'
-X_cols = sqr_features + ['rarity', 'invisibledamage'] + SOLID_ABILITIES
+X_cols = sqr_features + ['rarity', 'invisibledamage', 'invisibledraw'] + SOLID_ABILITIES
 unit_df, results = make_fit(x_cols=X_cols, y_col=y, unit_df=unit_df, const=True)
 
 make_plot(unit_df, y, 'cost', simple_line=True)

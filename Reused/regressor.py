@@ -115,7 +115,10 @@ def make_ability_features(unit_df: pd.DataFrame) -> pd.DataFrame:
             check_col = unit_df[col].str.match(ability)
             check_col.fillna(0, inplace=True)
             check_col = check_col.astype(int)
-            value_col = unit_df[col].str.extract('(\d+)')
+            if ability in ['Restore', 'Raid']:
+                value_col = unit_df['ability text'].str.extract(f'(?:^|\W){ability} (\d+)')
+            else:
+                value_col = pd.Series([1 for i in range(len(unit_df))]).to_frame()
             value_col.fillna(1, inplace=True)
             value_col = value_col[0].astype(int)
             output_col[col] = check_col*value_col
