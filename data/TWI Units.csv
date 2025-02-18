@@ -1,0 +1,453 @@
+set,cardnumber,name,title,unique,card type,aspects,cost,traits,ability text,back side ability text,arena,power,hp,rarity,artist,previewdate,preview source,preview link,cardid,invisiblepower,invisiblehp,invisibledamage,invisibledraw,keyword_1,keyword_1_conditional,keyword_2,keyword_2_conditional,keyword_3,keyword_3_conditional
+TWI,1,Nala Se,Clone Engineer,TRUE,Leader,"Vigilance,Villainy",4,Kaminoan,"Ignore the aspect penalty on Clone units you play.
+
+Epic Action: If you control 4 or more resources, deploy this leader.","Ignore the aspect penalty on Clone units you play.
+
+Each friendly Clone unit gains: ""When Defeated: Heal 2 damage from your base.""",0,1,7,3,Marc Escachx,10/17/2024,FFG,https://x.com/UnlimitedFFG/status/1846929368284581919,710,0,0,0,0,,,,,,
+TWI,2,Nute Gunray,Vindictive Viceroy,TRUE,Leader,"Vigilance,Villainy",6,"Separatist,Official","Action [{T}]: If 2 or more friendly units were defeated this phase, create a Battle Droid token.
+
+Epic Action: If you control 6 or more resources, deploy this leader.",On Attack: Create a Battle Droid token.,0,2,8,1,Aitor Prieto,9/26/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DAYnsjOy_ii/,629,0,0,0,0,,,,,,
+TWI,3,Obi-Wan Kenobi,Patient Mentor,TRUE,Leader,"Vigilance,Heroism",6,"Force,Jedi,Republic","Action [{T}]: Heal 1 damage from a unit.
+
+Epic Action: If you control 6 or more resources, deploy this leader.","Sentinel
+
+On Attack: Heal 1 damage from a unit. If you do, deal 1 damage to a different unit.",0,4,7,1,David Buisan,9/3/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C_dZHTdMr1X/,545,0,0,0,0,Sentinel,FALSE,,,,
+TWI,4,Yoda,Sensing Darkness,TRUE,Leader,"Vigilance,Heroism",7,"Force,Jedi,Republic","Action [{T}]: If a unit left play this phase, draw a card, then put a card from your hand on the top or bottom of your deck.
+
+Epic Action: If you control 7 or more resources, deploy this leader.","Restore 2
+
+When Deployed: You may discard a card from your deck. If you do, defeat an enemy non-leader unit that costs the same as or less than the discarded card.",0,4,9,3,Sandra Chlewińska,10/8/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DA3hEQcIeqX/,663,0,0,0,0,Restore,FALSE,,,,
+TWI,5,Count Dooku,Face of the Confederacy,TRUE,Leader,"Command,Villainy",7,"Force,Separatist,Sith","Action [{T}]: Play a Separatist card from your hand. It gains Exploit 1.
+
+Epic Action: If you control 7 or more resources, deploy this leader.","Overwhelm
+
+On Attack: The next Separatist card you play this phase gains Exploit 3.",0,5,9,1,Eric Hibbeler,9/12/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C_0kTPUIlz_/,597,0,0,0,0,Overwhelm,FALSE,,,,
+TWI,6,Wat Tambor,Techno Union Foreman,TRUE,Leader,"Command,Villainy",5,"Separatist,Official","Action [{T}]: If a friendly unit was defeated this phase, give a unit +2/+2 for this phase.
+
+Epic Action: If you control 5 or more resources, deploy this leader.","On Attack: If a friendly unit was defeated this phase, you may give another unit +2/+2 for this phase.",0,3,6,3,Aitor Prieto,10/3/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DAqmaKzRCS2/,653,0,0,0,0,,,,,,
+TWI,7,Captain Rex,Fighting for his Brothers,TRUE,Leader,"Command,Heroism",5,"Republic,Clone,Trooper","Action [{R2}, {T}]: If a friendly unit attacked this phase, create a Clone Trooper token.
+
+Epic Action: If you control 5 or more resources, deploy this leader.","When Deployed: Create a Clone Trooper token.
+
+Each other friendly Trooper unit gets +0/+1.",0,2,6,3,Eric Hibbeler,9/24/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DATd5m5y5lH/,625,0,0,0,0,,,,,,
+TWI,8,Padmé Amidala,Serving the Republic,TRUE,Leader,"Command,Heroism",5,"Naboo,Republic,Official","Coordinate - Action [{R1}, {T}]: Search the top 3 cards of your deck for a Republic card, reveal it, and draw it.
+
+Epic Action: If you control 5 or more resources, deploy this leader.","Restore 1
+
+Coordinate - On Attack: Search the top 3 cards of your deck for a Republic card, reveal it, and draw it.",0,2,7,1,Maxine Vee,9/10/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C_vatePO_1_/,577,0,0,0,0,Restore,FALSE,,,,
+TWI,9,Maul,A Rival in Darkness,TRUE,Leader,"Aggression,Villainy",6,"Force,Underworld",Action [{T}]: Attack with a unit. It gains Overwhelm for this attack.,"Overwhelm
+
+Each other friendly unit gains Overwhelm.",0,6,6,1,Omercan Cirit,9/5/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C_iiwEcvzy6/,565,0,0,0,0,Overwhelm,FALSE,,,,
+TWI,10,Pre Vizsla,Pursuing the Throne,TRUE,Leader,"Aggression,Villainy",5,"Mandalorian,Trooper","Action [{R1}, {T}]: Deal damage to a unit equal to the number of cards you've drawn this phase.
+
+Epic Action: If you control 5 or more resources, deploy this leader.","While you have 3 or more cards in your hand, this unit gains Saboteur.
+
+While you have 6 or more cards in your hand, this unit gets +2/+0.",0,4,6,3,Amélie Hutt,10/10/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DA8qkBbMJnJ/,684,0,0,0,0,Saboteur,TRUE,,,,
+TWI,11,Ahsoka Tano,Snips,TRUE,Leader,"Aggression,Heroism",5,"Force,Jedi,Republic",Coordinate - Action [{T}]: Attack with a unit. It gets +1/+0 for this attack.,Coordinate - This unit gets +2/+0.,0,3,6,0,David Buisan,8/1/2024,FFG,https://starwarsunlimited.com/articles/twilight-of-the-republic,526,0,0,0,0,Coordinate,FALSE,,,,
+TWI,12,Anakin Skywalker,What It Takes To Win,TRUE,Leader,"Aggression,Heroism",6,"Force,Jedi,Republic","Action [{T}, deal 2 damage to your base]: Attack with a unit. If it's attacking a unit, it gets +2/+0 for this attack.
+
+Epic Action: If you control 6 or more resources, deploy this leader.","Overwhelm
+
+This unit gets +1/+0 for every 5 damage on your base.",0,4,7,1,Kevin Libranda,10/14/2024,FFG,https://twitter.com/UnlimitedFFG/status/1845842234567966751,689,0,0,0,0,Overwhelm,FALSE,,,,
+TWI,13,Mace Windu,Vaapad Form Master,TRUE,Leader,"Aggression,Heroism",7,"Force,Jedi,Republic","Action [{R1}, {T}]: Deal 1 damage to a damaged enemy unit. Then, if it has 5 or more damage on it, deal 1 damage to it.
+
+Epic Action: If you control 7 or more resources, deploy this leader.",When Deployed: Deal 2 damage to each damaged enemy unit.,0,5,8,3,Eric Hibbeler,9/17/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DABcQmoNWsl/,608,0,0,0,0,,,,,,
+TWI,14,Asajj Ventress,Unparalleled Adversary,TRUE,Leader,"Cunning,Villainy",4,"Force,Separatist,Sith","Action [{T}]: Attack with a unit. If you played an event this phase, it gets +1/+0 for this attack.
+
+Epic Action: If you control 4 or more resources, deploy this leader.","On Attack: If you played an event this phase, this unit gets +1/+0 for this attack and deals combat damage before the defender.",0,3,4,3,Reno,10/15/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DBJi2rhS-1s/,694,0,0,0,0,,,,,,
+TWI,15,General Grievous,General of the Droid Armies,TRUE,Leader,"Cunning,Villainy",6,"Separatist,Official",Action [{T}]: Give a Droid unit Sentinel for this phase.,On Attack: You may give a Droid unit +1/+0 and Sentinel for this phase.,0,4,8,0,David Buisan,8/1/2024,FFG,https://starwarsunlimited.com/articles/twilight-of-the-republic,525,0,0,0,0,,,,,,
+TWI,16,Jango Fett,Concealing the Conspiracy,TRUE,Leader,"Cunning,Villainy",5,"Underworld,Bounty Hunter","When a friendly unit deals damage to an enemy unit: You may exhaust this leader. If you do, exhaust that enemy unit.
+
+Epic Action: If you control 5 or more resources, deploy this leader.",When a friendly unit deals damage to an enemy unit: You may exhaust that unit.,0,3,7,1,Jake Parker,9/19/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DAGm3zVyjM0/,613,0,0,0,0,,,,,,
+TWI,17,Chancellor Palpatine,Playing Both Sides,TRUE,Leader,"Cunning,Heroism,Villainy",,"Republic,Official,Force,Separatist,Sith","This leader starts the game with this side faceup.
+
+Action [{T}]: If a friendly {Heroism} unit was defeated this phase, draw a card, heal 2 damage from your base, then flip this leader.","Action [{T}]: If you played a {Villainy} card this phase, create a Clone Trooper token, deal 2 damage to each enemy base, then flip this leader.",,,,3,Ario Murti,10/18/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DBRQ7ZeSMSw/,718,0,0,0,0,,,,,,
+TWI,18,Quinlan Vos,Sticking the Landing,TRUE,Leader,"Cunning,Heroism",5,"Force,Jedi,Republic","When you play a unit: You may exhaust this leader. If you do, deal 1 damage to an enemy unit that costs the same as the played unit.
+
+Epic Action: If you control 5 or more resources, deploy this leader.",When you play a unit: You may  deal 1 damage to an enemy unit that costs the same as  or less than the played unit.,0,3,7,1,Christina Laviña,10/1/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DAlfUQuSW8s/,643,0,0,0,0,,,,,,
+TWI,19,Pau City,,FALSE,Base,Vigilance,,Utapau,Each leader unit you control gets +0/+1.,,,,26,3,Rocío Espín,9/17/2024,FFG,https://x.com/UnlimitedFFG/status/1836118042947785068,610,0,0,0,0,,,,,,
+TWI,20,Sundari,,FALSE,Base,Vigilance,,Mandalore,,,,,30,1,Amélie Hutt,10/22/2024,Press Kit Day,https://x.com/ggDoA/status/1848733793160446289/photo/1,755,0,0,0,0,,,,,,
+TWI,21,The Crystal City,,FALSE,Base,Vigilance,,Cristophsis,,,,,30,1,Amélie Hutt,10/22/2024,Press Kit Day,https://x.com/ggDoA/status/1848732234225738046/photo/1,754,0,0,0,0,,,,,,
+TWI,22,Droid Manufactory,,FALSE,Base,Command,,Geonosis,When you deploy a leader: Create 2 Battle Droid tokens.,,,,24,3,Rocío Espín,9/10/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C_v2IHRpF8C/,578,0,0,0,0,,,,,,
+TWI,23,Lair of Grievous,,FALSE,Base,Command,,Vassek,,,,,30,1,Rocío Espín,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,666,0,0,0,0,,,,,,
+TWI,24,Tipoca City,,FALSE,Base,Command,,Kamino,,,,,30,1,Sebastián Guidobono,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,667,0,0,0,0,,,,,,
+TWI,25,Shadow Collective Camp,,FALSE,Base,Aggression,,Zanbar,When you deploy a leader: Draw a card.,,,,25,3,Amélie Hutt,9/24/2024,FFG,https://x.com/UnlimitedFFG/status/1838669832721502569,627,0,0,0,0,,,,,,
+TWI,26,KCM Mining Facility,,FALSE,Base,Aggression,,Mustafar,,,,,30,1,Adrien Girod,10/22/2024,Press Kit Day,https://x.com/ggDoA/status/1848731814904373447/photo/1,753,0,0,0,0,,,,,,
+TWI,27,The Nest,,FALSE,Base,Aggression,,Onderon,,,,,30,1,Natcha Ngamtweerat,10/16/2024,FFG Stream,https://www.youtube.com/watch?v=3NwC_4fO6h4,767,0,0,0,0,,,,,,
+TWI,28,Petranaki Arena,,FALSE,Base,Cunning,,Geonosis,Each leader unit you control gets +1/+0.,,,,26,3,Rocío Espín,9/3/2024,FFG,https://twitter.com/UnlimitedFFG/status/1831089856128168384,549,0,0,0,0,,,,,,
+TWI,29,Level 1313,,FALSE,Base,Cunning,,Coruscant,,,,,30,1,Adrien Girod,10/22/2024,Press Kit Day,,763,0,0,0,0,,,,,,
+TWI,30,Pyke Palace,,FALSE,Base,Cunning,,Oba Diah,,,,,30,1,Adrien Girod,10/22/2024,Press Kit Day,,764,0,0,0,0,,,,,,
+TWI,31,Rune Haako,Scheming Second,TRUE,Unit,"Vigilance,Villainy",2,"Separatist,Official","When Played: If a friendly unit was defeated this phase, you may give a unit -1/-1 for this phase.",,0,3,2,2,Sebastián Guidobono,9/26/2024,Magic Arcanum,https://www.youtube.com/watch?v=h_Faf8JYzBs,631,0,0,1,0,,,,,,
+TWI,32,Wartime Trade Official,,FALSE,Unit,"Vigilance,Villainy",2,"Separatist,Official",When Defeated: Create a Battle Droid token.,,0,1,3,1,Leonardo Giammichele,9/11/2024,FFG Stream,https://www.youtube.com/live/r-EmeX_tYHY,592,1,1,0,0,,,,,,
+TWI,33,Calculating MagnaGuard,,FALSE,Unit,"Vigilance,Villainy",3,"Separatist,Droid",When Played/When a friendly unit is defeated: This unit gains Sentinel for this phase.,,0,3,4,2,Alex Chen,9/11/2024,FFG Stream,https://www.youtube.com/live/r-EmeX_tYHY,591,0,0,0,0,Sentinel,TRUE,,,,
+TWI,34,General Grievous,Trophy Collector,TRUE,Unit,"Vigilance,Villainy",3,"Separatist,Official","Ignore the aspect penalty on each Lightsaber upgrade you play on this unit.
+
+On Attack: If this unit has 4 or more Lightsaber upgrades attached to him, defeat 4 enemy units.",,0,4,4,4,French Carlomagno,9/20/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DAJKfMkyWZ5/,617,0,0,0,0,,,,,,
+TWI,35,Morgan Elsbeth,Keeper of Many Secrets,TRUE,Unit,"Vigilance,Villainy",4,"Force,Imperial,Official","Restore 1
+
+On Attack: You may defeat another friendly unit. If you do, draw a card.",,0,3,6,3,David Buisan,10/4/2024,wooooo,https://www.youtube.com/watch?v=iC07KdU1VpE,658,0,0,0,0,Restore,FALSE,,,,
+TWI,36,Devastating Gunship,,FALSE,Unit,"Vigilance,Villainy",5,"Separatist,Droid,Vehicle,Transport","Grit
+
+When Played: Defeat an enemy unit with 2 or less remaining HP.",,1,3,5,1,Afif Khaled,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,745,0,0,0,0,Grit,FALSE,,,,
+TWI,37,Droideka Security,,FALSE,Unit,"Vigilance,Villainy",6,"Separatist,Droid","Exploit 2
+
+Sentinel",,0,4,5,1,Marc Escachx,10/14/2024,TCG Cast,https://twitter.com/TCG__Cast/status/1845872199091310608/photo/1,692,0,0,0,0,Exploit,FALSE,Sentinel,FALSE,,
+TWI,38,Providence Destroyer,,FALSE,Unit,"Vigilance,Villainy",8,"Separatist,Vehicle,Capital Ship","Exploit 2
+
+On Attack: Give an enemy space unit -2/-2 for this phase.",,1,5,7,2,Fernando Correa,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,750,0,0,2,0,,,,,,
+TWI,39,Malevolence,Grievous's Secret Weapon,TRUE,Unit,"Vigilance,Villainy",9,"Separatist,Vehicle,Capital Ship","Exploit 4
+
+Restore 2
+
+When Played: Give an enemy unit -4/-0 for this phase. It can't attack for this phase.",,1,7,7,3,French Carlomagno,9/27/2024,FFG,https://twitter.com/UnlimitedFFG/status/1839689026434920940,632,0,0,0,0,Restore,FALSE,Exploit,FALSE,,
+TWI,40,A Fine Addition,,FALSE,Event,"Vigilance,Villainy",0,Supply,"If an enemy unit was defeated this phase, play an upgrade from your hand or from any player's discard pile, ignoring its aspect penalty.",,,,,3,Arthur Mougne,9/21/2024,I Rebel,https://www.youtube.com/watch?v=p1CMe0sCqaI,620,0,0,0,0,,,,,,
+TWI,41,Lethal Crackdown,,FALSE,Event,"Vigilance,Villainy",4,Tactic,Defeat a non-leader unit. Deal damage to your base equal to that unit's power.,,,,,2,Omercan Cirit,10/22/2024,Press Kit Day,https://x.com/GoldenDicePod/status/1848727658818871740/photo/1,756,0,0,0,0,,,,,,
+TWI,42,Barriss Offee,Unassuming Apprentice,TRUE,Unit,"Vigilance,Heroism",1,"Force,Jedi,Republic",Each friendly unit that was healed this phase gets +1/+0.,,0,1,1,3,Tatsiana Maksimuk,10/22/2024,Press Kit Day,https://x.com/IRebelDestiny/status/1848716932456870149/photo/4,737,0,0,0,0,,,,,,
+TWI,43,Outspoken Representative,,FALSE,Unit,"Vigilance,Heroism",2,"Republic,Official","While you control another Republic unit, this unit gains Sentinel.
+
+When Defeated: Create a Clone Trooper token.",,0,0,3,1,Leonardo Giammichele,9/11/2024,Spice Squadron,https://www.youtube.com/watch?v=n-W4hVqJt4Y,596,0,2,2,0,Sentinel,TRUE,,,,
+TWI,44,Kashyyyk Defender,,FALSE,Unit,"Vigilance,Heroism",2,Wookiee,"Grit
+
+When Played: Heal up to 2 damage from another unit and deal that much damage to this unit.",,0,0,5,2,Luke Harrington,9/4/2024,FFG Stream,https://www.youtube.com/watch?v=Ygfp4x7i70k,560,0,0,0,0,Grit,FALSE,,,,
+TWI,45,41st Elite Corps,,FALSE,Unit,"Vigilance,Heroism",3,"Republic,Clone,Trooper",Coordinate - This unit gets +0/+3.,,0,3,3,1,Eslam Aboshady,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,744,0,0,0,0,Coordinate,FALSE,,,,
+TWI,46,Captain Typho,Protecting the Senator,TRUE,Unit,"Vigilance,Heroism",3,"Naboo,Republic,Trooper",When Played/On Attack: Give a unit Sentinel for this phase.,,0,2,4,2,Sandra Chlewińska,9/9/2024,Maindeck,https://www.youtube.com/watch?v=_nzRmHvI5DA,575,0,0,0,0,Sentinel,TRUE,,,,
+TWI,47,Satine Kryze,Committed to Peace,TRUE,Unit,"Vigilance,Heroism",4,"Mandalorian,Official","Each unit gains: ""Action [{T}]: Discard cards from an opponent's deck equal to half this unit's remaining HP, rounded up.""",,0,0,6,4,Mona Finden,10/7/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DA08Iz7vy7f/,660,0,0,0,0,,,,,,
+TWI,48,Obi-Wan's Aethersprite,This Is Why I Hate Flying,TRUE,Unit,"Vigilance,Heroism",5,"Jedi,Republic,Vehicle,Fighter",When Played/On Attack: You may deal 1 damage to this unit and 2 damage to another space unit.,,1,4,6,2,French Carlomagno,9/3/2024,Never Bored Gaming,https://www.instagram.com/reel/C_dfztqOHa1/,547,0,0,2,0,,,,,,
+TWI,49,Knight of the Republic,,FALSE,Unit,"Vigilance,Heroism",6,"Force,Jedi,Republic",When this unit is attacked: Create a Clone Trooper token.,,0,4,7,1,Amad Mir,9/4/2024,FFG Stream,https://www.youtube.com/watch?v=Ygfp4x7i70k,561,1,1,0,0,,,,,,
+TWI,50,Luminara Unduli,Soft-Spoken Master,TRUE,Unit,"Vigilance,Heroism",7,"Force,Jedi,Republic","Coordinate - Grit
+
+When Played: Choose a base. Heal 1 damage from it for each unit you control.",,0,4,9,3,Robynn Frauhn,9/30/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DAi7H8ySpJv/,641,0,0,0,0,Coordinate,FALSE,Grit,TRUE,,
+TWI,51,For the Republic,,FALSE,Upgrade,"Vigilance,Heroism",3,Republic,"If you control 3 or more Republic units, this upgrade costs {R2} less to play.
+
+Attached unit gains: ""Coordinate - Restore 2.""",,,0,0,3,Artist TBD,10/22/2024,Press Kit Day,,776,0,0,0,0,,,,,,
+TWI,52,Hello There,,FALSE,Event,"Vigilance,Heroism",3,Trick,Choose a unit that entered play this phase. It gets -4/-4 for this phase.,,,,,2,David Nash,9/3/2024,Golden Dice Podcast,https://www.youtube.com/watch?v=gokDunenFUY,546,0,0,0,0,,,,,,
+TWI,53,Finn,On the Run,TRUE,Unit,"Vigilance,Vigilance",3,"Fringe,Trooper","When this unit completes an attack: Choose a unique unit. For this phase, if damage would be dealt to that unit, prevent 1 of that damage.",,0,3,4,3,Sebastián Guidobono,10/18/2024,FFG,https://x.com/UnlimitedFFG/status/1847321877766623673,713,0,0,0,0,,,,,,
+TWI,54,Duchess's Champion,,FALSE,Unit,"Vigilance,Vigilance",4,Mandalorian,"While an opponent controls 3 or more units, this unit gains Sentinel.",,0,1,8,2,Guillaume Ospital,10/8/2024,TwinSunz,https://www.youtube.com/watch?v=uZdLAjwyuFI,662,0,0,0,0,Sentinel,TRUE,,,,
+TWI,55,Equalize,,FALSE,Event,"Vigilance,Vigilance",3,Tactic,"Give a unit -2/-2 for this phase. Then, if you control fewer units than that unit's controller, give another unit -2/-2 for this phase.",,,,,3,Kevin Libranda,9/18/2024,FFG Stream,https://www.youtube.com/watch?v=Ln7Nwo_I_BQ,612,0,0,0,0,,,,,,
+TWI,56,Compassionate Senator,,FALSE,Unit,Vigilance,1,"Republic,Official","Action [{R2}, {T}]: Heal 2 damage from a unit or base.",,0,0,4,2,Milos Slaykovic,10/22/2024,Press Kit Day,,773,0,0,0,0,,,,,,
+TWI,57,Warrior Drone,,FALSE,Unit,Vigilance,1,Separatist,,,0,1,4,1,Luke Harrington,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,743,0,0,0,0,,,,,,
+TWI,58,Padawan Starfighter,,FALSE,Unit,Vigilance,2,"Jedi,Republic,Vehicle,Fighter","While you control a Force unit or a Force upgrade, this unit gets +1/+1.",,1,1,3,1,Christian Papazoglakis,10/16/2024,mundogalapagos,https://www.instagram.com/p/DBMOKc9pP4U/,701,1,1,0,0,,,,,,
+TWI,59,Royal Guard Attaché,,FALSE,Unit,Vigilance,2,"Naboo,Trooper",When Played: Deal 2 damage to this unit.,,0,2,5,1,Gabriel Gomez Almenzar,9/3/2024,Never Bored Gaming,https://www.instagram.com/reel/C_dfztqOHa1,548,0,-2,0,0,,,,,,
+TWI,60,Trade Federation Shuttle,,FALSE,Unit,Vigilance,3,"Separatist,Vehicle,Transport","When Played: If you control a damaged unit, create a Battle Droid token.",,1,2,3,1,Fernando Correa,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,747,1,1,0,0,,,,,,
+TWI,61,Infantry of the 212th,,FALSE,Unit,Vigilance,3,"Republic,Clone,Trooper",Coordinate - Sentinel,,0,2,4,1,Sebastián Guidobono,9/4/2024,Starlight Beacon Transmissions,https://www.youtube.com/watch?v=ClamCZhJf-Y,551,0,0,0,0,Coordinate,FALSE,Sentinel,TRUE,,
+TWI,62,Daughter of Dathomir,,FALSE,Unit,Vigilance,4,"Force,Night","While this unit is undamaged, it gains Restore 2.",,0,3,5,1,Marc Escachx,10/16/2024,FFG Stream,https://www.youtube.com/live/3NwC_4fO6h4,704,0,0,0,0,Restore,TRUE,,,,
+TWI,63,Vulture Interceptor Wing,,FALSE,Unit,Vigilance,4,"Separatist,Droid,Vehicle,Fighter",On Attack: Give an enemy unit -1/-1 for this phase.,,1,3,3,2,Johnny Morrow,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,749,0,0,1,0,,,,,,
+TWI,64,Ki-Adi-Mundi,Composed and Confident,TRUE,Unit,Vigilance,5,"Force,Jedi,Republic",Coordinate - When an opponent plays their second card each phase: You may draw 2 cards.,,0,5,7,4,Amélie Hutt,9/6/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C_lHh12Bavk/,567,0,0,0,0,Coordinate,FALSE,,,,
+TWI,65,Falchion Ion Tank,,FALSE,Unit,Vigilance,6,"Republic,Vehicle,Tank",Sentinel,,0,4,6,1,Kyle Petchock,10/22/2024,Press Kit Day,https://x.com/ggDoA/status/1848733553841840365/photo/1,740,0,0,0,0,Sentinel,FALSE,,,,
+TWI,66,Multi-Troop Transport,,FALSE,Unit,Vigilance,7,"Separatist,Vehicle,Tank","Exploit 2
+
+On Attack: Create a Battle Droid token.",,0,3,6,1,Kyle Petchock,9/26/2024,Magic Arcanum,https://www.youtube.com/watch?v=h_Faf8JYzBs,630,1,1,0,0,Exploit,FALSE,,,,
+TWI,67,The Zillo Beast,Awoken from the Depths,TRUE,Unit,Vigilance,9,Creature,"When Played: Give each enemy ground unit -5/-0 for this phase.
+
+When the regroup phase starts: Heal 5 damage from this unit.",,0,10,10,3,Aitor Prieto,10/18/2024,Hunter Friends,https://www.youtube.com/shorts/mmZCatbL0vw,712,0,0,0,0,,,,,,
+TWI,68,Foresight,,FALSE,Upgrade,Vigilance,1,Learned,"Attached unit gains: ""When the regroup phase starts: Name a card, then look at the top card of your deck. If it's the named card, you may reveal and draw it.""",,,0,0,3,Tatsiana Maksimuk,10/19/2024,Quest for the Janklord,https://www.youtube.com/watch?v=Gny0VYeJdTk,717,0,0,0,0,,,,,,
+TWI,69,Roger Roger,,FALSE,Upgrade,Vigilance,1,Learned,When Defeated: Attach this upgrade to a friendly Battle Droid token.,,,0,0,3,JB Casacop,10/15/2024,Wossy Plays,https://www.youtube.com/watch?v=NyvOZvxz_64,695,0,0,0,0,,,,,,
+TWI,70,Perilous Position,,FALSE,Upgrade,Vigilance,3,Condition,When Played: Exhaust attached unit.,,,0,0,1,Omercan Cirit,10/22/2024,Press Kit Day,https://x.com/GoldenDicePod/status/1848727658818871740/photo/1,757,0,0,0,0,,,,,,
+TWI,71,Unshakeable Will,,FALSE,Upgrade,Vigilance,4,Innate,Attached unit gains Sentinel.,,,0,0,2,Tatsiana Maksimuk,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,748,0,0,0,0,,,,,,
+TWI,72,I Have the High Ground,,FALSE,Event,Vigilance,1,Tactic,Choose a friendly unit. Each enemy unit gets -4/-0 while attacking that unit this phase.,,,,,3,James Daly,9/13/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C_3JmJ8JmFA/,601,0,0,0,0,,,,,,
+TWI,73,Grievous Reassembly,,FALSE,Event,Vigilance,2,Supply,Heal 3 damage from a unit. Create a Battle Droid token.,,,,,1,Johnny Morrow,10/16/2024,Man vs Meeple,https://www.youtube.com/watch?v=LoHkXEXOvtY,702,0,0,0,0,,,,,,
+TWI,74,Guarding the Way,,FALSE,Event,Vigilance,2,Tactic,"Give a unit Sentinel for this phase.
+
+If you have the initiative, also give that unit +2/+2 for this phase.",,,,,1,David Buisan,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,746,0,0,0,0,,,,,,
+TWI,75,Disruptive Burst,,FALSE,Event,Vigilance,3,Tactic,Give each enemy unit -1/-1 for this phase.,,,,,2,Hoan Nguyen,10/22/2024,Press Kit Day,,771,0,0,0,0,,,,,,
+TWI,76,Death by Droids,,FALSE,Event,Vigilance,5,Tactic,Defeat a unit that costs 3 or less. Create 2 Battle Droid tokens.,,,,,2,Christian Papazoglakis,10/18/2024,Hunter Friends,https://www.youtube.com/shorts/mmZCatbL0vw,711,0,0,0,0,,,,,,
+TWI,77,Vanquish,,FALSE,Event,Vigilance,5,Tactic,Defeat a non-leader unit.,,,,,1,Eslam Aboshady,,,,,,,,,,,,,,
+TWI,78,The Invasion of Christophsis,,FALSE,Event,Vigilance,15,"Separatist,Plan","Exploit 4
+
+Choose an opponent. Defeat each unit that player controls.",,,,,4,French Carlomagno,9/6/2024,dragonriderTCCG,https://www.youtube.com/watch?v=7z5WOE-njV4,570,0,0,0,0,Exploit,FALSE,,,,
+TWI,79,Confederate Courier,,FALSE,Unit,"Command,Villainy",2,"Separatist,Vehicle,Fighter",When Defeated: Create a Battle Droid token.,,1,2,1,1,Amad Mir,9/13/2024,Jade Throne Podcast,https://www.youtube.com/watch?v=VU0x0Rso4ZY,602,1,1,0,0,,,,,,
+TWI,80,Poggle the Lesser,Archduke of the Stalgasin Hive,TRUE,Unit,"Command,Villainy",2,"Separatist,Official","When you play another unit: You may exhaust this unit. If you do, create a Battle Droid token.",,0,1,4,3,Amad Mir,10/4/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DAtNx0YyBhh/,657,1,1,0,0,,,,,,
+TWI,81,Droid Commando,,FALSE,Unit,"Command,Villainy",3,"Separatist,Droid,Trooper","While you control another Separatist unit, this unit gains Ambush.",,0,4,3,1,Kyle Petchock,9/12/2024,Rolling Solo,https://twitter.com/TryRollingSolo/status/1834358966433829264,600,0,0,0,0,Ambush,TRUE,,,,
+TWI,82,MagnaGuard Wing Leader,,FALSE,Unit,"Command,Villainy",3,"Separatist,Vehicle,Fighter","Action: Attack with a Droid unit. Then, attack with another Droid unit. Use this ability only once each round.",,1,3,4,2,Francois Cannels,9/11/2024,FFG Stream,https://www.youtube.com/watch?v=r-EmeX_tYHY,595,0,0,0,0,,,,,,
+TWI,83,General's Guardian,,FALSE,Unit,"Command,Villainy",4,"Separatist,Droid",When this unit is attacked: Create a Battle Droid token.,,0,4,4,0,Stefano Landini,8/1/2024,FFG,https://starwarsunlimited.com/articles/twilight-of-the-republic,531,1,1,0,0,,,,,,
+TWI,84,Kraken,Confederate Tactician,TRUE,Unit,"Command,Villainy",5,"Separatist,Droid","When Played: Create 2 Battle Droid tokens.
+
+On Attack: Give each friendly token unit +1/+1 for this phase.",,0,2,5,2,Aitor Prieto,9/4/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C_gEyPUsVYp/,552,2,2,0,0,,,,,,
+TWI,85,Kalani,Analytical General,TRUE,Unit,"Command,Villainy",6,"Separatist,Droid","On Attack: You may choose another unit. If you have the initiative, you may choose up to 2 other units instead. Give each chosen unit +2/+2 for this phase.",,0,5,7,3,Amad Mir,9/11/2024,FFG Stream,https://www.youtube.com/watch?v=r-EmeX_tYHY,594,0,2,2,0,,,,,,
+TWI,86,Admiral Trench,Holding the Line,TRUE,Unit,"Command,Villainy",7,"Separatist,Official","Exploit 1
+
+When Played: Return up to 3 units that were defeated this phase from your discard pile to your hand.",,0,5,5,2,Marc Escachx,10/3/2024,Spiel Presentation,https://twitter.com/GoldenDicePod/status/1841903538752127153/photo/1,655,0,0,0,2,Exploit,FALSE,,,,
+TWI,87,Separatist Super Tank,,FALSE,Unit,"Command,Villainy",9,"Separatist,Vehicle,Tank",Exploit 3,,0,8,8,1,Jake Parker,9/4/2024,Space Arena Ground Arena,https://www.youtube.com/watch?v=8yCgKFjGf38,553,0,0,0,0,Exploit,FALSE,,,,
+TWI,88,Reprocess,,FALSE,Event,"Command,Villainy",3,Supply,Choose up to 4 units in your discard pile. Put them on the bottom of your deck in a random order and create that many Battle Droid tokens.,,,,,2,Arthur Mougne,10/16/2024,FFG Stream,https://www.youtube.com/live/3NwC_4fO6h4,707,0,0,0,0,,,,,,
+TWI,89,Consolidation of Power,,FALSE,Event,"Command,Villainy",6,Plan,"Choose any number of friendly units. You may play a unit from your hand if its cost is less than or equal to the combined power of the chosen units for free. Then, defeat the chosen units.",,,,,3,Ario Murti,8/21/2024,FFG Stream,https://www.youtube.com/watch?v=EXn5S4FWm0M,541,0,0,0,0,,,,,,
+TWI,90,Echo,Valiant ARC Trooper,TRUE,Unit,"Command,Heroism",2,"Republic,Clone,Trooper",Coordinate - This unit gets +2/+2.,,0,2,2,2,Sebastián Guidobono,9/4/2024,FFG Stream,https://www.youtube.com/watch?v=Ygfp4x7i70k,558,0,0,0,0,Coordinate,FALSE,,,,
+TWI,91,Republic Tactical Officer,,FALSE,Unit,"Command,Heroism",2,"Republic,Clone",When Played: You may attack with a Republic unit. It gets +2/+0 for this attack.,,0,1,4,1,Ario Anindito,9/4/2024,FFG Stream,https://www.youtube.com/watch?v=Ygfp4x7i70k,559,2,0,0,0,,,,,,
+TWI,92,Admiral Yularen,Advising Caution,TRUE,Unit,"Command,Heroism",3,"Republic,Official","Restore 1
+
+Each other friendly {Heroism} unit gets +0/+1.",,0,2,5,3,Eric Hibbeler,9/18/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DAEBMFUShAE/,611,0,2,0,0,Restore,FALSE,,,,
+TWI,93,Advanced Recon Commando,,FALSE,Unit,"Command,Heroism",3,"Republic,Clone,Trooper",Overwhelm,,0,4,3,1,Hoan Nguyen,10/22/2024,Press Kit Day,https://x.com/GoldenDicePod/status/1848727658818871740/photo/1,758,0,0,0,0,Overwhelm,FALSE,,,,
+TWI,94,Shaak Ti,Unity Wins Wars,TRUE,Unit,"Command,Heroism",4,"Force,Jedi,Republic","Each friendly token unit gets +1/+0.
+
+On Attack: Create a Clone Trooper token.",,0,3,4,2,Tatsiana Maksimuk,9/2/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C_a0VZCJSYR/,543,2,1,0,0,,,,,,
+TWI,95,Pelta Supply Frigate,,FALSE,Unit,"Command,Heroism",5,"Republic,Vehicle,Capital Ship",Coordinate - When Played: Create a Clone Trooper Token.,,1,3,6,1,Fernando Correa,9/4/2024,FFG Stream,https://www.youtube.com/watch?v=Ygfp4x7i70k,562,0,0,0,0,Coordinate,FALSE,,,,
+TWI,96,Aayla Secura,Master of the Blade,TRUE,Unit,"Command,Heroism",5,"Force,Jedi,Republic",Coordinate - On Attack: Prevent all combat damage that would be deal to this unit for this attack.,,0,6,5,4,Tatsiana Maksimuk,9/20/2024,Fantha Tracks,https://www.fanthatracks.com/news/gaming/exclusive-reveal-two-new-cards-from-star-wars-unlimited-twilight-of-the-republic/,614,0,0,0,0,Coordinate,FALSE,,,,
+TWI,97,Captain Rex,Lead by Example,TRUE,Unit,"Command,Heroism",6,"Republic,Clone,Trooper",When Played: Create 2 Clone Trooper tokens.,,0,3,3,0,Eric Hibbeler,8/1/2024,FFG,https://starwarsunlimited.com/articles/twilight-of-the-republic,530,4,4,0,0,,,,,,
+TWI,98,Republic Defense Carrier,,FALSE,Unit,"Command,Heroism",11,"Republic,Vehicle,Capital Ship","This unit costs {R1} less to play for each unit controlled by the opponent who controls the most units.
+
+Sentinel",,1,6,7,2,Francois Cannels,10/9/2024,Outer Rim CCG,https://www.youtube.com/watch?v=JcZeqkVArdQ,683,0,0,0,0,Sentinel,FALSE,,,,
+TWI,99,Synchronized Strike,,FALSE,Event,"Command,Heroism",2,Tactic,Deal damage to an enemy unit equal to the number of units you control in its arena.,,,,,2,Robynn Frauhn,9/20/2024,RybackStun,https://www.youtube.com/watch?v=ifpuiL2CeOQ,619,0,0,0,0,,,,,,
+TWI,100,Petition the Senate,,FALSE,Event,"Command,Heroism",3,Tactic,"If you control 3 or more Official units, draw 3 cards.",,,,,3,Tatsiana Maksimuk,10/22/2024,Press Kit Day,,772,0,0,0,0,,,,,,
+TWI,101,Mas Amedda,Vice Chair,TRUE,Unit,"Command,Command",2,"Republic,Official","When you play another unit: You may exhaust this unit. If you do, search the top 4 cards of your deck for a unit, reveal it, and draw it.",,0,0,4,3,Amad Mir,9/13/2024,Outmaneuver,https://www.youtube.com/watch?v=Zige_ug9PZs,603,0,0,0,1,,,,,,
+TWI,102,Manufactured Soldiers,,FALSE,Event,"Command,Command",3,Supply,"Choose one:
+- Create 2 Clone Trooper tokens.
+- Create 3 Battle Droid tokens.",,,,,2,Ario Murti,9/6/2024,Puente 3,https://www.youtube.com/watch?v=Z5yvxaYAJOI,568,0,0,0,0,,,,,,
+TWI,103,Pyrrhic Assault,,FALSE,Event,"Command,Command",3,Disaster,"For this phase, each friendly unit gains: ""When Defeated: Deal 2 damage to an enemy unit.""",,,,,4,JB Casacop,10/15/2024,FFG,https://x.com/UnlimitedFFG/status/1846302573239664776,697,0,0,0,0,,,,,,
+TWI,104,Obedient Vanguard,,FALSE,Unit,Command,1,"Separatist,Droid,Trooper","Raid 1
+
+When Defeated: You may give a Trooper unit +2/+2 for this phase.",,0,1,1,1,Earl John Dela Cruz,9/27/2024,Echo Base Gaming,https://www.youtube.com/watch?v=mjW9YZKF9Qw,633,1,1,0,0,Raid,FALSE,,,,
+TWI,105,Steadfast Senator,,FALSE,Unit,Command,1,"Republic,Official","Action [{R2}, {T}]: Attach with a unit. It gets +2/+0 for this attack.",,0,0,4,2,Hoan Nguyen,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,723,0,0,0,0,,,,,,
+TWI,106,Coruscant Guard,,FALSE,Unit,Command,2,"Republic,Clone,Trooper",Coordinate — Ambush,,0,3,2,1,Kyle Petchock,8/1/2024,FFG,https://starwarsunlimited.com/articles/twilight-of-the-republic,527,0,0,0,0,Ambush,TRUE,Coordinate,FALSE,,
+TWI,107,Patrolling V-Wing,,FALSE,Unit,Command,2,"Vehicle,Fighter",When Played: Draw a card.,,1,1,1,0,Amad Mir,,,,156,0,0,0,1,,,,,,
+TWI,108,Ryloth Militia,,FALSE,Unit,Command,2,"Twi'lek,Trooper",Raid 1,,0,2,3,1,Benjamin Paulus,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,722,0,0,0,0,Raid,FALSE,,,,
+TWI,109,501st Liberator,,FALSE,Unit,Command,3,"Republic,Clone,Trooper","When Played: If you control another Republic unit, you may heal 3 damage from a base.",,0,3,3,1,Andre Mealha,9/9/2024,Alliance Dispatch,https://www.youtube.com/shorts/c3RY71OQ2-E,576,0,0,0,0,,,,,,
+TWI,110,Huyang,Enduring Instructor,TRUE,Unit,Command,3,"Jedi,Droid","When Played: Choose another friendly unit. While this unit is in play, the chosen unit gets +2/+2.",,0,2,4,3,David Buisan,10/16/2024,FFG,https://x.com/UnlimitedFFG/status/1846566992708247977,700,2,2,0,0,,,,,,
+TWI,111,Republic ARC-170,,FALSE,Unit,Command,3,"Republic,Vehicle,Fighter",,,1,3,4,1,Sebastián Guidobono,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,668,0,0,0,0,,,,,,
+TWI,112,Subjugating Starfighter,,FALSE,Unit,Command,4,"Separatist,Vehicle,Fighter","Ambush
+
+When Played: If you have the initiative, create a Battle Droid token.",,1,3,3,1,Amad Mir,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,669,1,1,0,0,Ambush,FALSE,,,,
+TWI,113,B2 Legionnaires,,FALSE,Unit,Command,5,"Separatist,Droid,Trooper","Sentinel
+
+Overwhelm",,0,5,4,1,Johnny Morrow,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,724,0,0,0,0,Overwhelm,FALSE,Sentinel,FALSE,,
+TWI,114,Clone Commander Cody,Commanding the 212th,TRUE,Unit,Command,5,"Republic,Clone,Trooper","Overwhelm
+
+Coordinate - Each other friendly unit gets +1/+1 and gains Overwhelm.",,0,4,4,2,Guillaume Ospital,9/22/2024,Ice Cave Radio,https://www.youtube.com/watch?v=03PadiDRGEc,621,1,1,0,0,Overwhelm,FALSE,Coordinate,FALSE,,
+TWI,115,Osi Sobeck,Warden of the Citadel,TRUE,Unit,Command,6,Separatist,"Exploit 3
+
+When Played: This unit captures an enemy non-leader ground unit with cost equal to or less than the number of resources paid to play this unit.",,0,3,6,2,Aitor Prieto,10/11/2024,FFG,https://www.instagram.com/p/DA9M09aOq6d/,693,0,0,5,0,Exploit,FALSE,,,,
+TWI,116,Clone,,FALSE,Unit,Command,7,Clone,"You may have this unit enter play as a copy of a non-leader, non-Vehicle unit in play, except it gains the Clone trait and is not unique.",,0,0,0,4,Arthur Mougne,10/14/2024,Pure Sabacc,https://twitter.com/SWUnlimited_fr/status/1845721629235548273/photo/1,688,7,7,0,0,,,,,,
+TWI,117,Baktoid Spider Droid,,FALSE,Unit,Command,8,"Separatist,Droid,Walker","Exploit 2
+
+Ambush",,0,5,6,1,Ario Anindito,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,720,0,0,0,0,Ambush,FALSE,Exploit,FALSE,,
+TWI,118,Gor,Grievous's Pet,TRUE,Unit,Command,12,"Separatist,Creature","Exploit 3
+Sentinel
+Ambush
+Overwhelm",,0,7,7,4,Leonardo Giammichele,8/30/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C_TF87IpfYY/,544,0,0,0,0,Ambush,FALSE,Overwhelm,FALSE,Sentinel,FALSE
+TWI,119,Nameless Valor,,FALSE,Upgrade,Command,1,Learned,"Attach to a token unit.
+
+Attached unit gains Overwhelm.",,,0,0,2,Facundo Moyano,9/26/2024,ComicBook.com,https://comicbook.com/gaming/news/star-wars-unlimited-reveals-two-new-twilight-of-the-republic-cards-exclusive/,634,0,0,0,0,,,,,,
+TWI,120,Strategic Acumen,,FALSE,Upgrade,Command,1,Learned,"Attached unit gains: ""Action [{T}]: Play a unit from your hand. It costs {R1} less.""",,,0,0,1,Ario Murti,10/16/2024,FFG Stream,https://www.youtube.com/live/3NwC_4fO6h4,706,0,0,0,0,,,,,,
+TWI,121,General's Blade,,FALSE,Upgrade,Command,3,"Item,Weapon,Lightsaber","Attach to a non-Vehicle unit.
+
+If attached unit is a Jedi, it gains: ""On Attack: The next unit you play this phase costs {R2} less.""",,,0,0,3,Amad Mir,8/14/2024,FFG Stream,https://www.youtube.com/watch?v=aLXl0auRTIQ,538,0,0,0,0,,,,,,
+TWI,122,Squad Support,,FALSE,Upgrade,Command,3,Learned,"Attach to a non-leader unit.
+
+Attached unit gains: ""This unit gets +1/+1 for each Trooper unit you control.""",,,0,0,2,Eslam Aboshady,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,721,0,0,0,0,,,,,,
+TWI,123,Outflank,,FALSE,Event,Command,1,Tactic,Attack with 2 units.,,,,,0,Kyle Petchock,,,,354,0,0,0,0,,,,,,
+TWI,124,Tactical Advantage,,FALSE,Event,Command,1,Tactic,Give a unit +2/+2 for this phase.,,,,,0,Eslam Aboshady,,,,,,,,,,,,,,
+TWI,125,The Clone Wars,,FALSE,Event,Command,2,Disaster,Pay any number of resources. Create that many Clone Trooper tokens. Each opponent creates that many Battle Droid tokens.,,,,,3,James Daly,9/7/2024,Asmodee,https://x.com/GarbageRollers/status/1832456071417405712,571,0,0,0,0,,,,,,
+TWI,126,Encouraging Leadership,,FALSE,Event,Command,3,Learned,Give each friendly unit +1/+1 for this phase.,,,,,1,Sebastián Guidobono,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,670,0,0,0,0,,,,,,
+TWI,127,Resupply,,FALSE,Event,Command,3,Supply,Put this event into play as a resource.,,,,,1,Robynn Frauhn,,,,,,,,,,,,,,
+TWI,128,Take Captive,,FALSE,Event,Command,3,Tactic,A friendly unit captures an enemy non-leader unit in the same arena.,,,,,1,Guillaume Ospital,,,,301,0,0,0,0,,,,,,
+TWI,129,In Defense of Kamino,,FALSE,Event,Command,4,Republic,"For this phase, each friendly Republic unit gains Restore 2 and: ""When Defeated: Created a Clone Trooper token.""",,,,,3,Omercan Cirit,10/16/2024,TCGPlayer,https://infinite.tcgplayer.com/article/Our-EXCLUSIVE-Twilight-of-the-Republic-Preview-Cards/ef60dd7c-9ac8-466c-914c-5003389c1e7f,699,0,0,0,0,,,,,,
+TWI,130,Bo-Katan Kryze,Death Watch Lieutenant,TRUE,Unit,"Aggression,Villainy",2,"Mandalorian,Trooper","While you control another Mandalorian unit, this unit gains Overwhelm and Saboteur.
+
+While you control another Trooper unit, this unit gets +1/+0.",,0,2,3,3,Tatsiana Maksimuk,10/12/2024,L8 Night Gaming,https://www.youtube.com/watch?v=OaJBOGZ46Rg,687,0,0,0,0,Overwhelm,TRUE,Saboteur,TRUE,,
+TWI,131,OOM-Series Officer,,FALSE,Unit,"Aggression,Villainy",2,"Separatist,Droid",When Defeated: Deal 2 damage to a base.,,0,2,1,1,Ario Anindito,9/11/2024,FFG Stream,https://www.youtube.com/live/r-EmeX_tYHY,585,0,0,2,0,,,,,,
+TWI,132,Confederate Tri-Fighter,,FALSE,Unit,"Aggression,Villainy",3,"Separatist,Droid,Vehicle,Fighter",Based can't be healed.,,1,3,3,2,Facundo Moyano,9/6/2024,Artificery,https://www.youtube.com/watch?v=FQdp1rgoo_M,569,0,0,0,0,,,,,,
+TWI,133,B1 Attack Platform,,FALSE,Unit,"Aggression,Villainy",3,"Separatist,Droid,Trooper",,,0,5,2,1,Eslam Aboshady,9/5/2024,Planning Phase Syndicate,https://www.youtube.com/watch?v=NSD6D2PLcTk,566,0,0,0,0,,,,,,
+TWI,134,Asajj Ventress,Count Dooku's Assassin,TRUE,Unit,"Aggression,Villainy",4,"Force,Separatist,Sith","Exploit 2
+
+On Attack: If you've attacked with another Separatist unit this phase, this unit gets +3/+0 for this phase.",,0,2,4,2,Elena Skitalets,,,,521,0,0,0,0,Exploit,FALSE,,,,
+TWI,135,Darth Maul,Revenge At Last,TRUE,Unit,"Aggression,Villainy",5,"Force,Sith",This unit can attack 2 units instead of 1.,,0,5,6,4,Leonardo Giammichele,,,,522,0,0,0,0,,,,,,
+TWI,136,Squadron of Vultures,,FALSE,Unit,"Aggression,Villainy",6,"Separatist,Droid,Vehicle,Fighter",Exploit 3,,1,5,4,1,Francois Cannels,9/11/2024,FFG Stream,https://www.youtube.com/live/r-EmeX_tYHY,586,0,0,0,0,Exploit,FALSE,,,,
+TWI,137,Savage Opress,Monster,TRUE,Unit,"Aggression,Villainy",7,"Force,Night,Underworld","When Played: If you control fewer units than an opponent, ready this unit.",,0,7,7,2,Stefano Landini,9/5/2024,KTOD,https://www.youtube.com/watch?v=VBkAQE-QuR0,564,0,0,0,0,,,,,,
+TWI,138,Count Dooku,Fallen Jedi,TRUE,Unit,"Aggression,Villainy",8,"Force,Separatist,Sith","Exploit 2
+
+Overwhelm
+
+When Played: For each unit you exploited while playing this card, you may deal damage to an enemy unit equal to the power of the exploited unit.",,0,6,6,3,David Buisan,10/11/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DA_PwVWMBk_/,686,0,0,4,0,Overwhelm,FALSE,Exploit,FALSE,,
+TWI,139,Corner the Prey,,FALSE,Event,"Aggression,Villainy",1,Tactic,Attach with a unit. It gets +1/+0 for this attack for each damage on the defender at the start of this attack.,,,,,3,Benjamin Paulus,10/22/2024,Press Kit Day,https://x.com/IRebelDestiny/status/1848716932456870149/photo/4,738,0,0,0,0,,,,,,
+TWI,140,Self-Destruct,,FALSE,Event,"Aggression,Villainy",2,Tactic,"Defeat a friendly unit. If you do, deal 4 damage to a unit.",,,,,2,Eslam Aboshady,9/30/2024,Roll On Gaming,https://www.youtube.com/watch?v=cXsoCk9UYz0,642,0,0,0,0,,,,,,
+TWI,141,Soldier of the 501st,,FALSE,Unit,"Aggression,Heroism",1,"Republic,Clone,Trooper",Raid 1,,0,1,3,1,Kyle Petchock,10/2/2024,Roll for Crit,https://www.youtube.com/watch?v=xgbYAKTs4tY,646,0,0,0,0,Raid,FALSE,,,,
+TWI,142,Anakin's Interceptor,Where the Fun Begins,TRUE,Unit,"Aggression,Heroism",2,"Jedi,Republic,Vehicle,Fighter","While your base has 15 or more damage on it, this unit gets +2/+0.",,1,2,3,2,Ignacio Bazan Lazcano,10/2/2024,Roll for Crit,https://www.youtube.com/watch?v=xgbYAKTs4tY,645,1,0,0,0,,,,,,
+TWI,143,Jyn Erso,Stardust,TRUE,Unit,"Aggression,Heroism",2,Rebel,"While an enemy unit has been defeated this phase, this unit gets +1/+0 and gains Saboteur.",,0,3,2,3,Robynn Frauhn,10/19/2024,Quest for the Janklord,https://www.youtube.com/watch?v=Gny0VYeJdTk,716,0,0,0,0,Saboteur,TRUE,,,,
+TWI,144,Batch Brothers,,FALSE,Unit,"Aggression,Heroism",3,"Republic,Clone,Trooper",When Played: Create a Clone Trooper token.,,0,2,1,1,Tatsiana Maksimuk,9/4/2024,FFG Stream,https://www.youtube.com/watch?v=Ygfp4x7i70k,554,2,2,0,0,,,,,,
+TWI,145,Jesse,Hard-Fighting Patriot,TRUE,Unit,"Aggression,Heroism",3,"Republic,Clone,Trooper","Raid 1
+
+When Played: An opponent creates 2 Battle Droid tokens.",,0,4,4,2,Denis Medri,8/14/2024,FFG Stream,https://www.youtube.com/watch?v=aLXl0auRTIQ,539,-2,-2,0,0,Raid,FALSE,,,,
+TWI,146,Steela Gerrera,Beloved Tactician,TRUE,Unit,"Aggression,Heroism",4,Fringe,"When Played/When Defeated: You may deal 2 damage to your base. If you do, search the top 8 cards of your deck for a Tactic card, reveal it, and draw it.",,0,4,3,3,Ann Maulina,10/22/2024,Press Kit Day,https://x.com/ggDoA/status/1848725024242327745/photo/1,752,0,0,0,0,,,,,,
+TWI,147,Anakin Skywalker,Maverick Mentor,TRUE,Unit,"Aggression,Heroism",5,"Force,Jedi,Republic",Coordinate — On Attack: Draw a card.,,0,6,6,0,Eric Hibbeler,8/1/2024,FFG,https://starwarsunlimited.com/articles/twilight-of-the-republic,529,0,0,0,0,Coordinate,FALSE,,,,
+TWI,148,Senatorial Corvette,,FALSE,Unit,"Aggression,Heroism",5,"Republic,Vehicle,Capital Ship","Saboteur
+
+When Defeated: Each opponent discards a card from their hand.",,1,5,4,1,French Carlomagno,10/22/2024,Press Kit Day,https://x.com/GoldenDicePod/status/1848727658818871740/photo/1,759,0,0,0,1,Saboteur,FALSE,,,,
+TWI,149,Low Altitude Gunship,,FALSE,Unit,"Aggression,Heroism",6,"Republic,Vehicle,Transport","Overwhelm
+
+When Played: Choose an enemy unit. Deal 1 damage to it for each friendly Republic unit.",,0,6,5,2,Stephen Zavala,9/4/2024,FFG Stream,https://www.youtube.com/watch?v=Ygfp4x7i70k,555,0,0,2,0,Overwhelm,FALSE,,,,
+TWI,150,Saw Gerrera,Resistance Is Not Terrorism,TRUE,Unit,"Aggression,Heroism",6,"Fringe,Trooper","Raid 2
+
+On Attack: If your base has 15 or more damage on it, deal 1 damage to each enemy ground unit.",,0,4,8,3,Amélie Hutt,10/14/2024,IGN,https://twitter.com/IGN/status/1845811960438206955,690,0,0,2,0,Raid,FALSE,,,,
+TWI,151,Resolute,Under Anakin's Command,TRUE,Unit,"Aggression,Heroism",10,"Republic,Vehicle,Capital Ship","This unit costs {R1} less to play for every 5 damage on your base.
+
+When Played/On Attack: Deal 2 damage to an enemy unit and each other enemy unit with the same name as that unit.",,1,8,8,4,Christian Papazoglakis,10/16/2024,TCGPlayer,https://infinite.tcgplayer.com/article/Our-EXCLUSIVE-Twilight-of-the-Republic-Preview-Cards/ef60dd7c-9ac8-466c-914c-5003389c1e7f,698,0,0,2,0,,,,,,
+TWI,152,Mace Windu's Lightsaber,,TRUE,Upgrade,"Aggression,Heroism",2,"Item,Weapon,Lightsaber","Attach to a non-Vehicle unit.
+
+When Played: If attached unit is Mace Windu, draw 2 cards.",,,0,0,3,Milos Slaykovic,9/17/2024,Garbage Rollers,https://garbagerollers.com/2024/09/17/party-crashing-card-reveals/,609,0,0,0,0,,,,,,
+TWI,153,Bold Resistance,,FALSE,Event,"Aggression,Heroism",3,Tactic,Choose up to 3 units that share the same Trait. Each of those units gets +2/+0 for this phase.,,,,,2,Maxine Vee,10/2/2024,FFG Stream,https://www.youtube.com/watch?v=jC-VcWiO5M8,652,0,0,0,0,,,,,,
+TWI,154,Mister Bones,I Performed Violence,TRUE,Unit,"Aggression,Aggression",1,"Fringe,Droid","On Attack: If you have no cards in your hand, you may deal 3 damage to a ground unit.",,0,3,1,3,Amad Mir,9/23/2024,Unplayable,https://www.youtube.com/watch?v=oMkr8l5U78o,622,0,0,1,0,,,,,,
+TWI,155,Twice the Pride,,FALSE,Upgrade,"Aggression,Aggression",2,Innate,When Played: Deal 2 damage to attached unit.,,,0,0,2,Amélie Hutt,9/17/2024,The Force Unlimited,https://www.youtube.com/watch?v=gwFER1SHwMk,604,0,0,0,0,,,,,,
+TWI,156,Unlimited Power,,FALSE,Event,"Aggression,Aggression",6,Force,"Deal 4 damage to a unit, 3 damage to a second unit, 2 damage to a third unit, and 1 damage to a fourth unit.",,,,,4,Marc Escachx,10/8/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DA4Rj88yUNt/,664,0,0,0,0,,,,,,
+TWI,157,Disaffected Senator,,FALSE,Unit,Aggression,1,"Separatist,Official","Action [{R2}, {T}]: Deal 2 damage to a base.",,0,0,4,2,Earl John Dela Cruz,10/22/2024,Press Kit Day,,768,0,0,0,0,,,,,,
+TWI,158,Clone Heavy Gunner,,FALSE,Unit,Aggression,2,"Republic,Clone,Trooper",Coordinate - This unit gets +2/+0.,,0,1,3,1,Eslam Aboshady,9/20/2024,Fantha Tracks,https://www.fanthatracks.com/news/gaming/exclusive-reveal-two-new-cards-from-star-wars-unlimited-twilight-of-the-republic/,615,0,0,0,0,Coordinate,FALSE,,,,
+TWI,159,Dendup's Loyalist,,FALSE,Unit,Aggression,2,"Fringe,Trooper",Overwhelm,,0,2,3,1,Sandra Chlewińska,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,671,0,0,0,0,Overwhelm,FALSE,,,,
+TWI,160,Vanguard Droid Bomber,,FALSE,Unit,Aggression,2,"Separatist,Droid,Vehicle,Fighter","When Played: If you control another Separatist unit, deal 2 damage to an enemy base.",,1,2,2,1,Christian Papazoglakis,9/12/2024,Rolling Solo,https://twitter.com/TryRollingSolo/status/1834358966433829264,599,0,0,2,0,,,,,,
+TWI,161,Bold Recon Commando,,FALSE,Unit,Aggression,3,"Republic,Clone,Trooper",Saboteur,,0,3,4,1,Omercan Cirit,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,732,0,0,0,0,Saboteur,FALSE,,,,
+TWI,162,Reckless Torrent,,FALSE,Unit,Aggression,3,"Republic,Vehicle,Fighter",Coordinate - When Played: You may deal 2 damage to a friendly unit and 2 damage to an enemy unit in the same arena.,,1,3,1,1,Kyle Petchock,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,733,0,0,1,0,Coordinate,FALSE,,,,
+TWI,163,Relentless Rocket Droid,,FALSE,Unit,Aggression,4,"Separatist,Droid,Trooper","While you control another Trooper unit, this unit gets +2/+0.",,0,3,5,1,Joshua Carson,9/9/2024,FFG,https://starwarsunlimited.com/cards?expansion=18&searchTerm=relentless&cid=1368135704,581,1,0,0,0,,,,,,
+TWI,164,Hevy,Staunch Martyr,TRUE,Unit,Aggression,4,"Republic,Clone,Trooper","Coordinate - Raid 2
+
+When Defeated: Deal 1 damage to each enemy ground unit.",,0,4,4,2,Sebastián Guidobono,9/9/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C_s1_7koiqj/,573,0,0,2,0,Coordinate,FALSE,Raid,TRUE,,
+TWI,165,Kit Fisto,The Smiling Jedi,TRUE,Unit,Aggression,6,"Force,Jedi,Republic","Saboteur
+
+Coordinate - On Attack: You may deal 3 damage to a ground unit.",,0,7,6,3,Aitor Prieto,9/16/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C_-3d4dKHB4/,607,0,0,1,0,Coordinate,FALSE,Saboteur,FALSE,,
+TWI,166,Aurra Sing,Crackshot Sniper,TRUE,Unit,Aggression,7,"Underworld,Bounty Hunter","Overwhelm
+
+When an enemy ground unit attacks your base: Ready this unit.",,0,7,6,2,David Buisan,8/21/2024,FFG Stream,https://www.youtube.com/watch?v=EXn5S4FWm0M,540,0,0,0,0,Overwhelm,FALSE,,,,
+TWI,167,Heavy Persuader Tank,,FALSE,Unit,Aggression,7,"Separatist,Droid,Vehicle,Tank","Exploit 2
+
+When Played: You may deal 2 damage to a ground unit.",,0,6,5,1,Afif Khaled,10/16/2024,FFG Stream,https://www.youtube.com/live/3NwC_4fO6h4,705,0,0,2,0,Exploit,FALSE,,,,
+TWI,168,Old Access Codes,,FALSE,Upgrade,Aggression,1,Item,"When Played: If an opponent controls more units than you, draw a card.",,,0,0,1,Fernando Correa,10/22/2024,Press Kit Day,https://twitter.com/ggDoA/status/1848727548240236955/photo/1,725,0,0,0,0,,,,,,
+TWI,169,Clone Cohort,,FALSE,Upgrade,Aggression,2,Supply,"Attached unit gains Raid 2 and: ""When Defeated: Create a Clone Trooper token.""",,,0,0,2,Felipe Goncalves,9/27/2024,Jedi News,https://www.jedinews.com/gaming/articles/exclusive-reveal-of-two-new-cards-from-star-wars-unlimited-twilight-of-the-republic/,636,0,0,0,0,,,,,,
+TWI,170,Daring Raid,,FALSE,Event,Aggression,1,Tactic,Deal 2 damage to a unit or base.,,,,,1,Ario Murti,,,,475,0,0,0,0,,,,,,
+TWI,171,Grenade Strike,,FALSE,Event,Aggression,2,Tactic,Deal 2 damage to a unit. You may deal 1 damage to another unit in the same arena.,,,,,1,French Carlomagno,9/11/2024,SWU Cube,https://www.youtube.com/watch?v=a-xcXthFEsw,584,0,0,0,0,,,,,,
+TWI,172,Grim Resolve,,FALSE,Event,Aggression,2,Tactic,Attack with a non-leader unit. It gains Grit for this attack.,,,,,1,Sebastián Guidobono,,,,734,0,0,0,0,,,,,,
+TWI,173,Blood Sport,,FALSE,Event,Aggression,3,Fringe,Deal 2 damage to each ground unit.,,,,,2,Milos Slaykovic,9/16/2024,Don't Be Board,https://www.youtube.com/watch?v=kGovyOORj7Q,605,0,0,0,0,,,,,,
+TWI,174,Open Fire,,FALSE,Event,Aggression,3,Tactic,Deal 4 damage to a unit.,,,,,0,Fernando Correa,,,,,,,,,,,,,,
+TWI,175,Strategic Analysis,,FALSE,Event,Aggression,5,Plan,Draw 3 cards.,,,,,1,Amad Mir,10/22/2024,Press Kit Day,https://x.com/GoldenDicePod/status/1848727658818871740/photo/1,760,0,0,0,0,,,,,,
+TWI,176,Caught in the Crossfire,,FALSE,Event,Aggression,6,Disaster,Choose 2 enemy units in the same arena. Each of those units deals damage equal to its power to the other.,,,,,3,James Daly,10/22/2024,Press Kit Day,https://x.com/GoldenDicePod/status/1848727658818871740/photo/1,761,0,0,0,0,,,,,,
+TWI,177,Guerilla Insurgency,,FALSE,Event,Aggression,8,Tactic,Each player defeats a resource they control and discards 2 cards from their hand. Deal 4 damage to each ground unit.,,,,,3,Eslam Aboshady,10/15/2024,Wossy Plays,https://www.youtube.com/watch?v=NyvOZvxz_64,696,0,0,0,0,,,,,,
+TWI,178,Planetary Invasion,,FALSE,Event,Aggression,12,"Separatist,Plan","Exploit 3
+
+Ready up to 3 units. Each of those units gets +1/+0 and gains Overwhelm for this phase.",,,,,4,Afif Khaled,10/22/2024,Press Kit Day,,775,0,0,0,0,Exploit,FALSE,,,,
+TWI,179,Soulless One,Customized for Grievous,TRUE,Unit,"Cunning,Villainy",1,"Separatist,Vehicle,Fighter","On Attack: You may exhaust a friendly Droid unit or General Grievous. If you do, this unit gets +2/+0 for this attack.",,1,1,2,2,French Carlomagno,9/9/2024,FFG,https://starwarsunlimited.com/cards?expansion=18&cid=6406254252,580,1,0,0,0,,,,,,
+TWI,180,Separatist Commando,,FALSE,Unit,"Cunning,Villainy",2,"Separatist,Droid,Trooper","While you control another Separatist unit, this unit gains Raid 2.",,0,2,3,0,Amad Mir,8/1/2024,FFG,https://starwarsunlimited.com/articles/twilight-of-the-republic,532,0,0,0,0,Raid,TRUE,,,,
+TWI,181,Elite P-38 Starfighter,,FALSE,Unit,"Cunning,Villainy",3,"Separatist,Vehicle,Fighter",When Played/When Defeated: You may deal 1 damage to a unit.,,1,3,2,1,Francois Cannels,9/16/2024,Unlimited MDR,https://www.youtube.com/watch?v=XNTzLQdqdO0,606,0,0,2,0,,,,,,
+TWI,182,Infiltrating Demolisher,,FALSE,Unit,"Cunning,Villainy",4,"Separatist,Droid","Exploit 1
+
+Saboteur",,0,4,5,1,Ario Murti,10/22/2024,Press Kit Day,,766,0,0,0,0,Saboteur,FALSE,Exploit,FALSE,,
+TWI,183,Rush Clovis,Banking Clan Scion,TRUE,Unit,"Cunning,Villainy",4,"Separatist,Official","Raid 2
+
+On Attack: If the defending player controls no ready resources, create a Battle Droid token.",,0,3,5,3,Mona Finden,9/11/2024,FFG,https://www.instagram.com/unlimitedffg/reel/C_x_evXNUIN/,583,0,0,0,0,Raid,FALSE,,,,
+TWI,184,Tactical Droid Commander,,FALSE,Unit,"Cunning,Villainy",5,"Separatist,Droid","Exploit 2
+
+When you play another Separatist unit: You may exhaust a unit that costs the same or less than the played unit.",,0,4,4,2,Sebastián Guidobono,9/11/2024,FFG Stream,https://www.youtube.com/live/r-EmeX_tYHY,587,0,0,0,0,Exploit,FALSE,,,,
+TWI,185,Ziro the Hutt,Colorful Schemer,TRUE,Unit,"Cunning,Villainy",5,"Underworld,Hutt","When Played: For each opponent, you may exhaust a unit that player controls.
+
+On Attack: For each opponent, you may exhaust a resource that player controls.",,0,2,8,2,Marc Escachx,9/11/2024,FFG Stream,https://www.youtube.com/live/r-EmeX_tYHY,589,0,0,0,0,,,,,,
+TWI,186,San Hill,Chairman of the Banking Clan,TRUE,Unit,"Cunning,Villainy",6,"Separatist,Official","Exploit 3
+
+On Attack: For each friendly unit that was defeated this phase, ready a friendly resource.",,0,3,7,3,Eslam Aboshady,10/2/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DAn_h5GOh-S/,647,0,0,0,0,Exploit,FALSE,,,,
+TWI,187,Cad Bane,Hostage Taker,TRUE,Unit,"Cunning,Villainy",7,"Underworld,Bounty Hunter","When Played: This unit captures up to 3 enemy non-leader units with a total of 8 or less remaining HP.
+
+",,0,7,7,4,James Daly,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,751,0,0,8,0,,,,,,
+TWI,188,Wartime Profiteering,,FALSE,Event,"Cunning,Villainy",1,Supply,Look at cards from the top of your deck equal to the number of units that were defeated this phase. Draw 1 and put the others on the bottom of your deck in a random order.,,,,,2,Joshua Carson,9/11/2024,FFG Stream,https://www.youtube.com/live/r-EmeX_tYHY,590,0,0,0,0,,,,,,
+TWI,189,Unnatural Life,,FALSE,Event,"Cunning,Villainy",3,Force,"Play a unit that was defeated this phase from your discard pile. It costs {R2} less and enters play ready. At the start of your regroup phase, defeat it.",,,,,3,Marc Escachx,9/5/2024,Thorrk's Hot Takes,https://www.youtube.com/watch?v=DDFHqvIttSg,563,0,0,0,0,,,,,,
+TWI,190,On the Doorstep,,FALSE,Event,"Cunning,Villainy",4,Supply,Create 3 Battle Droid tokens and ready them.,,,,,1,Amad Mir,9/19/2024,Hannonz,https://www.youtube.com/watch?v=xeHKMZQV90w,616,0,0,0,0,,,,,,
+TWI,191,Wolf Pack Escort,,FALSE,Unit,"Cunning,Heroism",1,"Republic,Vehicle,Fighter","When Played: You may return a friendly non-leader, non-Vehicle unit to its owner's hand.",,1,2,1,1,Francois Cannels,9/30/2024,Jodo Cast,https://www.youtube.com/watch?v=Lo8R6uYLuYo,640,0,0,0,0,,,,,,
+TWI,192,Padmé Amidala,Pursuing Peace,TRUE,Unit,"Cunning,Heroism",2,"Naboo,Republic,Official",Coordinate - On Attack: Give an enemy unit -3/-0 for this phase.,,0,1,4,2,Robynn Frauhn,10/7/2024,Rolling Dice & Taking Names,https://www.youtube.com/watch?v=JRtRaCP1No0,661,0,0,0,0,Coordinate,FALSE,,,,
+TWI,193,R2-D2,Full of Solutions,TRUE,Unit,"Cunning,Heroism",2,"Republic,Droid","When Played: You may discard a card from your hand. If you do, search the top 3 cards from your deck for a card and draw it.",,0,2,4,2,David Nash,9/4/2024,FFG Stream,https://www.youtube.com/watch?v=Ygfp4x7i70k,556,0,0,0,0,,,,,,
+TWI,194,Ahsoka Tano,Always Ready for Trouble,TRUE,Unit,"Cunning,Heroism",3,"Force,Jedi,Republic","While you control fewer units than an opponent, this unit gains Ambush.
+
+Action [{R2}: Return this unit and each upgrade on her to their owners' hands.",,0,3,4,4,Mona Finden,10/3/2024,Spiel Presentation,https://twitter.com/GoldenDicePod/status/1841903538752127153/photo/2,654,0,0,0,0,Ambush,TRUE,,,,
+TWI,195,Sabine Wren,You Can Count On Me,TRUE,Unit,"Cunning,Heroism",4,"Fringe,Mandalorian,Spectre","While this unit is exhausted, she can't be attacked.
+
+On Attack: You may discard a card from your deck. If it doesn't share an aspect with your base, deal 2 damage to a ground unit.",,0,4,4,3,David Buisan,9/7/2024,Asmodee,https://x.com/GarbageRollers/status/1832456071417405712,572,0,0,0,0,,,,,,
+TWI,196,Plo Koon,Koh-to-yah!,TRUE,Unit,"Cunning,Heroism",5,"Force,Jedi,Republic","Ambush
+
+Coordinate - Raid 3",,0,3,6,2,Sebastián Guidobono,8/29/2024,FFG,https://twitter.com/UnlimitedFFG/status/1829172332637684009,542,0,0,0,0,Ambush,FALSE,Coordinate,FALSE,Raid,TRUE
+TWI,197,Republic Attack Pod,,FALSE,Unit,"Cunning,Heroism",6,"Republic,Vehicle,Walker","If you control 3 or more units, this unit costs {R1} less to play.",,0,6,7,1,Ario Anindito,10/22/2024,Press Kit Day,https://twitter.com/ggDoA/status/1848726991916171292/photo/1,726,0,0,0,0,,,,,,
+TWI,198,Enfys Nest,Champion of Justice,TRUE,Unit,"Cunning,Heroism",7,Underworld,"Saboteur
+
+When Played/On Attack: You may return an enemy non-leader unit with less power than this unit to its owner's hand.",,0,5,7,3,Benjamin Paulus,9/24/2024,Rebel Resource,https://www.youtube.com/watch?v=L2cPI1mN1V0,626,0,0,0,0,Saboteur,FALSE,,,,
+TWI,199,Clear the Field,,FALSE,Event,"Cunning,Heroism",2,Tactic,Choose a non-leader that costs 3 or less. Return it and each enemy non-leader unit with the same name as it to their owner's hand.,,,,,2,Amad Mir,10/16/2024,Man vs Meeple,https://www.youtube.com/watch?v=LoHkXEXOvtY,703,0,0,0,0,,,,,,
+TWI,200,Creative Thinking,,FALSE,Event,"Cunning,Heroism",2,Trick,"Exhaust a non-unique unit.
+
+Create a Clone Trooper token.",,,,,1,Denis Medri,9/4/2024,FFG Stream,https://www.youtube.com/watch?v=Ygfp4x7i70k,557,0,0,0,0,,,,,,
+TWI,201,Aid from the Innocent,,FALSE,Event,"Cunning,Heroism",5,Gambit,"Search the top 10 cards of your deck for 2 {Heroism} non-unit cards and discard them.
+
+For this phase, you may play the discarded cards, and they each cost {R2} less.",,,,,3,Denis Medri,9/5/2024,FFG,https://starwarsunlimited.com/cards?cid=7510418786,659,0,0,0,0,,,,,,
+TWI,202,Jar Jar Binks,Foolish Gungan,TRUE,Unit,"Cunning,Cunning",2,Gungan,On Attack: Deal 2 damage to a random unit or base.,,0,2,3,2,Aitor Prieto,10/3/2024,Spiel Presentation,https://twitter.com/GoldenDicePod/status/1841903927786086538/photo/1,656,0,0,1,0,,,,,,
+TWI,203,Chancellor Palpatine,Wartime Chancellor,TRUE,Unit,"Cunning,Cunning",4,"Republic,Official","Each token unit you create enters play ready.
+
+On Attack: If a unit left play this phase, create a Clone Trooper token.",,0,2,6,4,Eric Hibbeler,10/1/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DAmFKorSUcq/,644,0,0,0,0,,,,,,
+TWI,204,Impropriety Among Thieves,,FALSE,Event,"Cunning,Cunning",4,Trick,"Choose a ready non-leader unit controlled by each player. If you do, each player takes control of the chosen unit controlled by the player to their right. At the start of the regroup phase, each player takes control of each unit they own that was chosen for this ability.",,,,,3,Denis Medri,10/22/2024,Press Kit Day,,770,0,0,0,0,,,,,,
+TWI,205,Clone Dive Trooper,,FALSE,Unit,Cunning,1,"Republic,Clone,Trooper","Coordinate - While this unit is attacking, the defender gets -2/-0.",,0,2,1,1,Felipe Goncalves,10/22/2024,Press Kit Day,https://x.com/GoldenDicePod/status/1848727658818871740/photo/1,762,0,0,0,0,Coordinate,FALSE,,,,
+TWI,206,Independent Senator,,FALSE,Unit,Cunning,1,"Separatist,Official","Action [{R2}, {T}]: Exhaust a unit with 4 or less power.",,0,0,4,2,Denis Medri,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,672,0,0,0,0,,,,,,
+TWI,207,B1 Security Team,,FALSE,Unit,Cunning,2,"Separatist,Droid,Trooper",Sentinel,,0,3,1,1,Stefano Landini,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,673,0,0,0,0,Sentinel,FALSE,,,,
+TWI,208,Favorable Delegate,,FALSE,Unit,Cunning,2,"Republic,Official","When Played: Draw a card.
+
+When Defeated: Discard a card from your hand.",,0,1,5,1,Gabriel Gomez Almenzar,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,741,0,0,0,1,,,,,,
+TWI,209,Hotshot V-Wing,,FALSE,Unit,Cunning,2,"Republic,Vehicle,Fighter",,,1,2,3,1,Sebastián Guidobono,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,735,0,0,0,0,,,,,,
+TWI,210,Lux Bonteri,Renegade Separatist,TRUE,Unit,Cunning,2,Separatist,"When an opponent plays a card: If that opponent paid less than the card's cost to play it, ready or exhaust a unit.",,0,3,2,2,Ann Maulina,10/22/2024,Press Kit Day,,769,0,0,0,0,,,,,,
+TWI,211,Sly Moore,Secretive Advisor,TRUE,Unit,Cunning,3,"Republic,Official","When Played: Take control of an enemy token unit and ready it. At the start of the regroup phase, that token unit's owner takes control of it.",,0,3,3,3,Mona Finden,10/19/2024,Les Cartes sur Table,https://www.youtube.com/watch?v=Gny0VYeJdTk,714,0,0,0,0,,,,,,
+TWI,212,Freelance Assassin,,FALSE,Unit,Cunning,3,Underworld,"When Played: You may pay {R2}. If you do, deal 2 damage to a unit.",,0,4,2,1,Omercan Cirit,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,742,0,0,0,0,,,,,,
+TWI,213,Sanctioner's Shuttle,,FALSE,Unit,Cunning,3,"Republic,Vehicle,Transport",Coordinate - When Played: This unit captures an enemy non-leader unit that costs 3 or less.,,1,2,3,2,Randall Mackey,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,736,0,0,1,0,Coordinate,FALSE,,,,
+TWI,214,Hidden Sharpshooter,,FALSE,Unit,Cunning,4,"Republic,Clone,Trooper",Ambush,,0,4,3,1,Omercan Cirit,10/22/2024,Press Kit Day,,774,0,0,0,0,Ambush,FALSE,,,,
+TWI,215,Geonosis Patrol Fighter,,FALSE,Unit,Cunning,5,"Separatist,Vehicle,Fighter","Exploit 2
+
+When Played: You may return a non-leader unit that costs 3 or less to its owner's hand.",,1,3,2,1,Johnny Morrow,9/23/2024,Darth Players,https://www.youtube.com/watch?v=KemTgMNAr1s,624,0,0,0,0,Exploit,FALSE,,,,
+TWI,216,Fives,In Search of Truth,TRUE,Unit,Cunning,5,"Republic,Clone,Trooper","Saboteur
+
+When you play an event: You may put a Clone unit from your discard pile on the bottom of your deck. If you do, draw card.",,0,5,5,3,Ario Murti,10/14/2024,IGN,https://twitter.com/IGN/status/1845811960438206955,691,0,0,0,1,Saboteur,FALSE,,,,
+TWI,217,Tri-Droid Suppressor,,FALSE,Unit,Cunning,7,"Separatist,Droid,Vehicle,Walker","Exploit 2
+
+When Played: Exhaust an enemy ground unit.",,0,4,7,1,Andre Mealha,10/2/2024,FFG Stream,https://www.youtube.com/watch?v=jC-VcWiO5M8,651,0,0,0,0,Exploit,FALSE,,,,
+TWI,218,Droid Cohort,,FALSE,Upgrade,Cunning,1,Supply,"Attached unit gains, ""When Defeated: Create a Battle Droid token.""",,,0,0,1,Johnny Morrow,9/27/2024,Jedi News,https://www.jedinews.com/gaming/articles/exclusive-reveal-of-two-new-cards-from-star-wars-unlimited-twilight-of-the-republic/,637,0,0,0,0,,,,,,
+TWI,219,On Top of Things,,FALSE,Upgrade,Cunning,2,Trick,When Played: Attached unit can't be attacked this phase.,,,0,0,2,Sandra Chlewińska,9/11/2024,El Valle del Jedi,https://x.com/elvalledeljedi/status/1833981538226102405,593,0,0,0,0,,,,,,
+TWI,220,Shadowed Intentions,,FALSE,Upgrade,Cunning,3,Innate,"Attached unit gains: ""This unit can't be captured, defeated, or returned to its owner's hand by enemy card abilities.""",,,0,0,3,Reno,10/17/2024,Bad Takes SWU,https://badtakesswu.blogspot.com/2024/10/exclusive-twilight-of-republic-swu-set.html,709,0,0,0,0,,,,,,
+TWI,221,In Pursuit,,FALSE,Event,Cunning,0,Tactic,"Exhaust a friendly unit. If you do, exhaust an enemy unit.",,,,,1,Liana Anatolevich,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,674,0,0,0,0,,,,,,
+TWI,222,Political Pressure,,FALSE,Event,Cunning,1,Plan,"Choose an opponent. They may discard a random card from their hand. If they don't, create 2 Battle Droid tokens.",,,,,1,Aitor Prieto,10/2/2024,The Hobbyist Novice,https://www.youtube.com/watch?v=eQ3ic0fWv70,648,0,0,0,0,,,,,,
+TWI,223,Unmasking the Conspiracy,,FALSE,Event,Cunning,1,Gambit,"Discard a card from your hand. If you do, look at an opponent's hand and discard a card from it.",,,,,3,Sebastián Guidobono,10/19/2024,Les Cartes sur Table,https://www.youtube.com/watch?v=JhJZhCO8rgA,715,0,0,0,0,,,,,,
+TWI,224,Breaking In,,FALSE,Event,Cunning,2,Tactic,Attack with a unit. It gets +2/+0 and gains Saboteur for this attack.,,,,,1,David Nash,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,739,0,0,0,0,,,,,,
+TWI,225,Now There Are Two of Them,,FALSE,Event,Cunning,3,Trick,"If you control exactly one unit, play a non-Vehicle unit from your hand that shares a Trait with the unit you control. It costs 5 less.",,,,,4,Ario Murti,9/26/2024,ComicBook.com,https://comicbook.com/page/about/,635,0,0,0,0,,,,,,
+TWI,226,Waylay,,FALSE,Event,Cunning,3,Trick,Return a non-leader unit to its owner's hand.,,,,,0,Amélie Hutt,,,,53,0,0,0,0,,,,,,
+TWI,227,Prisoner of War,,FALSE,Event,Cunning,4,Tactic,"A friendly unit captures an enemy non-leader, non-Vehicle unit. If the enemy unit costs less than the friendly unit, create 2 Battle Droid tokens.",,,,,2,Amad Mir,8/14/2024,FFG Stream,https://www.youtube.com/watch?v=aLXl0auRTIQ,537,0,0,0,0,,,,,,
+TWI,228,Droid Starfighter,,FALSE,Unit,Villainy,1,"Separatist,Droid,Vehicle,Fighter",Saboteur,,1,1,2,1,Andre Mealha,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,675,0,0,0,0,Saboteur,FALSE,,,,
+TWI,229,Battle Droid Escort,,FALSE,Unit,Villainy,3,"Separatist,Droid,Trooper",When Played/When Defeated: Create a Battle Droid token.,,0,1,1,0,Eslam Aboshady,8/1/2024,FFG,https://starwarsunlimited.com/articles/twilight-of-the-republic,534,2,2,0,0,,,,,,
+TWI,230,Super Battle Droid,,FALSE,Unit,Villainy,3,"Separatist,Droid,Trooper",,,0,4,3,1,Eslam Aboshady,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,676,0,0,0,0,,,,,,
+TWI,231,Dwarf Spider Droid,,FALSE,Unit,Villainy,4,"Separatist,Droid",Grit,,0,3,4,1,French Carlomagno,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,728,0,0,0,0,Grit,FALSE,,,,
+TWI,232,Patrolling AAT,,FALSE,Unit,Villainy,5,"Separatist,Vehicle,Tank",Sentinel,,0,4,5,1,Andre Mealha,10/16/2024,FFG Stream,https://www.youtube.com/live/3NwC_4fO6h4,708,0,0,0,0,Sentinel,FALSE,,,,
+TWI,233,Hailfire Tank,,FALSE,Unit,Villainy,8,"Separatist,Droid,Vehicle,Tank",Exploit 2,,0,7,6,1,Sebastián Guidobono,8/1/2024,FFG,https://starwarsunlimited.com/articles/twilight-of-the-republic,533,0,0,0,0,Exploit,FALSE,,,,
+TWI,234,The Invisible Hand,Imposing Flagship,TRUE,Unit,Villainy,8,"Separatist,Vehicle,Capital Ship","When Played: Create 4 Battle Droid tokens.
+
+On Attack: Exhaust any number of friendly Separatist units. Deal 1 damage to the defending player's base for each unit exhausted this way.",,1,4,7,3,Jake Parker,9/12/2024,TowerNumberNine,https://www.youtube.com/watch?v=e1KkWWOaQ-M,598,3,3,0,0,,,,,,
+TWI,235,Battle Droid Legion,,FALSE,Unit,Villainy,9,"Separatist,Droid,Trooper","Exploit 2
+
+When Defeated: Create 3 Battle Droid tokens.",,0,6,5,2,Facundo Moyano,9/25/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DAWCv-wyChg/,628,3,3,0,0,Exploit,FALSE,,,,
+TWI,236,Grievous's Wheel BIke,,TRUE,Upgrade,Villainy,4,Vehicle,"While playing this upgrade on General Grievous, it costs {R2} less to play.
+
+Attach to a non-Vehicle unit.
+
+Attached unit gains Overwhelm.",,,0,0,0,Jake Parker,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,678,0,0,0,0,,,,,,
+TWI,237,Droid Deployment,,FALSE,Event,Villainy,2,Supply,Create 2 Battle Droid tokens.,,,,,1,Sebastián Guidobono,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,677,0,0,0,0,,,,,,
+TWI,238,Merciless Contest,,FALSE,Event,Villainy,3,Tactic,Each player chooses a non-leader unit they control. Defeat those units.,,,,,1,James Daly,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,679,0,0,0,0,,,,,,
+TWI,239,Execute Order 66,,FALSE,Event,Villainy,4,Plan,"Deal 6 damage to each Jedi unit. For each unit defeated this way, its controller creates a Clone Trooper token.",,,,,3,Borja Pindado,10/21/2024,FFG,https://x.com/UnlimitedFFG/status/1848378822674026565,719,0,0,0,0,,,,,,
+TWI,240,332nd Stalwart,,FALSE,Unit,Heroism,1,"Republic,Clone,Trooper",Coordinate — This unit gets +1/+1.,,0,1,2,0,Ario Murti,8/1/2024,FFG,https://starwarsunlimited.com/articles/twilight-of-the-republic,528,0,0,0,0,Coordinate,FALSE,,,,
+TWI,241,Phase I Clone Trooper,,FALSE,Unit,Heroism,2,"Republic,Clone,Trooper",,,0,3,2,1,Ario Anindito,9/18/2024,212thtomundtaha,https://www.instagram.com/p/DADzvbUq8zY/?img_index=4,638,0,0,0,0,,,,,,
+TWI,242,Phase II Clone Trooper,,FALSE,Unit,Heroism,3,"Republic,Clone,Trooper",Ambush,,0,3,2,1,Omercan Cirit,9/18/2024,212thtomundtaha,https://www.instagram.com/p/DADzvbUq8zY/?img_index=4,639,0,0,0,0,Ambush,FALSE,,,,
+TWI,243,Republic Commando,,FALSE,Unit,Heroism,3,"Republic,Clone,Trooper",Coordinate - Saboteur,,0,2,5,1,Ario Murti,9/4/2024,Holocron Card Hub,https://www.instagram.com/holocron.card.hub/reel/C_fU00XNLfN/,550,0,0,0,0,Coordinate,FALSE,Saboteur,TRUE,,
+TWI,244,Eta-2 Light Interceptor,,FALSE,Unit,Heroism,5,"Republic,Vehicle,Fighter",Restore 2,,1,3,4,1,Stephen Zavala,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,680,0,0,0,0,Restore,FALSE,,,,
+TWI,245,Armored Saber Tank,,FALSE,Unit,Heroism,6,"Republic,Vehicle,Tank",Sentinel,,0,5,5,1,Christian Papazoglakis,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,727,0,0,0,0,Sentinel,FALSE,,,,
+TWI,246,Tranquility,Inspiring Flagship,TRUE,Unit,Heroism,7,"Republic,Vehicle,Capital Ship","When Played: You may return a Republic unit from your discard pile to your hand.
+
+On Attack: Each of the next 3 Republic cards you play this phase costs {R1} less.",,1,7,6,3,Amad Mir,9/10/2024,Tabletop Misfits,https://www.youtube.com/watch?v=x4HjyDxiPwU,579,0,0,0,1,,,,,,
+TWI,247,AT-TE Vanguard,,FALSE,Unit,Heroism,8,"Republic,Vehicle,Walker","Restore 3
+
+When Defeated: Create 2 Clone Trooper tokens.",,0,6,9,2,Eslam Aboshady,10/9/2024,FFG,https://www.instagram.com/unlimitedffg/reel/DA6Fx9avMFb/,665,3,3,0,0,Restore,FALSE,,,,
+TWI,248,Ahsoka's Padawan Lightsaber,,TRUE,Upgrade,Heroism,1,"Item,Weapon,Lightsaber","Attach to a non-Vehicle unit.
+
+When Played: If attached unit is Ahsoka Tano, you may attack with a unit.",,,0,0,0,Arthur Mougne,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,681,0,0,0,0,,,,,,
+TWI,249,Heroes on Both Sides,,FALSE,Event,Heroism,2,"Republic,Separatist",Choose up to 1 Republic unit and up to 1 Separatist unit. Give each chose unit +2/+2 and Saboteur for this phase.,,,,,1,Sandra Chlewińska,10/22/2024,Press Kit Day,,765,0,0,0,0,,,,,,
+TWI,250,Sword and Shield Maneuver,,FALSE,Event,Heroism,2,"Jedi,Republic,Tactic","Give each friendly Trooper unit Raid 1 for this phase.
+
+Give each friendly Jedi unit Sentinel for this phase.",,,,,2,Tatsiana Maksimuk,9/23/2024,FFG,https://twitter.com/UnlimitedFFG/status/1838232029659373860,618,0,0,0,0,,,,,,
+TWI,251,Drop In,,FALSE,Event,Heroism,4,Supply,Create 2 Clone Trooper tokens.,,,,,1,Eslam Aboshady,10/9/2024,FFG Stream,https://www.youtube.com/watch?v=xPurM1vUfMw,682,0,0,0,0,,,,,,
+TWI,252,Aggrieved Parliamentarian,,FALSE,Unit,,2,"Separatist,Official",When Played: Choose an opponent. They shuffle their discard pile and put it on the bottom of their deck.,,0,2,2,1,Amad Mir,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,731,0,0,0,0,,,,,,
+TWI,253,Headhunter Squadron,,FALSE,Unit,,2,"Republic,Vehicle,Fighter",,,1,1,4,1,French Carlomagno,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,730,0,0,0,0,,,,,,
+TWI,254,Volunteer Soldier,,FALSE,Unit,,3,Trooper,"Raid 1
+
+If you control a Trooper unit, this unit costs {R1} less to play.",,0,2,3,1,Steve Morris,,,,181,0,0,0,0,Raid,FALSE,,,,
+TWI,255,Brain Invaders,,FALSE,Unit,,4,Fringe,Each leaders loses all abilities except for epic actions and can't gain abilities.,,0,2,4,3,David Buisan,10/10/2024,SWU Harvest,https://www.youtube.com/watch?v=6JokTYuz_tM,685,0,0,0,0,,,,,,
+TWI,256,Hold-Out Blaster,,FALSE,Upgrade,,1,"Item,Weapon","Attach to a non-Vehicle unit.
+
+When Played: You may have attached unit deal 1 damage to a ground unit.",,,0,0,1,Fernando Correa,10/22/2024,Press Kit Day,https://www.youtube.com/watch?v=gqqA4aEtESY,729,0,0,0,0,,,,,,
+TWI,257,Private Manufacturing,,FALSE,Event,,2,Supply,"Draw 2 cards. If you control no token units, put 2 cards from your hand on the bottom of your deck in any order.",,,,,2,Sebastián Guidobono,10/2/2024,FFG Stream,https://www.youtube.com/watch?v=jC-VcWiO5M8,649,0,0,0,0,,,,,,

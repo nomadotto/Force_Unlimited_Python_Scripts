@@ -5,15 +5,16 @@ from matplotlib import pyplot as plt
 import statsmodels.api as sm
 import statsmodels.stats.weightstats as ws
 
-ABILITIES = ['Sentinel', 'Raid', 'Overwhelm', 'Shielded', 'Ambush', 'Saboteur', 'Restore', 'Grit', 'Smuggle', 'Bounty']
+ABILITIES = ['Sentinel', 'Raid', 'Overwhelm', 'Shielded', 'Ambush', 'Saboteur', 'Restore', 'Grit', 'Smuggle', 'Bounty',
+             'Coordinate', 'Exploit']
 
-SOLID_ABILITIES = ['Bounty', 'Grit', 'Restore', 'Ambush', 'Shielded', 'Raid']
+SOLID_ABILITIES = ['Bounty', 'Grit', 'Ambush', 'Shielded', 'Raid', 'Exploit']
 # need to rework abilities code
 
 ASPECTS = ['Command',  'Aggression', 'Villainy',
            'Cunning', 'Vigilance']  # using Heroism as a holdout
 
-base_features = ['adj_total_stats', 'arena', ]
+base_cost_features = ['cost', 'arena', ]
 
 sqrt_features = ['cost', 'sqrt_cost', 'arena']
 
@@ -29,7 +30,7 @@ invis_features = ['invisibledamage', 'invisibledraw']
 
 cost_features = ['cost']
 
-SETS = ['SHD']   # using SOR as baseline
+SETS = ['SHD', 'TWI']   # using SOR as baseline
 
 POWER_ADJ = 6/5
 
@@ -115,7 +116,7 @@ def make_ability_features(unit_df: pd.DataFrame) -> pd.DataFrame:
             check_col = unit_df[col].str.match(ability)
             check_col.fillna(0, inplace=True)
             check_col = check_col.astype(int)
-            if ability in ['Restore', 'Raid']:
+            if ability in ['Restore', 'Raid', 'Exploit']:
                 value_col = unit_df['ability text'].str.extract(f'(?:^|\W){ability} (\d+)')
             else:
                 value_col = pd.Series([1 for i in range(len(unit_df))]).to_frame()
