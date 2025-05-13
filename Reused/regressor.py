@@ -5,11 +5,16 @@ from matplotlib import pyplot as plt
 import statsmodels.api as sm
 import statsmodels.stats.weightstats as ws
 
-ABILITIES = ['Sentinel', 'Raid', 'Overwhelm', 'Shielded', 'Ambush', 'Saboteur', 'Restore', 'Grit', 'Smuggle', 'Bounty',
-             'Coordinate', 'Exploit']
+pd.options.display.max_columns = None
 
-SOLID_ABILITIES = ['Bounty', 'Grit', 'Ambush', 'Shielded', 'Raid', 'Exploit']
+ABILITIES = ['Sentinel', 'Raid', 'Overwhelm', 'Shielded', 'Ambush', 'Saboteur', 'Restore', 'Grit', 'Smuggle', 'Bounty',
+             'Coordinate', 'Exploit', 'Piloting']
+
+SOLID_ABILITIES = ['Bounty', 'Grit', 'Ambush', 'Shielded', 'Raid', 'Exploit', 'Sentinel']
 # need to rework abilities code
+
+SOLID_COST_ABILITIES = ['Sentinel', 'Raid', 'Shielded', 'Ambush', 'Restore', 'Grit', 'Bounty', 'Exploit', 'Makes_Droids',
+                        'Makes_Clones', 'Ramps', 'Makes_X_Wings', 'Indirect', 'set_TWI', 'invisiblepower', 'invisiblehp']
 
 ASPECTS = ['Command',  'Aggression', 'Villainy',
            'Cunning', 'Vigilance']  # using Heroism as a holdout
@@ -20,7 +25,7 @@ sqrt_features = ['cost', 'sqrt_cost', 'arena']
 
 sqr_features = ['cost', 'sqr_cost', 'arena']
 
-rarity_features = [f"rarity_{i}_dummy" for i in range(1,5)]
+rarity_features = [f"rarity_{i}_dummy" for i in range(2,6)]
 
 simple_stat_features = ['power', 'hp', 'arena']
 
@@ -30,7 +35,7 @@ invis_features = ['invisibledamage', 'invisibledraw']
 
 cost_features = ['cost']
 
-SETS = ['SHD', 'TWI']   # using SOR as baseline
+SETS = ['SHD', 'TWI', 'JTL']   # using SOR as baseline
 
 POWER_ADJ = 6/5
 
@@ -117,7 +122,7 @@ def make_ability_features(unit_df: pd.DataFrame) -> pd.DataFrame:
             check_col.fillna(0, inplace=True)
             check_col = check_col.astype(int)
             if ability in ['Restore', 'Raid', 'Exploit']:
-                value_col = unit_df['ability text'].str.extract(f'(?:^|\W){ability} (\d+)')
+                value_col = unit_df['ability text'].str.lower().str.extract('[{|}]'+f"{ability.lower()}[:| ](\d+)")
             else:
                 value_col = pd.Series([1 for i in range(len(unit_df))]).to_frame()
             value_col.fillna(1, inplace=True)
@@ -341,10 +346,10 @@ def make_simple_linear_fit(unit_df: pd.DataFrame, y_col: str, x_col:str) -> tupl
 
 def calc_errors(unit_df: pd.DataFrame, y_col: str, asc=False) -> pd.DataFrame:
     unit_df.loc[unit_df.index, 'error'] = (unit_df[y_col] - unit_df['predictions']).copy()
-    print(unit_df.sort_values('error', ascending=asc)[['name',  y_col, 'predictions', 'error']].head(5))
+    print(unit_df.sort_values('error', ascending=asc)[['name', 'title' , y_col, 'predictions', 'error']].head(10))
 
     unit_df.loc[:, 'percent_error'] = ((unit_df[y_col] - unit_df['predictions'])/unit_df[y_col]).copy()
-    print(unit_df.sort_values('percent_error', ascending=asc)[['name', y_col, 'predictions', 'percent_error']].head(5))
+    print(unit_df.sort_values('percent_error', ascending=asc)[['name', y_col, 'predictions', 'percent_error']].head(10))
     return unit_df
 
 
