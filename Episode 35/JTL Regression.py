@@ -11,6 +11,7 @@ for operation in [make_total_stats, make_adj_total_stats, make_sqrt_cost_feature
                   make_hacky_smuggle_bounty, make_rarity_feature]:
     unit_df = operation(unit_df)
 
+print(unit_df.is_force.unique())
 y = 'cost'
 X_cols = (simple_stat_features + ['invisibledamage', 'invisibledraw', 'uniqueness'] + SOLID_COST_ABILITIES +
           rarity_features )
@@ -18,12 +19,14 @@ X_cols = (simple_stat_features + ['invisibledamage', 'invisibledraw', 'uniquenes
 
 unit_df, results = make_fit(x_cols=X_cols, y_col=y, unit_df=unit_df, const=True)
 
-make_plot(unit_df, y, 'total_power', simple_line=True)
+make_plot(unit_df, y, 'total_hp', simple_line=True)
 
 make_error_histo(results)
 
 unit_df = calc_errors(unit_df, y_col=y, asc=True)
 make_qq(results)
+
+
 
 
 #y = 'adj_stats'

@@ -1,5 +1,6 @@
 import math
 
+import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 import statsmodels.api as sm
@@ -8,13 +9,14 @@ import statsmodels.stats.weightstats as ws
 pd.options.display.max_columns = None
 
 ABILITIES = ['Sentinel', 'Raid', 'Overwhelm', 'Shielded', 'Ambush', 'Saboteur', 'Restore', 'Grit', 'Smuggle', 'Bounty',
-             'Coordinate', 'Exploit', 'Piloting']
+             'Coordinate', 'Exploit', 'Piloting', 'Hidden']
 
-SOLID_ABILITIES = ['Bounty', 'Grit', 'Ambush', 'Shielded', 'Raid', 'Exploit', 'Sentinel']
+SOLID_ABILITIES = ['Bounty', 'Grit', 'Ambush', 'Shielded', 'Raid', 'Exploit', 'Sentinel', 'Restore']
 # need to rework abilities code
 
 SOLID_COST_ABILITIES = ['Sentinel', 'Raid', 'Shielded', 'Ambush', 'Restore', 'Grit', 'Bounty', 'Exploit', 'Makes_Droids',
-                        'Makes_Clones', 'Ramps', 'Makes_X_Wings', 'Indirect', 'set_TWI', 'invisiblepower', 'invisiblehp']
+                        'Makes_Clones', 'Ramps', 'Makes_X_Wings', 'Indirect', 'set_TWI', 'set_LOF', 'set_IBH',
+                        'invisiblepower', 'invisiblehp',  'Readies']
 
 ASPECTS = ['Command',  'Aggression', 'Villainy',
            'Cunning', 'Vigilance']  # using Heroism as a holdout
@@ -35,7 +37,10 @@ invis_features = ['invisibledamage', 'invisibledraw']
 
 cost_features = ['cost']
 
-SETS = ['SHD', 'TWI', 'JTL']   # using SOR as baseline
+SETS = ['SHD', 'TWI', 'JTL', 'LOF', 'IBH']   # using SOR as baseline
+
+TRAITS_TO_CHECK = ['force', 'sith', 'jedi', 'rebel', 'imperial', 'resistance', 'first order', 'underworld','droid',
+                   'bounty hunter', 'spectre', 'wookiee', 'trooper', 'official', "twi'lek", 'separatist', 'vehicle']
 
 POWER_ADJ = 6/5
 
@@ -108,8 +113,23 @@ def make_hacky_smuggle_bounty(unit_df: pd.DataFrame) -> pd.DataFrame:
         unit_df[f'hacky_{ability}'] = unit_df['ability text'].str.contains(ability).fillna(0).astype(int).copy()
     return unit_df
 
+def make_is_expensive_feature(unit_df: pd.DataFrame, thold=9) -> pd.DataFrame:
+    "gives 1 if cost is at or above thold"
+    unit_df['is_expensive'] = (unit_df['cost'] >= thold).astype(int)
+    return unit_df
 
-def make_ability_features(unit_df: pd.DataFrame) -> pd.DataFrame:
+def make_is_big_feature(unit_df: pd.DataFrame, thold=15) -> pd.DataFrame:
+    "gives 1 if total base stats is at or above thold"
+    unit_df['is_big'] = (unit_df['total_base'] >= thold).astype(int)
+    return unit_df
+
+def make_is_cheap_feature(unit_df: pd.DataFrame, thold=1) -> pd.DataFrame:
+    "gives 1 if the cost is at or below thold"
+    unit_df['is_cheap'] = (unit_df['cost'] <= thold).astype(int)
+    return unit_df
+
+
+def make_unconditional_ability_features(unit_df: pd.DataFrame) -> pd.DataFrame:
     """
     make a 1-hot column checking if an ability is in the text
     :param unit_df: a df of units
@@ -117,8 +137,10 @@ def make_ability_features(unit_df: pd.DataFrame) -> pd.DataFrame:
     """
     for ability in ABILITIES:
         output_col = pd.DataFrame()
-        for col in ['keyword_1', 'keyword_2']:
+        for col in ['keyword_1', 'keyword_2', 'keyword_3']:
             check_col = unit_df[col].str.match(ability)
+            unconditional_col = (~unit_df[col+'_conditional'].astype(bool)).astype(int)
+
             check_col.fillna(0, inplace=True)
             check_col = check_col.astype(int)
             if ability in ['Restore', 'Raid', 'Exploit']:
@@ -127,11 +149,42 @@ def make_ability_features(unit_df: pd.DataFrame) -> pd.DataFrame:
                 value_col = pd.Series([1 for i in range(len(unit_df))]).to_frame()
             value_col.fillna(1, inplace=True)
             value_col = value_col[0].astype(int)
-            output_col[col] = check_col*value_col
+            output_col[col] = check_col*value_col*unconditional_col
         final_col = output_col.sum(axis=1)
         unit_df.loc[:, f"{ability}"] = final_col.copy()
     return unit_df
 
+def make_conditional_ability_features(unit_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    make a 1-hot column checking if an ability is in the text and conditional
+    :param unit_df: a df of units
+    :return: a df with an additional 1-hot column checking for a word
+    """
+    for ability in ABILITIES:
+        output_col = pd.DataFrame()
+        for col in ['keyword_1', 'keyword_2', 'keyword_3']:
+            check_col = unit_df[col].str.match(ability)
+            conditional_col = unit_df[col+'_conditional'].astype(int)
+            check_col.fillna(0, inplace=True)
+            check_col = check_col.astype(int)
+            if ability in ['Restore', 'Raid', 'Exploit']:
+                value_col = unit_df['ability text'].str.lower().str.extract('[{|}]'+f"{ability.lower()}[:| ](\d+)")
+            else:
+                value_col = pd.Series([1 for i in range(len(unit_df))]).to_frame()
+            value_col.fillna(1, inplace=True)
+            value_col = value_col[0].astype(int)
+            output_col[col] = check_col*value_col*conditional_col
+        final_col = output_col.sum(axis=1)
+        unit_df.loc[:, f"conditional_{ability}"] = final_col.copy()
+    return unit_df
+
+
+def make_trait_features(unit_df: pd.DataFrame):
+    for trait in TRAITS_TO_CHECK:
+        output_col = unit_df['traits'].str.lower().str.contains(trait)
+        output_col.fillna(0,inplace=True)
+        unit_df.loc[:, f"{trait}"] = output_col.copy().astype(int)
+    return unit_df
 
 def make_unique(unit_df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -260,8 +313,20 @@ def count_aspects(unit_df: pd.DataFrame) -> pd.DataFrame:
     unit_df['n_aspects'] = n_aspects.fillna(0).astype(int)
     return unit_df
 
+def make_is_double_aspect_feature(unit_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    1 if the unit has a double aspect cost (e.g. Aggression, Aggression)
+    :param unit_df: df of units
+    :return: df of units with the n_aspects feature added
+    """
+    output_col = pd.DataFrame(np.zeros((len(unit_df), 1)), columns=['is_double_aspect'])
+    for aspect in ASPECTS:
+        n_aspects = (unit_df.aspects.str.count(aspect) >1).astype(int)
+        output_col.loc[:,'is_double_aspect'] += n_aspects
+    unit_df['is_double_aspect'] = output_col['is_double_aspect'].values
+    return unit_df
 
-def make_plot(unit_df: pd.DataFrame, y_col: str, x_col: str,  simple_line: bool = False) -> None:
+def make_plot(unit_df: pd.DataFrame, y_col: str, x_col: str,  simple_line: bool = False, sets = None) -> None:
     """
     make a plot of the results of a regression. Should probably be refactored to be more generic
     :param unit_df: df of units
@@ -272,18 +337,38 @@ def make_plot(unit_df: pd.DataFrame, y_col: str, x_col: str,  simple_line: bool 
     """
     with plt.xkcd():
         plt.clf()
-        plt.plot(unit_df[x_col], unit_df[y_col], color='r', marker='o',
+        if not(sets is None):
+            for set in sets:
+                used_df =  unit_df.loc[unit_df.set == set]
+                plt.plot(used_df[x_col], used_df[y_col], marker='o',
+                     linestyle='None', label=f'Observed {y_col} for set {set}')
+                plt.plot(used_df[x_col], used_df['predictions'], marker='o',
+                     linestyle='None', label=f'Predicted {y_col} for set {set}')
+                if simple_line:
+
+                    coef, intercept = make_simple_linear_fit(used_df, y_col, x_col)
+                    simple_line_y = []
+                    simple_line_x = []
+                    for i in range(0, int(unit_df[x_col].max()) + 1):
+                        simple_line_x.append(i)
+                        simple_line_y.append(intercept + coef * i)
+                    plt.plot(simple_line_x, simple_line_y, 'k-', label=f'Simple Linear Fit for set {set}')
+
+        else:
+            used_df = unit_df
+            plt.plot(used_df.loc[:, x_col], used_df.loc[:,y_col], marker='o',
                  linestyle='None', label=f'Observed {y_col}')
-        plt.plot(unit_df[x_col], unit_df.predictions, color='b', marker='o',
+            plt.plot(used_df.loc[:, x_col], used_df.loc[:].predictions, marker='o',
                  linestyle='None', label=f'Predicted {y_col}')
-        if simple_line:
-            coef, intercept = make_simple_linear_fit(unit_df, y_col, x_col)
-            simple_line_y = []
-            simple_line_x = []
-            for i in range(0, int(unit_df[x_col].max())+1):
-                simple_line_x.append(i)
-                simple_line_y.append(intercept + coef*i)
-            plt.plot(simple_line_x, simple_line_y, 'k-', label='Simple Linear Fit')
+            if simple_line:
+
+                coef, intercept = make_simple_linear_fit(used_df, y_col, x_col)
+                simple_line_y = []
+                simple_line_x = []
+                for i in range(0, int(unit_df[x_col].max())+1):
+                    simple_line_x.append(i)
+                    simple_line_y.append(intercept + coef*i)
+                plt.plot(simple_line_x, simple_line_y, 'k-', label='Simple Linear Fit')
         plt.xlabel(x_col)
         plt.ylabel(y_col)
         plt.legend()
