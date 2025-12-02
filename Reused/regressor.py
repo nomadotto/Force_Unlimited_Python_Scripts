@@ -9,14 +9,17 @@ import statsmodels.stats.weightstats as ws
 pd.options.display.max_columns = None
 
 ABILITIES = ['Sentinel', 'Raid', 'Overwhelm', 'Shielded', 'Ambush', 'Saboteur', 'Restore', 'Grit', 'Smuggle', 'Bounty',
-             'Coordinate', 'Exploit', 'Piloting', 'Hidden']
+             'Coordinate', 'Exploit', 'Piloting', 'Hidden', 'Plot']
 
 SOLID_ABILITIES = ['Bounty', 'Grit', 'Ambush', 'Shielded', 'Raid', 'Exploit', 'Sentinel', 'Restore']
 # need to rework abilities code
 
 SOLID_COST_ABILITIES = ['Sentinel', 'Raid', 'Shielded', 'Ambush', 'Restore', 'Grit', 'Bounty', 'Exploit', 'Makes_Droids',
-                        'Makes_Clones', 'Ramps', 'Makes_X_Wings', 'Indirect', 'set_TWI', 'set_LOF', 'set_IBH',
+                        'Makes_Clones', 'Ramps', 'Makes_X_Wings', 'Indirect', 'set_TWI', 'set_LOF',
                         'invisiblepower', 'invisiblehp',  'Readies']
+
+LEADER_COST_ABILITIES = ['Sentinel', 'Raid', 'Shielded', 'Restore', 'Grit',  'invisibledraw', 'invisibledamage',
+                          'Ramps','invisiblepower', 'invisiblehp']
 
 ASPECTS = ['Command',  'Aggression', 'Villainy',
            'Cunning', 'Vigilance']  # using Heroism as a holdout
@@ -37,7 +40,7 @@ invis_features = ['invisibledamage', 'invisibledraw']
 
 cost_features = ['cost']
 
-SETS = ['SHD', 'TWI', 'JTL', 'LOF', 'IBH']   # using SOR as baseline
+SETS = ['SHD', 'TWI', 'JTL', 'LOF', 'SEC']   # using SOR as baseline
 
 TRAITS_TO_CHECK = ['force', 'sith', 'jedi', 'rebel', 'imperial', 'resistance', 'first order', 'underworld','droid',
                    'bounty hunter', 'spectre', 'wookiee', 'trooper', 'official', "twi'lek", 'separatist', 'vehicle']
@@ -65,6 +68,18 @@ def get_units(raw_df: pd.DataFrame) -> pd.DataFrame:
     unit_only_df.reset_index(inplace=True, drop=True)
     unit_only_df.fillna(0, inplace=True)
     return unit_only_df
+
+
+def get_leaders(raw_df:pd.DataFrame) -> pd.DataFrame:
+    """
+    parse out only Leaders from the dataframe
+    :param raw_df: a df of cards from SWUDB
+    :return: a df of just units
+    """
+    leader_only_df = raw_df[raw_df['card type'] == "Leader"].copy()
+    leader_only_df.reset_index(inplace=True, drop=True)
+    leader_only_df.fillna(0, inplace=True)
+    return leader_only_df
 
 
 def get_sets(cards_df: pd.DataFrame, sets: list) -> pd.DataFrame:
